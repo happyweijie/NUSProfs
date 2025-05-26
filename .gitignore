@@ -1,0 +1,18 @@
+# Python
+*.pyc
+__pycache__/
+
+# Django
+db.sqlite3
+*.sqlite3
+.env
+
+# Migrations (optional during early dev)
+#**/migrations/
+#!**/migrations/__init__.py
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store

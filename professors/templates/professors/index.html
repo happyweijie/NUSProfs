@@ -1,0 +1,14 @@
+{% extends "professors/layout.html" %} {% block body %}
+<h1>Professors</h1>
+
+{% if professors %}
+<ul>
+  {% for professor in professors %}
+  <li>
+    <a href="#">{{ professor.name }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>No professors found.</p>
+{% endif %} {% endblock %}
