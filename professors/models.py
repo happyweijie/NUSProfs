@@ -35,29 +35,6 @@ class Professor(models.Model):
 
     def __str__(self):
         return f"{self.name} ({self.title})"
-    
-    def summary(self):
-        return {
-            "id": self.prof_id,
-            "name": self.name,
-            "average_rating": 4.50, # Placeholder for average rating
-            "faculty": self.department.faculty.name if self.department else None,
-            "department": self.department.name if self.department else None,
-            "title": self.title,
-        }
-    
-    def serialize(self):
-        return {
-            "id": self.prof_id,
-            "name": self.name,
-            "average_rating": 4.50, # Placeholder for average rating
-            "faculty": self.department.faculty.name if self.department else None,
-            "department": self.department.name if self.department else None,
-            "title": self.title,
-            "office": self.office,
-            "phone": self.phone,
-            "teaching": [teaches.serialize() for teaches in self.teaching.all()]
-        }
 
 class Teaches(models.Model):
     prof = models.ForeignKey(Professor, on_delete=models.CASCADE, related_name='teaching')
@@ -66,13 +43,6 @@ class Teaches(models.Model):
 
     class Meta:
         unique_together = ('prof', 'module', 'semester')
-
-    def serialize(self):
-        return {
-            "module_code": self.module.module_code,
-            "module_name": self.module.name,
-            "semester": self.semester
-        }
 
     def __str__(self):
         return f"{self.prof.name} taught {self.module.module_code} in {self.semester}"
