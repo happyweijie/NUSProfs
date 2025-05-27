@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'NUSProfs.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'nusprofs_db',
-        'USER': 'nusprofs_user',
-        'PASSWORD': 'STR0NGP@55W0RD',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME': 'postgres',
+        'USER': 'postgres.ddrserrlzsyntqbwpoil',
+        'PASSWORD': 'iYFirl2UYRoc86EW',
+        'HOST': 'aws-0-ap-southeast-1.pooler.supabase.com',
+        'PORT': '6543',
     }
 }
 
