@@ -1,14 +1,11 @@
 {% extends "professors/layout.html" %} {% block body %}
 <h1>Professors</h1>
 
-{% if professors %}
 <ul>
-  {% for professor in professors %}
-  <li>
-    <a href="#">{{ professor.name }}</a>
-  </li>
-  {% endfor %}
+  <form method="get" action="{% url 'search' %}">
+    <input type="text" name="q" placeholder="Search professors..." />
+    <button type="submit">Search</button>
+  </form>
 </ul>
-{% else %}
-<p>No professors found.</p>
-{% endif %} {% endblock %}
+
+{% endblock %}
