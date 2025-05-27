@@ -34,8 +34,9 @@ def main():
         staff_list = json5.loads(match.group(1))
 
         # Step 3: Get the department instance
-        department = Department.objects.get(name=dept_name)
-        if not department:
+        try:
+            department = Department.objects.get(name=dept_name, faculty=soc)
+        except Department.DoesNotExist:
             department = Department(name=dept_name, faculty=soc)
             department.save()
 
