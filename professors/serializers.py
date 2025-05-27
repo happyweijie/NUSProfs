@@ -23,12 +23,12 @@ class ProfessorSummarySerializer(serializers.ModelSerializer):
 
 # Profile Page Serializer
 class TeachesSerializer(serializers.ModelSerializer):
-    module_title = serializers.CharField(source='module.title', read_only=True)
+    module_name = serializers.CharField(source='module.name', read_only=True)
     module_code = serializers.CharField(source='module.module_code', read_only=True)
 
     class Meta:
         model = Teaches
-        fields = ['module_code', 'module_title', 'semester']
+        fields = ['module_code', 'module_name', 'semester']
 
 class ProfessorDetailSerializer(serializers.ModelSerializer):
     average_rating = serializers.SerializerMethodField()

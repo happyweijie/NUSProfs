@@ -24,6 +24,10 @@ class Module(models.Model):
     def __str__(self):
         return f"{self.module_code}: {self.name}"
     
+    def save(self, *args, **kwargs):
+        self.module_code = self.module_code.upper()
+        super().save(*args, **kwargs)
+    
 class Professor(models.Model):
     prof_id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=255)
