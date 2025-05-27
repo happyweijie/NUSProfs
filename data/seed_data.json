@@ -1,0 +1,6928 @@
+[
+{
+  "model": "professors.faculty",
+  "pk": 1,
+  "fields": {
+    "name": "Computing"
+  }
+},
+{
+  "model": "professors.faculty",
+  "pk": 2,
+  "fields": {
+    "name": "Science"
+  }
+},
+{
+  "model": "professors.faculty",
+  "pk": 3,
+  "fields": {
+    "name": "NUS"
+  }
+},
+{
+  "model": "professors.department",
+  "pk": 1,
+  "fields": {
+    "name": "Computer Science",
+    "faculty": 1
+  }
+},
+{
+  "model": "professors.department",
+  "pk": 2,
+  "fields": {
+    "name": "Information Systems and Analytics",
+    "faculty": 1
+  }
+},
+{
+  "model": "professors.department",
+  "pk": 3,
+  "fields": {
+    "name": "Mathematics",
+    "faculty": 2
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 1,
+  "fields": {
+    "name": "Jonathon Teo Yi Han",
+    "department": 3,
+    "title": "Lecturer",
+    "office": "S17-07-01",
+    "phone": "66012659"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 341,
+  "fields": {
+    "name": "Michael D. ADAMS",
+    "department": 1,
+    "title": "Assistant Professor",
+    "office": "COM3-02-47",
+    "phone": "660 17690"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 342,
+  "fields": {
+    "name": "Divesh AGGARWAL",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM3-02-09",
+    "phone": "651 62911"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 343,
+  "fields": {
+    "name": "AI Xin",
+    "department": 1,
+    "title": "Lecturer (Educator Track)",
+    "office": "COM3-B1-24",
+    "phone": "660 16657"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 344,
+  "fields": {
+    "name": "Boyd ANDERSON",
+    "department": 1,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "COM3-02-46",
+    "phone": "660 17900"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 345,
+  "fields": {
+    "name": "Anand BHOJAN",
+    "department": 1,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "COM3-02-49",
+    "phone": "651 67351"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 346,
+  "fields": {
+    "name": "BRESSON Xavier",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM2-04-26",
+    "phone": "660 17633"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 347,
+  "fields": {
+    "name": "Cristina CARBUNARU",
+    "department": 1,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "COM2-02-05",
+    "phone": "651 68850"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 348,
+  "fields": {
+    "name": "Trevor E. CARLSON",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM3-02-10",
+    "phone": "651 67997"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 349,
+  "fields": {
+    "name": "Diptarka CHAKRABORTY",
+    "department": 1,
+    "title": "Assistant Professor",
+    "office": "COM3-02-55",
+    "phone": "651 62829"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 350,
+  "fields": {
+    "name": "CHAN Chee Yong",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM1-03-24",
+    "phone": "651 66736"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 351,
+  "fields": {
+    "name": "CHAN Mun Choon",
+    "department": 1,
+    "title": "Professor",
+    "office": "COM3-02-15",
+    "phone": "651 67372"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 352,
+  "fields": {
+    "name": "CHANG Ee-Chien",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM2-04-30",
+    "phone": "651 66168"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 353,
+  "fields": {
+    "name": "Yi-Jun CHANG",
+    "department": 1,
+    "title": "NUS Presidential Young Professor",
+    "office": "COM3-02-24",
+    "phone": "660 17595"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 354,
+  "fields": {
+    "name": "CHEN Tsuhan",
+    "department": 1,
+    "title": "Distinguished Professor",
+    "office": "COM2-04-34",
+    "phone": "660 12508"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 355,
+  "fields": {
+    "name": "CHEN Yu",
+    "department": 1,
+    "title": "NUS Presidential Young Professor",
+    "office": "COM2-02-58",
+    "phone": "660 12921"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 356,
+  "fields": {
+    "name": "CHENG Holun",
+    "department": 1,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "AS6-05-03",
+    "phone": "651 68732"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 357,
+  "fields": {
+    "name": "Henry CHIA Wai Kit",
+    "department": 1,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "COM2-03-10",
+    "phone": "651 61556"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 358,
+  "fields": {
+    "name": "CHIN Wei Ngan",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM3-02-11",
+    "phone": "651 66228"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 359,
+  "fields": {
+    "name": "CHONG Ket Fah",
+    "department": 1,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "COM2-02-66",
+    "phone": "660 11037"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 360,
+  "fields": {
+    "name": "CHUA Tat Seng",
+    "department": 1,
+    "title": "Professor",
+    "office": "AS6-05-08",
+    "phone": "651 62505"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 361,
+  "fields": {
+    "name": "Eldon CHUNG",
+    "department": 1,
+    "title": "Lecturer (Educator Track)",
+    "office": "COM2-03-28",
+    "phone": "660 18804"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 362,
+  "fields": {
+    "name": "Ashish Deepak DANDEKAR",
+    "department": 1,
+    "title": "Lecturer (Educator Track)",
+    "office": "COM2-03-58",
+    "phone": "660 17631"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 363,
+  "fields": {
+    "name": "Olivier DANVY",
+    "department": 1,
+    "title": "Professor",
+    "office": "COM2-03-38",
+    "phone": "651 62936"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 364,
+  "fields": {
+    "name": "DONG Jin Song",
+    "department": 1,
+    "title": "Professor",
+    "office": "COM2-03-19",
+    "phone": "651 64353"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 365,
+  "fields": {
+    "name": "E Jane Little",
+    "department": 1,
+    "title": "Assistant Professor",
+    "office": "AS6-05-04",
+    "phone": null
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 366,
+  "fields": {
+    "name": "Seth Lewis GILBERT",
+    "department": 1,
+    "title": "Professor",
+    "office": "COM2-03-23",
+    "phone": "651 62729"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 367,
+  "fields": {
+    "name": "Anandha GOPALAN",
+    "department": 1,
+    "title": "Associate Professor (Educator Track)",
+    "office": "COM2-03-21",
+    "phone": "651 64426"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 368,
+  "fields": {
+    "name": "Steven HALIM",
+    "department": 1,
+    "title": "Associate Professor (Educator Track)",
+    "office": "COM2-03-37",
+    "phone": "651 67361"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 369,
+  "fields": {
+    "name": "HAN Liang Wee Eric",
+    "department": 1,
+    "title": "Lecturer (Educator Track)",
+    "office": "COM2-03-26",
+    "phone": "660 17639"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 370,
+  "fields": {
+    "name": "HE Bingsheng",
+    "department": 1,
+    "title": "Professor",
+    "office": "COM3-02-12",
+    "phone": "651 67998"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 371,
+  "fields": {
+    "name": "Martin J HENZ",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM3-02-05",
+    "phone": "651 66632"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 372,
+  "fields": {
+    "name": "Bryan HOOI Kuen-Yew",
+    "department": 1,
+    "title": "Assistant Professor",
+    "office": "COM3-02-22",
+    "phone": "660 12373"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 373,
+  "fields": {
+    "name": "David HSU",
+    "department": 1,
+    "title": "Provost's Chair Professor",
+    "office": "COM3-02-07",
+    "phone": "651 62978"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 374,
+  "fields": {
+    "name": "Wynne HSU",
+    "department": 1,
+    "title": "Provost's Chair Professor",
+    "office": "COM2-03-05",
+    "phone": "651 67944"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 375,
+  "fields": {
+    "name": "Conghui HU",
+    "department": 1,
+    "title": "Lecturer (Educator Track)",
+    "office": "COM2-03-07",
+    "phone": "660 17578"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 376,
+  "fields": {
+    "name": "HUANG Zhiyong",
+    "department": 1,
+    "title": "Associate Professor (Practice Track)",
+    "office": "AS6-05-11",
+    "phone": "651 61170"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 377,
+  "fields": {
+    "name": "Joxan JAFFAR",
+    "department": 1,
+    "title": "Professor",
+    "office": "COM1-03-11",
+    "phone": "651 67846"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 378,
+  "fields": {
+    "name": "Rahul JAIN",
+    "department": 1,
+    "title": "Professor",
+    "office": "COM2-02-02",
+    "phone": null
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 379,
+  "fields": {
+    "name": "Sanjay JAIN",
+    "department": 1,
+    "title": "Provost's Chair Professor",
+    "office": "COM2-03-59",
+    "phone": "651 67842"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 380,
+  "fields": {
+    "name": "JIANG KAN",
+    "department": 1,
+    "title": "Lecturer (Educator Track)",
+    "office": "COM2-03-24",
+    "phone": "660 17637"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 381,
+  "fields": {
+    "name": "KAN Min-Yen",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM3-02-30",
+    "phone": "651 61885"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 382,
+  "fields": {
+    "name": "Mohan KANKANHALLI",
+    "department": 1,
+    "title": "Provost's Chair Professor",
+    "office": "AS6-05-06",
+    "phone": "651 66738"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 383,
+  "fields": {
+    "name": "Kenji KAWAGUCHI",
+    "department": 1,
+    "title": "NUS Presidential Young Professor",
+    "office": "COM3-02-52",
+    "phone": null
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 384,
+  "fields": {
+    "name": "KHOO Siau Cheng",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM2-04-11",
+    "phone": "651 66730"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 385,
+  "fields": {
+    "name": "Nitya.Lakshmanan",
+    "department": 1,
+    "title": "Lecturer (Educator Track)",
+    "office": "COM3-02-44",
+    "phone": "660 17585"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 386,
+  "fields": {
+    "name": "LEE Gim Hee",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM2-03-54",
+    "phone": "651 62214"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 387,
+  "fields": {
+    "name": "Janice LEE Mong Li",
+    "department": 1,
+    "title": "Professor",
+    "office": "COM2-03-06",
+    "phone": "651 62905"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 388,
+  "fields": {
+    "name": "LEE Wee Sun",
+    "department": 1,
+    "title": "Professor",
+    "office": "COM3-02-28",
+    "phone": "651 64526"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 389,
+  "fields": {
+    "name": "LEE Yi-Chieh",
+    "department": 1,
+    "title": "Assistant Professor",
+    "office": "AS6-04-05",
+    "phone": "651 68354"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 390,
+  "fields": {
+    "name": "Ben LEONG Wing Lup",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM2-03-20",
+    "phone": "651 64240"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 391,
+  "fields": {
+    "name": "LEONG Hon Wai",
+    "department": 1,
+    "title": "Honorary Fellow",
+    "office": "COM1-03-17",
+    "phone": "651 62903"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 392,
+  "fields": {
+    "name": "LEONG Tze Yun",
+    "department": 1,
+    "title": "Professor (Practice Track)",
+    "office": "COM3-02-06",
+    "phone": "651 66519"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 393,
+  "fields": {
+    "name": "LEONG Wai Kay",
+    "department": 1,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "COM2-02-11",
+    "phone": "651 66795"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 394,
+  "fields": {
+    "name": "LEOW Wee Kheng",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "AS6-05-07",
+    "phone": "651 66540"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 395,
+  "fields": {
+    "name": "Daren LER",
+    "department": 1,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "COM2-02-65",
+    "phone": "651 63165"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 396,
+  "fields": {
+    "name": "Jialin LI",
+    "department": 1,
+    "title": "Sung Kah Kay Assistant Professor",
+    "office": "COM3-02-54",
+    "phone": "660 17678"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 397,
+  "fields": {
+    "name": "LIANG Zhenkai",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM1-03-16",
+    "phone": "651 61226"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 398,
+  "fields": {
+    "name": "Brian LIM Youliang",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM2-03-49",
+    "phone": "660 11084"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 399,
+  "fields": {
+    "name": "LING Chun Kai",
+    "department": 1,
+    "title": "Assistant Professor",
+    "office": "COM2-03-27",
+    "phone": "660 13851"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 400,
+  "fields": {
+    "name": "LING Tok Wang",
+    "department": 1,
+    "title": "Emeritus Professor",
+    "office": "COM2-03-01",
+    "phone": "651 62734"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 401,
+  "fields": {
+    "name": "LOW Kian Hsiang",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM3-02-29",
+    "phone": "651 64719"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 402,
+  "fields": {
+    "name": "LOW Kok Lim",
+    "department": 1,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "AS6-04-09",
+    "phone": "651 66784"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 403,
+  "fields": {
+    "name": "LU Yao",
+    "department": 1,
+    "title": "Assistant Professor",
+    "office": "COM2-03-42",
+    "phone": "660 17891"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 404,
+  "fields": {
+    "name": "Richard MA Tianbai",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM3-02-14",
+    "phone": "651 64244"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 405,
+  "fields": {
+    "name": "Umang MATHUR",
+    "department": 1,
+    "title": "NUS Presidential Young Professor",
+    "office": "COM3-02-53",
+    "phone": "651 65219"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 406,
+  "fields": {
+    "name": "Muhammad Rizki Aulia Rahman MAULANA",
+    "department": 1,
+    "title": "Lecturer (Educator Track)",
+    "office": "COM2-02-06",
+    "phone": "651 66773"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 407,
+  "fields": {
+    "name": "Tulika MITRA",
+    "department": 1,
+    "title": "Provost's Chair Professor",
+    "office": "COM3-02-13",
+    "phone": "651 66839"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 408,
+  "fields": {
+    "name": "Amirhassan MONAJEMI",
+    "department": 1,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "COM3-B1-23",
+    "phone": "660 12934"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 409,
+  "fields": {
+    "name": "Suranga NANAYAKKARA",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM3-02-40",
+    "phone": "651 62797"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 410,
+  "fields": {
+    "name": "Akshay NARAYAN",
+    "department": 1,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "COM2-02-03",
+    "phone": "651 64779"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 411,
+  "fields": {
+    "name": "Prabhu NATARAJAN",
+    "department": 1,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "COM3-02-34",
+    "phone": "651 61105"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 412,
+  "fields": {
+    "name": "Ganesh NEELAKANTA IYER",
+    "department": 1,
+    "title": "Lecturer (Educator Track)",
+    "office": "COM2-03-55",
+    "phone": "660 17601"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 413,
+  "fields": {
+    "name": "NG Hwee Tou",
+    "department": 1,
+    "title": "Provost's Chair Professor",
+    "office": "COM3-02-48",
+    "phone": "651 68951"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 414,
+  "fields": {
+    "name": "NG See Kiong",
+    "department": 1,
+    "title": "Professor (Practice Track)",
+    "office": "AS6-05-09",
+    "phone": "660 15837"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 415,
+  "fields": {
+    "name": "NG Teck Khim",
+    "department": 1,
+    "title": "Associate Professor (Practice Track)",
+    "office": "COM3-02-08",
+    "phone": "651 66962"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 416,
+  "fields": {
+    "name": "OOI Beng Chin",
+    "department": 1,
+    "title": "Lee Kong Chian Centennial Professor",
+    "office": "COM1-03-22",
+    "phone": "651 66465"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 417,
+  "fields": {
+    "name": "OOI Wei Tsang",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "AS6-05-14",
+    "phone": "651 64463"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 418,
+  "fields": {
+    "name": "PEH Li Shiuan",
+    "department": 1,
+    "title": "Provost's Chair Professor",
+    "office": "COM3-02-27",
+    "phone": "660 11734"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 419,
+  "fields": {
+    "name": "Adi Yoga Sidi PRABAWA",
+    "department": 1,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "COM2-02-55",
+    "phone": "651 66520"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 420,
+  "fields": {
+    "name": "Damith Chatura RAJAPAKSE",
+    "department": 1,
+    "title": "Associate Professor (Educator Track)",
+    "office": "COM2-02-57",
+    "phone": "651 64359"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 421,
+  "fields": {
+    "name": "Sanka RASNAYAKA",
+    "department": 1,
+    "title": "Lecturer (Educator Track)",
+    "office": "AS6-05-13",
+    "phone": "660 17710"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 422,
+  "fields": {
+    "name": "Patrick REBENTROST",
+    "department": 1,
+    "title": "Assistant Professor",
+    "office": "COM2-04-29",
+    "phone": "651 62878"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 423,
+  "fields": {
+    "name": "Manuel RIGGER",
+    "department": 1,
+    "title": "Assistant Professor",
+    "office": "COM3-02-42",
+    "phone": "660 17691"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 424,
+  "fields": {
+    "name": "Abhik ROYCHOUDHURY",
+    "department": 1,
+    "title": "Provost's Chair Professor",
+    "office": "COM3-02-04",
+    "phone": "651 68939"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 425,
+  "fields": {
+    "name": "Sriram SAMI",
+    "department": 1,
+    "title": "Lecturer (Educator Track)",
+    "office": "COM2-03-29",
+    "phone": "660 17697"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 426,
+  "fields": {
+    "name": "Prateek SAXENA",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM3-02-03",
+    "phone": "660 11898"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 427,
+  "fields": {
+    "name": "Jonathan Mark SCARLETT",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM3-02-57",
+    "phone": "651 61179"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 428,
+  "fields": {
+    "name": "Ilya SERGEY",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM3-02-56",
+    "phone": "660 11466"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 429,
+  "fields": {
+    "name": "Lin SHAO",
+    "department": 1,
+    "title": "Assistant Professor",
+    "office": "COM2-03-03",
+    "phone": "651 62908"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 430,
+  "fields": {
+    "name": "Michael Shieh",
+    "department": 1,
+    "title": "Assistant Professor",
+    "office": "COM2-03-34",
+    "phone": "651 66581"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 431,
+  "fields": {
+    "name": "Reza SHOKRI",
+    "department": 1,
+    "title": "Dean's Chair Associate Professor",
+    "office": "COM2-03-60",
+    "phone": "651 64464"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 432,
+  "fields": {
+    "name": "Mike SHOU",
+    "department": 1,
+    "title": "Assistant Professor",
+    "office": "COM2-02-16",
+    "phone": "660 17716"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 433,
+  "fields": {
+    "name": "Terence SIM Mong Cheng",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM3-02-50",
+    "phone": "651 61180"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 434,
+  "fields": {
+    "name": "Rajendra Prasad SIRIGINA",
+    "department": 1,
+    "title": "Lecturer (Educator Track)",
+    "office": "AS6-05-24",
+    "phone": "660 11664"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 435,
+  "fields": {
+    "name": "Harold SOH Soon Hong",
+    "department": 1,
+    "title": "Assistant Professor",
+    "office": "COM3-02-58",
+    "phone": "651 67367"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 436,
+  "fields": {
+    "name": "SOO Yuen Jien",
+    "department": 1,
+    "title": "Associate Professor (Educator Track)",
+    "office": "COM2-02-61",
+    "phone": "651 61345"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 437,
+  "fields": {
+    "name": "Frank Christian STEPHAN",
+    "department": 1,
+    "title": "Professor",
+    "office": "COM2-03-11",
+    "phone": "651 64246"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 438,
+  "fields": {
+    "name": "Vivy SUHENDRA",
+    "department": 1,
+    "title": "Associate Professor (Practice Track)",
+    "office": "COM2-04-16",
+    "phone": "660 12754"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 439,
+  "fields": {
+    "name": "Warut SUKSOMPONG",
+    "department": 1,
+    "title": "Assistant Professor",
+    "office": "COM2-03-35",
+    "phone": "651 63393"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 440,
+  "fields": {
+    "name": "TAN Tuck Choy",
+    "department": 1,
+    "title": "Associate Professor (Educator Track)",
+    "office": "COM1-03-12",
+    "phone": "651 62906"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 441,
+  "fields": {
+    "name": "Colin TAN Keng Yan",
+    "department": 1,
+    "title": "Associate Professor (Educator Track)",
+    "office": "COM2-02-08",
+    "phone": "651 67352"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 442,
+  "fields": {
+    "name": "Gary TAN Soon Huat",
+    "department": 1,
+    "title": "Associate Professor (Educator Track)",
+    "office": "COM2-03-50",
+    "phone": "651 66276"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 443,
+  "fields": {
+    "name": "TAN Kian Lee",
+    "department": 1,
+    "title": "Tan Sri Runme Shaw Senior Professor",
+    "office": "COM1-03-23",
+    "phone": "651 62862"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 444,
+  "fields": {
+    "name": "TAN Sun Teck",
+    "department": 1,
+    "title": "Associate Professor (Educator Track)",
+    "office": "COM2-03-45",
+    "phone": "651 62778"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 445,
+  "fields": {
+    "name": "TAN Tiow Seng",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "AS6-04-10",
+    "phone": "651 66764"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 446,
+  "fields": {
+    "name": "Y.C. TAY",
+    "department": 1,
+    "title": "Professor",
+    "office": "COM2-02-59",
+    "phone": "651 68926"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 447,
+  "fields": {
+    "name": "TUNG Kum Hoe Anthony",
+    "department": 1,
+    "title": "Professor",
+    "office": "COM1-03-21",
+    "phone": "651 66389"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 448,
+  "fields": {
+    "name": "Jithin VACHERY",
+    "department": 1,
+    "title": "Lecturer (Educator Track)",
+    "office": "COM3-02-38",
+    "phone": "660 16656"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 449,
+  "fields": {
+    "name": "Prasanna Karthik VAIRAM",
+    "department": 1,
+    "title": "Lecturer (Educator Track)",
+    "office": "AS6-04-20",
+    "phone": "651 66122"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 450,
+  "fields": {
+    "name": "Ambuj VARSHNEY",
+    "department": 1,
+    "title": "Assistant Professor",
+    "office": "COM3-02-25",
+    "phone": "651 67055"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 451,
+  "fields": {
+    "name": "Prashant Nalini VASUDEVAN",
+    "department": 1,
+    "title": "NUS Presidential Young Professor",
+    "office": "COM3-02-23",
+    "phone": "660 16927"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 452,
+  "fields": {
+    "name": "Bimlesh WADHWA",
+    "department": 1,
+    "title": "Associate Professor (Educator Track)",
+    "office": "COM2-02-62",
+    "phone": "651 62973"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 453,
+  "fields": {
+    "name": "WANG Bohan",
+    "department": 1,
+    "title": "Assistant Professor",
+    "office": "COM2-03-04",
+    "phone": "651 66986"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 454,
+  "fields": {
+    "name": "Jingxian WANG",
+    "department": 1,
+    "title": "NUS Presidential Young Professor",
+    "office": "COM2-03-32",
+    "phone": "651 65763"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 455,
+  "fields": {
+    "name": "WANG Ye",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "AS6-04-08",
+    "phone": "651 62980"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 456,
+  "fields": {
+    "name": "Christian Von Der Weth",
+    "department": 1,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "COM3-02-45",
+    "phone": "660 12414"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 457,
+  "fields": {
+    "name": "WONG Lim Soon",
+    "department": 1,
+    "title": "KITHCT Chair Professor",
+    "office": "COM2-03-57",
+    "phone": "651 62902"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 458,
+  "fields": {
+    "name": "Weng-Fai WONG",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM2-03-56",
+    "phone": "651 66902"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 459,
+  "fields": {
+    "name": "Xiaokui XIAO",
+    "department": 1,
+    "title": "Professor",
+    "office": "COM1-03-25",
+    "phone": "651 61559"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 460,
+  "fields": {
+    "name": "YAN Shuicheng",
+    "department": 1,
+    "title": "Distinguished Professor (Practice Track)",
+    "office": "COM2-03-52",
+    "phone": "651 63543"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 461,
+  "fields": {
+    "name": "YAO Yingjie Angela",
+    "department": 1,
+    "title": "Dean's Chair Associate Professor",
+    "office": "COM3-02-26",
+    "phone": "660 17948"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 462,
+  "fields": {
+    "name": "Roland YAP Hock Chuan",
+    "department": 1,
+    "title": "Associate Professor",
+    "office": "COM2-03-09",
+    "phone": "651 62972"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 463,
+  "fields": {
+    "name": "Yang YOU",
+    "department": 1,
+    "title": "NUS Presidential Young Professor",
+    "office": "COM3-02-51",
+    "phone": "660 17698"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 464,
+  "fields": {
+    "name": "YU Haifeng",
+    "department": 1,
+    "title": "Dean's Chair Associate Professor",
+    "office": "COM2-04-25",
+    "phone": "651 66802"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 465,
+  "fields": {
+    "name": "ZHANG Jiaheng",
+    "department": 1,
+    "title": "Assistant Professor",
+    "office": "COM2-03-08",
+    "phone": "660 15482"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 466,
+  "fields": {
+    "name": "Yang ZHANG",
+    "department": 1,
+    "title": "Professor",
+    "office": "COM3-02-16",
+    "phone": "660 11241"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 467,
+  "fields": {
+    "name": "ZHAO Jin",
+    "department": 1,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "COM2-02-10",
+    "phone": "660 11083"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 468,
+  "fields": {
+    "name": "ZHOU Lifeng",
+    "department": 1,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "COM2-02-56",
+    "phone": "651 64746"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 469,
+  "fields": {
+    "name": "Roger ZIMMERMANN",
+    "department": 1,
+    "title": "Professor",
+    "office": "AS6-05-05",
+    "phone": "651 67949"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 470,
+  "fields": {
+    "name": "BIAN Yatao",
+    "department": 1,
+    "title": "Assistant Professor",
+    "office": null,
+    "phone": null
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 471,
+  "fields": {
+    "name": "Shalinda ADIKARI",
+    "department": 2,
+    "title": "Lecturer (Educator Track)",
+    "office": "COM2-02-48",
+    "phone": "660 12381"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 472,
+  "fields": {
+    "name": "CHEN Nan",
+    "department": 2,
+    "title": "Assistant Professor",
+    "office": "COM3-02-32",
+    "phone": "660 17524"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 473,
+  "fields": {
+    "name": "CUI Wei",
+    "department": 2,
+    "title": "Lecturer (Educator Track)",
+    "office": "COM2-04-32",
+    "phone": "660 18750"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 474,
+  "fields": {
+    "name": "FOONG Sew Bun",
+    "department": 2,
+    "title": "Professor",
+    "office": "COM2-04-27",
+    "phone": "651 68413"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 475,
+  "fields": {
+    "name": "Nicholas Mac Gregor GARCIA",
+    "department": 2,
+    "title": "Lecturer (Educator Track)",
+    "office": "COM2-04-09",
+    "phone": "660 16654"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 476,
+  "fields": {
+    "name": "GOH Khim Yong",
+    "department": 2,
+    "title": "Associate Professor",
+    "office": "COM2-04-33",
+    "phone": "651 62832"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 477,
+  "fields": {
+    "name": "Jungpil HAHN",
+    "department": 2,
+    "title": "Provost's Chair Professor",
+    "office": "COM3-02-43",
+    "phone": "651 67345"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 478,
+  "fields": {
+    "name": "HENG Cheng Suang",
+    "department": 2,
+    "title": "Associate Professor",
+    "office": "COM2-04-41",
+    "phone": "660 12268"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 479,
+  "fields": {
+    "name": "HUANG Ke Wei",
+    "department": 2,
+    "title": "Associate Professor",
+    "office": "COM2-04-18",
+    "phone": "651 62786"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 480,
+  "fields": {
+    "name": "JIN Chen",
+    "department": 2,
+    "title": "Associate Professor",
+    "office": "COM2-04-35",
+    "phone": "651 66148"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 481,
+  "fields": {
+    "name": "Atreyi KANKANHALLI",
+    "department": 2,
+    "title": "Provost's Chair Professor",
+    "office": "COM3-02-37",
+    "phone": "651 64865"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 482,
+  "fields": {
+    "name": "Varun KARAMSHETTY",
+    "department": 2,
+    "title": "Assistant Professor",
+    "office": "COM3-02-39",
+    "phone": "651 64091"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 483,
+  "fields": {
+    "name": "Aditya KARANAM",
+    "department": 2,
+    "title": "Assistant Professor",
+    "office": "COM3-02-31",
+    "phone": "651 62719"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 484,
+  "fields": {
+    "name": "Stanley KOK",
+    "department": 2,
+    "title": "Assistant Professor",
+    "office": "COM2-04-20",
+    "phone": "651 62901"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 485,
+  "fields": {
+    "name": "Nakyung KYUNG",
+    "department": 2,
+    "title": "Assistant Professor",
+    "office": "COM3-02-41",
+    "phone": "651 66270"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 486,
+  "fields": {
+    "name": "LEE Boon Kee",
+    "department": 2,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "COM2-04-19",
+    "phone": "651 62733"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 487,
+  "fields": {
+    "name": "LEK Hsiang Hui",
+    "department": 2,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "COM2-02-04",
+    "phone": "660 11049"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 488,
+  "fields": {
+    "name": "LI Xiaofan",
+    "department": 2,
+    "title": "Assistant Professor",
+    "office": "COM2-04-10",
+    "phone": "660 17608"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 489,
+  "fields": {
+    "name": "Freddy LIM Jie",
+    "department": 2,
+    "title": "Assistant Professor",
+    "office": "COM2-04-37",
+    "phone": "651 66518"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 490,
+  "fields": {
+    "name": "LIM Shi Ying",
+    "department": 2,
+    "title": "Assistant Professor",
+    "office": "COM2-04-28",
+    "phone": "651 64654"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 491,
+  "fields": {
+    "name": "LIU Lili",
+    "department": 2,
+    "title": "Lecturer (Educator Track)",
+    "office": "COM2-03-25",
+    "phone": "660 17664"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 492,
+  "fields": {
+    "name": "Vivek Sundar MAGESH",
+    "department": 2,
+    "title": "Lecturer (Educator Track)",
+    "office": "COM2-02-36",
+    "phone": "660 11733"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 493,
+  "fields": {
+    "name": "OH Lih Bin",
+    "department": 2,
+    "title": "Associate Professor (Educator Track)",
+    "office": "COM2-04-21",
+    "phone": "651 63796"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 494,
+  "fields": {
+    "name": "Danny POO Chiang Choon",
+    "department": 2,
+    "title": "Associate Professor",
+    "office": "COM2-04-36",
+    "phone": "651 62783"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 495,
+  "fields": {
+    "name": "QIAO Dandan",
+    "department": 2,
+    "title": "Associate Professor",
+    "office": "COM2-04-15",
+    "phone": "660 13789"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 496,
+  "fields": {
+    "name": "Anand Mohan RAMCHAND",
+    "department": 2,
+    "title": "Associate Professor (Educator Track)",
+    "office": "COM2-03-22",
+    "phone": "651 62990"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 497,
+  "fields": {
+    "name": "Rudy SETIONO",
+    "department": 2,
+    "title": "Associate Professor",
+    "office": "COM2-04-13",
+    "phone": "651 66297"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 498,
+  "fields": {
+    "name": "Samantha SOW Jin Sze",
+    "department": 2,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "COM3-B1-25",
+    "phone": "651 62857"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 499,
+  "fields": {
+    "name": "Prakash Chandra SUKHWAL",
+    "department": 2,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "COM2-03-40",
+    "phone": "651 64489"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 500,
+  "fields": {
+    "name": "Bernard TAN Cheng Yian",
+    "department": 2,
+    "title": "Tan Sri Runme Shaw Senior Professor",
+    "office": "COM2-04-38",
+    "phone": "651 66868"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 501,
+  "fields": {
+    "name": "TAN Chuan Hoo",
+    "department": 2,
+    "title": "Associate Professor",
+    "office": "COM2-04-12",
+    "phone": "651 66903"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 502,
+  "fields": {
+    "name": "Sharon TAN Swee Lin",
+    "department": 2,
+    "title": "Associate Professor (Educator Track)",
+    "office": "COM2-04-31",
+    "phone": "651 64866"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 503,
+  "fields": {
+    "name": "TAN Wee Kek",
+    "department": 2,
+    "title": "Associate Professor (Educator Track)",
+    "office": "COM3-02-35",
+    "phone": "651 66731"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 504,
+  "fields": {
+    "name": "TEO Hock Hai",
+    "department": 2,
+    "title": "Provost's Chair Professor",
+    "office": "COM2-04-08",
+    "phone": "651 62979"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 505,
+  "fields": {
+    "name": "WANG QIUHONG",
+    "department": 2,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "COM3-02-36",
+    "phone": "660 17642"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 506,
+  "fields": {
+    "name": "YANG Lu",
+    "department": 2,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "COM2-02-46",
+    "phone": "651 66791"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 507,
+  "fields": {
+    "name": "YEO Wee Kiang",
+    "department": 2,
+    "title": "Senior Lecturer (Educator Track)",
+    "office": "COM2-04-17",
+    "phone": "651 64262"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 508,
+  "fields": {
+    "name": "Francis YEOH Song Chian",
+    "department": 2,
+    "title": "Professorial Fellow",
+    "office": "COM2-04-24",
+    "phone": "651 61298"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 509,
+  "fields": {
+    "name": "ZHAI Yingda",
+    "department": 2,
+    "title": "Assistant Professor",
+    "office": "COM3-02-33",
+    "phone": "660 12365"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT1101",
+  "fields": {
+    "name": "Introduction to Business Analytics"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT2101",
+  "fields": {
+    "name": "Econometrics Modeling for Business Analytics"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT2102",
+  "fields": {
+    "name": "Data Management and Visualisation"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT3017",
+  "fields": {
+    "name": "Feature Engineering for Machine Learning"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT3102",
+  "fields": {
+    "name": "Computational Methods for Business Analytics"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT3103",
+  "fields": {
+    "name": "Application Systems Development for Business Analytics"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT3104",
+  "fields": {
+    "name": "Optimization Methods for Business Analytics"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT4012",
+  "fields": {
+    "name": "Fraud Analytics"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT4013",
+  "fields": {
+    "name": "Analytics for Capital Market Trading and Investment"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT4014",
+  "fields": {
+    "name": "Analytics Driven Design of Adaptive Systems"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT4015",
+  "fields": {
+    "name": "Geospatial Analytics"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT4016",
+  "fields": {
+    "name": "Risk Analytics for Financial Services"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT4103",
+  "fields": {
+    "name": "Business Analytics Capstone Project"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT4211",
+  "fields": {
+    "name": "Data-Driven Marketing"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT4212",
+  "fields": {
+    "name": "Search Engine Optimization and Analytics"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT4221",
+  "fields": {
+    "name": "Advanced Analytics with Big Data Technologies"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT4222",
+  "fields": {
+    "name": "Mining Web Data for Business Insights"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT4240",
+  "fields": {
+    "name": "Machine Learning for Predictive Data Analytics"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT4241",
+  "fields": {
+    "name": "Causal Impact Analytics for Business Applications"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT4301",
+  "fields": {
+    "name": "Business Analytics Solutions Development and Deployment"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT5110",
+  "fields": {
+    "name": "Data Management and Warehousing"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT5126",
+  "fields": {
+    "name": "Hands-on with Business Analytics"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT5151",
+  "fields": {
+    "name": "Advanced Analytics and Machine Learning"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "BT5153",
+  "fields": {
+    "name": "Applied Machine Learning for Business Analytics"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CG1111A",
+  "fields": {
+    "name": "Engineering Principles and Practice I"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CG2111A",
+  "fields": {
+    "name": "Engineering Principles and Practice II"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CG2271",
+  "fields": {
+    "name": "Real-Time Operating Systems"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CG4002",
+  "fields": {
+    "name": "Computer Engineering Capstone Project"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CP1008",
+  "fields": {
+    "name": "Learning with Generative AI Tools"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CP2106",
+  "fields": {
+    "name": "Independent Software Development Project (Orbital)"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CP2107",
+  "fields": {
+    "name": "Independent Introduction to CS Research (Odyssey)"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CP2201",
+  "fields": {
+    "name": "Journey of the Innovator"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CP3106",
+  "fields": {
+    "name": "Independent Project"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CP3108A",
+  "fields": {
+    "name": "Independent Work"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CP3108B",
+  "fields": {
+    "name": "Independent Work"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CP3111",
+  "fields": {
+    "name": "Independent Project II"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CP3201",
+  "fields": {
+    "name": "Industry Seminar"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CP3209",
+  "fields": {
+    "name": "Undergraduate Research Project in Computing"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CP3209R",
+  "fields": {
+    "name": "Undergraduate Research Project in Computing (REx)"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CP3880",
+  "fields": {
+    "name": "Advanced Technology Attachment Programme"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS1010",
+  "fields": {
+    "name": "Programming Methodology"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS1010A",
+  "fields": {
+    "name": "Programming Methodology"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS1010E",
+  "fields": {
+    "name": "Programming Methodology"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS1010J",
+  "fields": {
+    "name": "Programming Methodology"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS1010S",
+  "fields": {
+    "name": "Programming Methodology"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS1010X",
+  "fields": {
+    "name": "Programming Methodology\n(iBLOC Course, not for Undergraduate, offered from Jan - Jun.\nDetails at https://www.nus.edu.sg/ibloc/iBLOC.html)"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS1101S",
+  "fields": {
+    "name": "Programming Methodology"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS1231",
+  "fields": {
+    "name": "Discrete Structures"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS1231S",
+  "fields": {
+    "name": "Discrete Structures"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS1234",
+  "fields": {
+    "name": "Some Module"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS2030",
+  "fields": {
+    "name": "Programming Methodology II"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS2030S",
+  "fields": {
+    "name": "Programming Methodology II"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS2040",
+  "fields": {
+    "name": "Data Structures and Algorithms"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS2040C",
+  "fields": {
+    "name": "Data Structures and Algorithms"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS2040S",
+  "fields": {
+    "name": "Data Structures and Algorithms"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS2100",
+  "fields": {
+    "name": "Computer Organisation"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS2101",
+  "fields": {
+    "name": "Effective Communication for Computing Professionals"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS2102",
+  "fields": {
+    "name": "Database Systems"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS2103",
+  "fields": {
+    "name": "Software Engineering"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS2103R",
+  "fields": {
+    "name": "Software Engineering"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS2103T",
+  "fields": {
+    "name": "Software Engineering"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS2104",
+  "fields": {
+    "name": "Programming Language Concepts"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS2105",
+  "fields": {
+    "name": "Introduction to Computer Networks"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS2106",
+  "fields": {
+    "name": "Introduction to Operating Systems"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS2107",
+  "fields": {
+    "name": "Introduction to Information Security"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS2108",
+  "fields": {
+    "name": "Introduction to Media Computing"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS2109S",
+  "fields": {
+    "name": "Introduction to AI and Machine Learning"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS2113",
+  "fields": {
+    "name": "Software Engineering & Object-Oriented Programming"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS2220",
+  "fields": {
+    "name": "Introduction to Computational Biology"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS2309",
+  "fields": {
+    "name": "CS Research Methodology"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3103",
+  "fields": {
+    "name": "Computer Networks Practice"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3203",
+  "fields": {
+    "name": "Software Engineering Project"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3210",
+  "fields": {
+    "name": "Parallel Computing"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3211",
+  "fields": {
+    "name": "Parallel and Concurrent Programming"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3213",
+  "fields": {
+    "name": "Foundations of Software Engineering"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3216",
+  "fields": {
+    "name": "Software Product Engineering for Digital Markets"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3217",
+  "fields": {
+    "name": "Software Engineering on Modern Application Platforms"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3219",
+  "fields": {
+    "name": "Software Engineering Principles and Patterns"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3223",
+  "fields": {
+    "name": "Database Systems Implementation"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3230",
+  "fields": {
+    "name": "Design and Analysis of Algorithms"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3231",
+  "fields": {
+    "name": "Theory of Computation"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3233",
+  "fields": {
+    "name": "Competitive Programming"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3233R",
+  "fields": {
+    "name": "Competitive Programming"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3234",
+  "fields": {
+    "name": "Logic for Proofs and Programs"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3235",
+  "fields": {
+    "name": "Computer Security"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3236",
+  "fields": {
+    "name": "Introduction to Information Theory"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3237",
+  "fields": {
+    "name": "Introduction to Internet of Things"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3240",
+  "fields": {
+    "name": "Interaction Design"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3241",
+  "fields": {
+    "name": "Computer Graphics"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3242",
+  "fields": {
+    "name": "3D Modeling and Animation"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3243",
+  "fields": {
+    "name": "Introduction to Artificial Intelligence"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3244",
+  "fields": {
+    "name": "Machine Learning"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3245",
+  "fields": {
+    "name": "Information Retrieval"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3247",
+  "fields": {
+    "name": "Game Development"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3263",
+  "fields": {
+    "name": "Foundations of Artificial Intelligence"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3264",
+  "fields": {
+    "name": "Foundations of Machine Learning"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3281",
+  "fields": {
+    "name": "Thematic Systems Project I"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3282",
+  "fields": {
+    "name": "Thematic Systems Project II"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4211",
+  "fields": {
+    "name": "Formal Methods for Software Engineering"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4212",
+  "fields": {
+    "name": "Compiler Design"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4215",
+  "fields": {
+    "name": "Programming Language Implementation"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4218",
+  "fields": {
+    "name": "Software Testing"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4220",
+  "fields": {
+    "name": "Knowledge Discovery Methods in Bioinformatics"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4221",
+  "fields": {
+    "name": "Database Applications Design and Tuning"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4222",
+  "fields": {
+    "name": "Wireless Networking"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4223",
+  "fields": {
+    "name": "Multi-core Architectures"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4224",
+  "fields": {
+    "name": "Distributed Databases"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4225",
+  "fields": {
+    "name": "Big Data Systems for Data Science"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4226",
+  "fields": {
+    "name": "Internet Architecture"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4230",
+  "fields": {
+    "name": "Foundations of Modern Cryptography"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4231",
+  "fields": {
+    "name": "Parallel and Distributed Algorithms"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4234",
+  "fields": {
+    "name": "Optimisation Algorithms"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4236",
+  "fields": {
+    "name": "Cryptography Theory and Practice"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4238",
+  "fields": {
+    "name": "Computer Security Practice"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4239",
+  "fields": {
+    "name": "Software Security"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4240",
+  "fields": {
+    "name": "Interaction Design for Virtual and Augmented Reality"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4242",
+  "fields": {
+    "name": "Social Media Computing"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4243",
+  "fields": {
+    "name": "Computer Vision and Pattern Recognition"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4246",
+  "fields": {
+    "name": "AI Planning and Decision Making"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4247",
+  "fields": {
+    "name": "Graphics Rendering Techniques"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4248",
+  "fields": {
+    "name": "Natural Language Processing"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4249",
+  "fields": {
+    "name": "Phenomena and Theories of Human-Computer Interaction"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4261",
+  "fields": {
+    "name": "Algorithmic Mechanism Design"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4269",
+  "fields": {
+    "name": "Fundamentals of Logic in Computer Science"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4277",
+  "fields": {
+    "name": "3D Computer Vision"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4278",
+  "fields": {
+    "name": "Intelligent Robots: Algorithms and Systems"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4330",
+  "fields": {
+    "name": "Combinatorial Methods in Bioinformatics"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4347",
+  "fields": {
+    "name": "Sound and Music Computing"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS4350",
+  "fields": {
+    "name": "Game Development Project"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5218",
+  "fields": {
+    "name": "Principles and Practice of Program Analysis"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5223",
+  "fields": {
+    "name": "Distributed Systems"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5224",
+  "fields": {
+    "name": "Cloud Computing"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5228",
+  "fields": {
+    "name": "Knowledge Discovery and Data Mining"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5229",
+  "fields": {
+    "name": "Advanced Computer Networks"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5230",
+  "fields": {
+    "name": "Computational Complexity"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5231",
+  "fields": {
+    "name": "Systems Security"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5233",
+  "fields": {
+    "name": "Simulation and Modelling Techniques"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5234",
+  "fields": {
+    "name": "Algorithms at Scale"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5239",
+  "fields": {
+    "name": "Computer System Performance Analysis"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5240",
+  "fields": {
+    "name": "Theoretical Foundations in MultiMedia"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5242",
+  "fields": {
+    "name": "Neural Networks and Deep Learning"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5246",
+  "fields": {
+    "name": "Text Mining"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5250",
+  "fields": {
+    "name": "Advanced Operating Systems"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5260",
+  "fields": {
+    "name": "Neural Networks and Deep Learning II"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5272",
+  "fields": {
+    "name": "Embedded Software Design"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5275",
+  "fields": {
+    "name": "The Algorithm Designer's Toolkit"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5284",
+  "fields": {
+    "name": "Graph Machine Learning"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5321",
+  "fields": {
+    "name": "Network Security"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5322",
+  "fields": {
+    "name": "Database Security"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5330",
+  "fields": {
+    "name": "Randomized Algorithms"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5332",
+  "fields": {
+    "name": "Biometric Authentication"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5339",
+  "fields": {
+    "name": "Theory and Algorithms for Machine Learning"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5340",
+  "fields": {
+    "name": "Uncertainty Modelling in AI"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5344",
+  "fields": {
+    "name": "Big-Data Analytics Technology"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5346",
+  "fields": {
+    "name": "Information Visualisation"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5422",
+  "fields": {
+    "name": "Wireless Networking"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5424",
+  "fields": {
+    "name": "Distributed Databases"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5425",
+  "fields": {
+    "name": "Big Data Systems for Data Science"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5430",
+  "fields": {
+    "name": "Foundations of Modern Cryptography"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5439",
+  "fields": {
+    "name": "Software Security"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5446",
+  "fields": {
+    "name": "AI Planning and Decision Making"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5461",
+  "fields": {
+    "name": "Algorithmic Mechanism Design"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5469",
+  "fields": {
+    "name": "Fundamentals of Logic in Computer Science"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5477",
+  "fields": {
+    "name": "3D Computer Vision"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5478",
+  "fields": {
+    "name": "Intelligent Robots: Algorithms and Systems"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5562",
+  "fields": {
+    "name": "Trustworthy Machine Learning"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5647",
+  "fields": {
+    "name": "Sound and Music Computing"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS6203",
+  "fields": {
+    "name": "Advanced Topics in Database Systems"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS6204",
+  "fields": {
+    "name": "Advanced Topics in Networking"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS6206",
+  "fields": {
+    "name": "Advanced Topics in Human-Computer Interaction"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS6207",
+  "fields": {
+    "name": "Advanced Natural Language Processing"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS6208",
+  "fields": {
+    "name": "Advanced Topics in Artificial Intelligence"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS6215",
+  "fields": {
+    "name": "Advanced Topics in Program Analysis"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS6216",
+  "fields": {
+    "name": "Advanced Topics in Machine Learning"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS6217",
+  "fields": {
+    "name": "Topics in Prog. Languages & Software Engineering"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS6220",
+  "fields": {
+    "name": "Advanced Topics in Data Mining"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS6222",
+  "fields": {
+    "name": "Advanced Topics in Computational Biology"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS6223",
+  "fields": {
+    "name": "Advanced Topics in Software Testing"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS6231",
+  "fields": {
+    "name": "Advanced Topics in Security and Privacy"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS6234",
+  "fields": {
+    "name": "Advanced Algorithms"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS6235",
+  "fields": {
+    "name": "Advanced Topics in Theoretical Computer Science"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS6240",
+  "fields": {
+    "name": "Multimedia Analysis"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS6244",
+  "fields": {
+    "name": "Advanced Topics in Robotics"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS6280",
+  "fields": {
+    "name": "Topics in Computer Science: Deep Learning with Language Applications"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "FT5001",
+  "fields": {
+    "name": "Fintech Innovations for Consumers"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "FT5002",
+  "fields": {
+    "name": "Digital Transformation at Financial Institutions"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "FT5003",
+  "fields": {
+    "name": "Blockchain Innovations"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "FT5004",
+  "fields": {
+    "name": "Programming for Blockchain Applications"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "FT5005",
+  "fields": {
+    "name": "Machine Learning for Finance"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "FT5009",
+  "fields": {
+    "name": "Contemporary Topics in Financial Data Analytics"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "FT5010",
+  "fields": {
+    "name": "Algorithmic Trading Systems Design and Deployment"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "GEI1000",
+  "fields": {
+    "name": "Computational Thinking"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IFS4101",
+  "fields": {
+    "name": "Legal Aspects of Information Security"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IFS4103",
+  "fields": {
+    "name": "Penetration Testing Practice"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IFS4205",
+  "fields": {
+    "name": "Information Security Capstone Project."
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS1108",
+  "fields": {
+    "name": "Digital Ethics and Data Privacy"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS1108S",
+  "fields": {
+    "name": "Ethics"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS1128",
+  "fields": {
+    "name": "IT, Management and Organisation"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS2101",
+  "fields": {
+    "name": "Business and Technical Communication"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS2102",
+  "fields": {
+    "name": "Enterprise Systems Architecture and Design"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS2103",
+  "fields": {
+    "name": "Enterprise Systems Server-side Design and Development"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS2218",
+  "fields": {
+    "name": "Digital Platforms for Business"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS2238",
+  "fields": {
+    "name": "Economics of IT and AI"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS3103",
+  "fields": {
+    "name": "Information Systems Leadership and Communication"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS3106",
+  "fields": {
+    "name": "Enterprise Systems Interface Design and Development"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS3107",
+  "fields": {
+    "name": "Data Engineering"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS3150",
+  "fields": {
+    "name": "Digital Media Marketing"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS3221",
+  "fields": {
+    "name": "ERP Systems with Analytics Solutions"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS3240",
+  "fields": {
+    "name": "Digital Platform Strategy and Architecture"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS3251",
+  "fields": {
+    "name": "Principles of Technology Entrepreneurship"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4100",
+  "fields": {
+    "name": "IT Project Management"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4103",
+  "fields": {
+    "name": "Information Systems Capstone Project"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4151",
+  "fields": {
+    "name": "AIoT Solutions and Development"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4226",
+  "fields": {
+    "name": "Systematic Trading Strategies and Systems"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4228",
+  "fields": {
+    "name": "Information Technologies in Financial Services"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4231",
+  "fields": {
+    "name": "Information Security Management"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4233",
+  "fields": {
+    "name": "Legal Aspects of Information Technology"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4234",
+  "fields": {
+    "name": "Governance, Regulation, and Compliance Technology"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4236",
+  "fields": {
+    "name": "Cloud Services and Infrastructure Management"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4238",
+  "fields": {
+    "name": "Strategic Cybersecurity"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4241",
+  "fields": {
+    "name": "Social Media Network Analysis"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4242",
+  "fields": {
+    "name": "Intelligent Systems and Techniques"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4246",
+  "fields": {
+    "name": "Smart Systems and AI Governance"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4250",
+  "fields": {
+    "name": "IT-enabled Healthcare Solutioning"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4261",
+  "fields": {
+    "name": "Designing AI-driven Business Innovations"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4262",
+  "fields": {
+    "name": "Digital Product Management"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4301",
+  "fields": {
+    "name": "Agile IT with DevOps"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4302",
+  "fields": {
+    "name": "Blockchain and Distributed Ledger Technologies"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4303",
+  "fields": {
+    "name": "IT-mediated financial solutions and platforms"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS5003",
+  "fields": {
+    "name": "Platform Design and Economy"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS5005",
+  "fields": {
+    "name": "Digital Engagement"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS5006",
+  "fields": {
+    "name": "Human-Centred Intelligent Systems"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS5007",
+  "fields": {
+    "name": "Strategising for Global IT-enabled Business Success"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS5008",
+  "fields": {
+    "name": "Technology Risk & Cyber Resilience"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS5009",
+  "fields": {
+    "name": "Topics in Financial Technology Solutions"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS5116",
+  "fields": {
+    "name": "Digital Entrepreneurship"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS5126",
+  "fields": {
+    "name": "Hands-on with Applied Analytics"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS5128",
+  "fields": {
+    "name": "Digital Innovation"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS5151",
+  "fields": {
+    "name": "Information Security Policy and Management"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS5152",
+  "fields": {
+    "name": "Data-Driven Decision Making"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS5451",
+  "fields": {
+    "name": "AIoT Solutions and Development"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS6000",
+  "fields": {
+    "name": "Topics in Information Systems and Analytics Research"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS6001",
+  "fields": {
+    "name": "Qualitative Methods for IS Research"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS6003",
+  "fields": {
+    "name": "Contemporary Theories for IS Research"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS6004",
+  "fields": {
+    "name": "Econometrics for IS Research"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS6006",
+  "fields": {
+    "name": "Computational Social Science"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS6101",
+  "fields": {
+    "name": "Topics in Machine Learning and Optimization"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IT1244",
+  "fields": {
+    "name": "Artificial Intelligence: Technology and Impact"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IT2002",
+  "fields": {
+    "name": "Database Technology and Management"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IT2900",
+  "fields": {
+    "name": "Technical Management and Leadership"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IT3010",
+  "fields": {
+    "name": "Data Management for Business Analytics"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "MA1521",
+  "fields": {
+    "name": "Calculus for Computing"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "MA1522",
+  "fields": {
+    "name": "Linear Algebra for Computing"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 2,
+  "fields": {
+    "prof": 1,
+    "module": "MA1522",
+    "semester": "AY24/25 Sem 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 4,
+  "fields": {
+    "prof": 502,
+    "module": "BT1101",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 5,
+  "fields": {
+    "prof": 498,
+    "module": "BT1101",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 6,
+  "fields": {
+    "prof": 502,
+    "module": "BT1101",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 7,
+  "fields": {
+    "prof": 498,
+    "module": "BT1101",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 8,
+  "fields": {
+    "prof": 482,
+    "module": "BT2101",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 9,
+  "fields": {
+    "prof": 485,
+    "module": "BT2101",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 10,
+  "fields": {
+    "prof": 494,
+    "module": "BT2102",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 11,
+  "fields": {
+    "prof": 494,
+    "module": "BT2102",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 12,
+  "fields": {
+    "prof": 415,
+    "module": "BT3017",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 13,
+  "fields": {
+    "prof": 480,
+    "module": "BT3102",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 14,
+  "fields": {
+    "prof": 483,
+    "module": "BT3102",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 15,
+  "fields": {
+    "prof": 497,
+    "module": "BT3104",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 16,
+  "fields": {
+    "prof": 484,
+    "module": "BT4013",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 17,
+  "fields": {
+    "prof": 495,
+    "module": "BT4014",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 18,
+  "fields": {
+    "prof": 471,
+    "module": "BT4015",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 19,
+  "fields": {
+    "prof": 489,
+    "module": "BT4016",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 20,
+  "fields": {
+    "prof": 497,
+    "module": "BT4103",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 21,
+  "fields": {
+    "prof": 471,
+    "module": "BT4103",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 22,
+  "fields": {
+    "prof": 487,
+    "module": "BT4103",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 23,
+  "fields": {
+    "prof": 499,
+    "module": "BT4103",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 24,
+  "fields": {
+    "prof": 502,
+    "module": "BT4103",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 25,
+  "fields": {
+    "prof": 471,
+    "module": "BT4103",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 26,
+  "fields": {
+    "prof": 499,
+    "module": "BT4103",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 27,
+  "fields": {
+    "prof": 492,
+    "module": "BT4211",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 28,
+  "fields": {
+    "prof": 509,
+    "module": "BT4212",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 29,
+  "fields": {
+    "prof": 507,
+    "module": "BT4221",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 30,
+  "fields": {
+    "prof": 505,
+    "module": "BT4222",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 31,
+  "fields": {
+    "prof": 505,
+    "module": "BT4222",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 32,
+  "fields": {
+    "prof": 497,
+    "module": "BT4240",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 33,
+  "fields": {
+    "prof": 472,
+    "module": "BT4241",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 34,
+  "fields": {
+    "prof": 503,
+    "module": "BT4301",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 35,
+  "fields": {
+    "prof": 509,
+    "module": "BT5126",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 36,
+  "fields": {
+    "prof": 507,
+    "module": "BT5151",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 37,
+  "fields": {
+    "prof": 425,
+    "module": "CG1111A",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 38,
+  "fields": {
+    "prof": 344,
+    "module": "CG2111A",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 39,
+  "fields": {
+    "prof": 441,
+    "module": "CG2111A",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 40,
+  "fields": {
+    "prof": 425,
+    "module": "CG2111A",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 41,
+  "fields": {
+    "prof": 441,
+    "module": "CG2271",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 42,
+  "fields": {
+    "prof": 348,
+    "module": "CG2271",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 43,
+  "fields": {
+    "prof": 418,
+    "module": "CG4002",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 44,
+  "fields": {
+    "prof": 448,
+    "module": "CG4002",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 45,
+  "fields": {
+    "prof": 418,
+    "module": "CG4002",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 46,
+  "fields": {
+    "prof": 448,
+    "module": "CG4002",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 47,
+  "fields": {
+    "prof": 467,
+    "module": "CP2106",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 48,
+  "fields": {
+    "prof": 452,
+    "module": "CP2107",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 49,
+  "fields": {
+    "prof": 452,
+    "module": "CP3108B",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 50,
+  "fields": {
+    "prof": 417,
+    "module": "CS1010",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 51,
+  "fields": {
+    "prof": 369,
+    "module": "CS1010",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 52,
+  "fields": {
+    "prof": 361,
+    "module": "CS1010",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 53,
+  "fields": {
+    "prof": 467,
+    "module": "CS1010",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 54,
+  "fields": {
+    "prof": 393,
+    "module": "CS1010A",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 55,
+  "fields": {
+    "prof": 375,
+    "module": "CS1010A",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 56,
+  "fields": {
+    "prof": 384,
+    "module": "CS1010E",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 57,
+  "fields": {
+    "prof": 356,
+    "module": "CS1010E",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 58,
+  "fields": {
+    "prof": 357,
+    "module": "CS1010E",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 59,
+  "fields": {
+    "prof": 468,
+    "module": "CS1010E",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 60,
+  "fields": {
+    "prof": 356,
+    "module": "CS1010E",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 61,
+  "fields": {
+    "prof": 375,
+    "module": "CS1010E",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 62,
+  "fields": {
+    "prof": 468,
+    "module": "CS1010J",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 63,
+  "fields": {
+    "prof": 385,
+    "module": "CS1010S",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 64,
+  "fields": {
+    "prof": 395,
+    "module": "CS1010S",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 65,
+  "fields": {
+    "prof": 362,
+    "module": "CS1010S",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 66,
+  "fields": {
+    "prof": 362,
+    "module": "CS1010S",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 67,
+  "fields": {
+    "prof": 395,
+    "module": "CS1010S",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 68,
+  "fields": {
+    "prof": 419,
+    "module": "CS1010S",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 69,
+  "fields": {
+    "prof": 445,
+    "module": "CS1010X",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 70,
+  "fields": {
+    "prof": 402,
+    "module": "CS1101S",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 71,
+  "fields": {
+    "prof": 344,
+    "module": "CS1101S",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 72,
+  "fields": {
+    "prof": 421,
+    "module": "CS1101S",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 73,
+  "fields": {
+    "prof": 371,
+    "module": "CS1101S",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 74,
+  "fields": {
+    "prof": 402,
+    "module": "CS1101S",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 75,
+  "fields": {
+    "prof": 440,
+    "module": "CS1231S",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 76,
+  "fields": {
+    "prof": 362,
+    "module": "CS1231S",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 77,
+  "fields": {
+    "prof": 358,
+    "module": "CS1231S",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 78,
+  "fields": {
+    "prof": 361,
+    "module": "CS1231S",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 79,
+  "fields": {
+    "prof": 446,
+    "module": "CS1231S",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 80,
+  "fields": {
+    "prof": 357,
+    "module": "CS2030",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 81,
+  "fields": {
+    "prof": 357,
+    "module": "CS2030",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 82,
+  "fields": {
+    "prof": 358,
+    "module": "CS2030",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 83,
+  "fields": {
+    "prof": 419,
+    "module": "CS2030S",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 84,
+  "fields": {
+    "prof": 417,
+    "module": "CS2030S",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 85,
+  "fields": {
+    "prof": 344,
+    "module": "CS2030S",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 86,
+  "fields": {
+    "prof": 362,
+    "module": "CS2030S",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 87,
+  "fields": {
+    "prof": 469,
+    "module": "CS2040",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 88,
+  "fields": {
+    "prof": 367,
+    "module": "CS2040",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 89,
+  "fields": {
+    "prof": 421,
+    "module": "CS2040",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 90,
+  "fields": {
+    "prof": 421,
+    "module": "CS2040",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 91,
+  "fields": {
+    "prof": 469,
+    "module": "CS2040",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 92,
+  "fields": {
+    "prof": 434,
+    "module": "CS2040",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 93,
+  "fields": {
+    "prof": 359,
+    "module": "CS2040",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 94,
+  "fields": {
+    "prof": 356,
+    "module": "CS2040C",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 95,
+  "fields": {
+    "prof": 356,
+    "module": "CS2040C",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 96,
+  "fields": {
+    "prof": 368,
+    "module": "CS2040S",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 97,
+  "fields": {
+    "prof": 390,
+    "module": "CS2040S",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 98,
+  "fields": {
+    "prof": 429,
+    "module": "CS2040S",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 99,
+  "fields": {
+    "prof": 406,
+    "module": "CS2040S",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 100,
+  "fields": {
+    "prof": 349,
+    "module": "CS2040S",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 101,
+  "fields": {
+    "prof": 361,
+    "module": "CS2040S",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 102,
+  "fields": {
+    "prof": 458,
+    "module": "CS2100",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 103,
+  "fields": {
+    "prof": 440,
+    "module": "CS2100",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 104,
+  "fields": {
+    "prof": 367,
+    "module": "CS2100",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 105,
+  "fields": {
+    "prof": 440,
+    "module": "CS2100",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 106,
+  "fields": {
+    "prof": 411,
+    "module": "CS2100",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 107,
+  "fields": {
+    "prof": 456,
+    "module": "CS2102",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 108,
+  "fields": {
+    "prof": 419,
+    "module": "CS2102",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 109,
+  "fields": {
+    "prof": 459,
+    "module": "CS2102",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 110,
+  "fields": {
+    "prof": 419,
+    "module": "CS2102",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 111,
+  "fields": {
+    "prof": 380,
+    "module": "CS2102",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 112,
+  "fields": {
+    "prof": 420,
+    "module": "CS2103",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 113,
+  "fields": {
+    "prof": 411,
+    "module": "CS2103",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 114,
+  "fields": {
+    "prof": 341,
+    "module": "CS2103",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 115,
+  "fields": {
+    "prof": 420,
+    "module": "CS2103",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 116,
+  "fields": {
+    "prof": 369,
+    "module": "CS2103",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 117,
+  "fields": {
+    "prof": 412,
+    "module": "CS2103",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 118,
+  "fields": {
+    "prof": 420,
+    "module": "CS2103T",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 119,
+  "fields": {
+    "prof": 411,
+    "module": "CS2103T",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 120,
+  "fields": {
+    "prof": 341,
+    "module": "CS2103T",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 121,
+  "fields": {
+    "prof": 420,
+    "module": "CS2103T",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 122,
+  "fields": {
+    "prof": 369,
+    "module": "CS2103T",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 123,
+  "fields": {
+    "prof": 412,
+    "module": "CS2103T",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 124,
+  "fields": {
+    "prof": 371,
+    "module": "CS2104",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 125,
+  "fields": {
+    "prof": 468,
+    "module": "CS2105",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 126,
+  "fields": {
+    "prof": 448,
+    "module": "CS2105",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 127,
+  "fields": {
+    "prof": 393,
+    "module": "CS2105",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 128,
+  "fields": {
+    "prof": 393,
+    "module": "CS2105",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 129,
+  "fields": {
+    "prof": 448,
+    "module": "CS2105",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 130,
+  "fields": {
+    "prof": 396,
+    "module": "CS2106",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 131,
+  "fields": {
+    "prof": 441,
+    "module": "CS2106",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 132,
+  "fields": {
+    "prof": 441,
+    "module": "CS2106",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 133,
+  "fields": {
+    "prof": 367,
+    "module": "CS2106",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 134,
+  "fields": {
+    "prof": 352,
+    "module": "CS2107",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 135,
+  "fields": {
+    "prof": 385,
+    "module": "CS2107",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 136,
+  "fields": {
+    "prof": 415,
+    "module": "CS2108",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 137,
+  "fields": {
+    "prof": 406,
+    "module": "CS2109S",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 138,
+  "fields": {
+    "prof": 422,
+    "module": "CS2109S",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 139,
+  "fields": {
+    "prof": 375,
+    "module": "CS2109S",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 140,
+  "fields": {
+    "prof": 369,
+    "module": "CS2109S",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 141,
+  "fields": {
+    "prof": 406,
+    "module": "CS2109S",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 142,
+  "fields": {
+    "prof": 375,
+    "module": "CS2109S",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 143,
+  "fields": {
+    "prof": 422,
+    "module": "CS2109S",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 144,
+  "fields": {
+    "prof": 410,
+    "module": "CS2113",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 145,
+  "fields": {
+    "prof": 410,
+    "module": "CS2113",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 146,
+  "fields": {
+    "prof": 457,
+    "module": "CS2220",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 147,
+  "fields": {
+    "prof": 374,
+    "module": "CS2309",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 148,
+  "fields": {
+    "prof": 345,
+    "module": "CS3103",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 149,
+  "fields": {
+    "prof": 412,
+    "module": "CS3203",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 150,
+  "fields": {
+    "prof": 412,
+    "module": "CS3203",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 151,
+  "fields": {
+    "prof": 347,
+    "module": "CS3210",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 152,
+  "fields": {
+    "prof": 425,
+    "module": "CS3210",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 153,
+  "fields": {
+    "prof": 425,
+    "module": "CS3210",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 154,
+  "fields": {
+    "prof": 347,
+    "module": "CS3211",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 155,
+  "fields": {
+    "prof": 423,
+    "module": "CS3213",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 156,
+  "fields": {
+    "prof": 436,
+    "module": "CS3216",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 157,
+  "fields": {
+    "prof": 393,
+    "module": "CS3217",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 158,
+  "fields": {
+    "prof": 452,
+    "module": "CS3219",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 159,
+  "fields": {
+    "prof": 410,
+    "module": "CS3219",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 160,
+  "fields": {
+    "prof": 350,
+    "module": "CS3223",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 161,
+  "fields": {
+    "prof": 368,
+    "module": "CS3230",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 162,
+  "fields": {
+    "prof": 353,
+    "module": "CS3230",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 163,
+  "fields": {
+    "prof": 379,
+    "module": "CS3230",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 164,
+  "fields": {
+    "prof": 439,
+    "module": "CS3230",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 165,
+  "fields": {
+    "prof": 369,
+    "module": "CS3230",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 166,
+  "fields": {
+    "prof": 379,
+    "module": "CS3231",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 167,
+  "fields": {
+    "prof": 368,
+    "module": "CS3233",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 168,
+  "fields": {
+    "prof": 363,
+    "module": "CS3234",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 169,
+  "fields": {
+    "prof": 426,
+    "module": "CS3235",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 170,
+  "fields": {
+    "prof": 465,
+    "module": "CS3235",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 171,
+  "fields": {
+    "prof": 378,
+    "module": "CS3236",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 172,
+  "fields": {
+    "prof": 344,
+    "module": "CS3237",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 173,
+  "fields": {
+    "prof": 454,
+    "module": "CS3237",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 174,
+  "fields": {
+    "prof": 452,
+    "module": "CS3240",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 175,
+  "fields": {
+    "prof": 452,
+    "module": "CS3240",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 176,
+  "fields": {
+    "prof": 402,
+    "module": "CS3241",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 177,
+  "fields": {
+    "prof": 376,
+    "module": "CS3242",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 178,
+  "fields": {
+    "prof": 395,
+    "module": "CS3243",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 179,
+  "fields": {
+    "prof": 395,
+    "module": "CS3243",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 180,
+  "fields": {
+    "prof": 398,
+    "module": "CS3244",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 181,
+  "fields": {
+    "prof": 369,
+    "module": "CS3244",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 182,
+  "fields": {
+    "prof": 388,
+    "module": "CS3244",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 183,
+  "fields": {
+    "prof": 455,
+    "module": "CS3244",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 184,
+  "fields": {
+    "prof": 467,
+    "module": "CS3245",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 185,
+  "fields": {
+    "prof": 345,
+    "module": "CS3247",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 186,
+  "fields": {
+    "prof": 388,
+    "module": "CS3263",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 187,
+  "fields": {
+    "prof": 392,
+    "module": "CS3263",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 188,
+  "fields": {
+    "prof": 435,
+    "module": "CS3264",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 189,
+  "fields": {
+    "prof": 401,
+    "module": "CS3264",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 190,
+  "fields": {
+    "prof": 420,
+    "module": "CS3281",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 191,
+  "fields": {
+    "prof": 420,
+    "module": "CS3282",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 192,
+  "fields": {
+    "prof": 380,
+    "module": "CS4211",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 193,
+  "fields": {
+    "prof": 428,
+    "module": "CS4212",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 194,
+  "fields": {
+    "prof": 371,
+    "module": "CS4215",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 195,
+  "fields": {
+    "prof": 412,
+    "module": "CS4218",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 196,
+  "fields": {
+    "prof": 412,
+    "module": "CS4218",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 197,
+  "fields": {
+    "prof": 403,
+    "module": "CS4221",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 198,
+  "fields": {
+    "prof": 450,
+    "module": "CS4222",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 199,
+  "fields": {
+    "prof": 454,
+    "module": "CS4222",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 200,
+  "fields": {
+    "prof": 348,
+    "module": "CS4223",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 201,
+  "fields": {
+    "prof": 350,
+    "module": "CS4224",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 202,
+  "fields": {
+    "prof": 372,
+    "module": "CS4225",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 203,
+  "fields": {
+    "prof": 343,
+    "module": "CS4225",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 204,
+  "fields": {
+    "prof": 370,
+    "module": "CS4225",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 205,
+  "fields": {
+    "prof": 343,
+    "module": "CS4225",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 206,
+  "fields": {
+    "prof": 404,
+    "module": "CS4226",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 207,
+  "fields": {
+    "prof": 451,
+    "module": "CS4230",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 208,
+  "fields": {
+    "prof": 464,
+    "module": "CS4231",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 209,
+  "fields": {
+    "prof": 342,
+    "module": "CS4234",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 210,
+  "fields": {
+    "prof": 451,
+    "module": "CS4236",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 211,
+  "fields": {
+    "prof": 449,
+    "module": "CS4238",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 212,
+  "fields": {
+    "prof": 462,
+    "module": "CS4239",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 213,
+  "fields": {
+    "prof": 345,
+    "module": "CS4240",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 214,
+  "fields": {
+    "prof": 360,
+    "module": "CS4242",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 215,
+  "fields": {
+    "prof": 408,
+    "module": "CS4243",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 216,
+  "fields": {
+    "prof": 408,
+    "module": "CS4243",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 217,
+  "fields": {
+    "prof": 392,
+    "module": "CS4246",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 218,
+  "fields": {
+    "prof": 406,
+    "module": "CS4246",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 219,
+  "fields": {
+    "prof": 410,
+    "module": "CS4246",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 220,
+  "fields": {
+    "prof": 399,
+    "module": "CS4246",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 221,
+  "fields": {
+    "prof": 402,
+    "module": "CS4247",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 222,
+  "fields": {
+    "prof": 413,
+    "module": "CS4248",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 223,
+  "fields": {
+    "prof": 381,
+    "module": "CS4248",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 224,
+  "fields": {
+    "prof": 456,
+    "module": "CS4248",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 225,
+  "fields": {
+    "prof": 398,
+    "module": "CS4249",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 226,
+  "fields": {
+    "prof": 439,
+    "module": "CS4261",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 227,
+  "fields": {
+    "prof": 405,
+    "module": "CS4269",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 228,
+  "fields": {
+    "prof": 386,
+    "module": "CS4277",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 229,
+  "fields": {
+    "prof": 429,
+    "module": "CS4278",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 230,
+  "fields": {
+    "prof": 457,
+    "module": "CS4330",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 231,
+  "fields": {
+    "prof": 455,
+    "module": "CS4347",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 232,
+  "fields": {
+    "prof": 345,
+    "module": "CS4350",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 233,
+  "fields": {
+    "prof": 377,
+    "module": "CS5218",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 234,
+  "fields": {
+    "prof": 464,
+    "module": "CS5223",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 235,
+  "fields": {
+    "prof": 396,
+    "module": "CS5223",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 236,
+  "fields": {
+    "prof": 367,
+    "module": "CS5224",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 237,
+  "fields": {
+    "prof": 456,
+    "module": "CS5228",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 238,
+  "fields": {
+    "prof": 408,
+    "module": "CS5228",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 239,
+  "fields": {
+    "prof": 351,
+    "module": "CS5229",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 240,
+  "fields": {
+    "prof": 437,
+    "module": "CS5230",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 241,
+  "fields": {
+    "prof": 397,
+    "module": "CS5231",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 242,
+  "fields": {
+    "prof": 442,
+    "module": "CS5233",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 243,
+  "fields": {
+    "prof": 349,
+    "module": "CS5234",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 244,
+  "fields": {
+    "prof": 347,
+    "module": "CS5239",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 245,
+  "fields": {
+    "prof": 394,
+    "module": "CS5240",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 246,
+  "fields": {
+    "prof": 463,
+    "module": "CS5242",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 247,
+  "fields": {
+    "prof": 346,
+    "module": "CS5242",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 248,
+  "fields": {
+    "prof": 456,
+    "module": "CS5246",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 249,
+  "fields": {
+    "prof": 458,
+    "module": "CS5250",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 250,
+  "fields": {
+    "prof": 463,
+    "module": "CS5260",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 251,
+  "fields": {
+    "prof": 430,
+    "module": "CS5260",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 252,
+  "fields": {
+    "prof": 450,
+    "module": "CS5272",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 253,
+  "fields": {
+    "prof": 427,
+    "module": "CS5275",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 254,
+  "fields": {
+    "prof": 346,
+    "module": "CS5284",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 255,
+  "fields": {
+    "prof": 397,
+    "module": "CS5321",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 256,
+  "fields": {
+    "prof": 459,
+    "module": "CS5322",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 257,
+  "fields": {
+    "prof": 353,
+    "module": "CS5330",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 258,
+  "fields": {
+    "prof": 433,
+    "module": "CS5332",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 259,
+  "fields": {
+    "prof": 383,
+    "module": "CS5339",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 260,
+  "fields": {
+    "prof": 386,
+    "module": "CS5340",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 261,
+  "fields": {
+    "prof": 435,
+    "module": "CS5340",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 262,
+  "fields": {
+    "prof": 447,
+    "module": "CS5344",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 263,
+  "fields": {
+    "prof": 387,
+    "module": "CS5344",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 264,
+  "fields": {
+    "prof": 452,
+    "module": "CS5346",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 265,
+  "fields": {
+    "prof": 450,
+    "module": "CS5422",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 266,
+  "fields": {
+    "prof": 454,
+    "module": "CS5422",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 267,
+  "fields": {
+    "prof": 350,
+    "module": "CS5424",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 268,
+  "fields": {
+    "prof": 372,
+    "module": "CS5425",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 269,
+  "fields": {
+    "prof": 343,
+    "module": "CS5425",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 270,
+  "fields": {
+    "prof": 370,
+    "module": "CS5425",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 271,
+  "fields": {
+    "prof": 343,
+    "module": "CS5425",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 272,
+  "fields": {
+    "prof": 451,
+    "module": "CS5430",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 273,
+  "fields": {
+    "prof": 462,
+    "module": "CS5439",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 274,
+  "fields": {
+    "prof": 392,
+    "module": "CS5446",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 275,
+  "fields": {
+    "prof": 406,
+    "module": "CS5446",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 276,
+  "fields": {
+    "prof": 410,
+    "module": "CS5446",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 277,
+  "fields": {
+    "prof": 399,
+    "module": "CS5446",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 278,
+  "fields": {
+    "prof": 439,
+    "module": "CS5461",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 279,
+  "fields": {
+    "prof": 405,
+    "module": "CS5469",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 280,
+  "fields": {
+    "prof": 386,
+    "module": "CS5477",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 281,
+  "fields": {
+    "prof": 429,
+    "module": "CS5478",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 282,
+  "fields": {
+    "prof": 426,
+    "module": "CS5562",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 283,
+  "fields": {
+    "prof": 455,
+    "module": "CS5647",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 284,
+  "fields": {
+    "prof": 416,
+    "module": "CS6203",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 285,
+  "fields": {
+    "prof": 404,
+    "module": "CS6204",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 286,
+  "fields": {
+    "prof": 389,
+    "module": "CS6206",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 287,
+  "fields": {
+    "prof": 413,
+    "module": "CS6207",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 288,
+  "fields": {
+    "prof": 399,
+    "module": "CS6208",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 289,
+  "fields": {
+    "prof": 431,
+    "module": "CS6208",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 290,
+  "fields": {
+    "prof": 424,
+    "module": "CS6215",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 291,
+  "fields": {
+    "prof": 403,
+    "module": "CS6216",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 292,
+  "fields": {
+    "prof": 405,
+    "module": "CS6217",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 293,
+  "fields": {
+    "prof": 447,
+    "module": "CS6220",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 294,
+  "fields": {
+    "prof": 466,
+    "module": "CS6222",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 295,
+  "fields": {
+    "prof": 423,
+    "module": "CS6223",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 296,
+  "fields": {
+    "prof": 465,
+    "module": "CS6231",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 297,
+  "fields": {
+    "prof": 342,
+    "module": "CS6234",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 298,
+  "fields": {
+    "prof": 355,
+    "module": "CS6235",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 299,
+  "fields": {
+    "prof": 360,
+    "module": "CS6240",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 300,
+  "fields": {
+    "prof": 373,
+    "module": "CS6244",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 301,
+  "fields": {
+    "prof": 430,
+    "module": "CS6280",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 302,
+  "fields": {
+    "prof": 474,
+    "module": "FT5002",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 303,
+  "fields": {
+    "prof": 475,
+    "module": "FT5003",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 304,
+  "fields": {
+    "prof": 479,
+    "module": "FT5005",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 305,
+  "fields": {
+    "prof": 394,
+    "module": "GEI1000",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 306,
+  "fields": {
+    "prof": 452,
+    "module": "GEI1000",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 307,
+  "fields": {
+    "prof": 385,
+    "module": "IFS4205",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 308,
+  "fields": {
+    "prof": 486,
+    "module": "IS1108",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 309,
+  "fields": {
+    "prof": 486,
+    "module": "IS1108",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 310,
+  "fields": {
+    "prof": 506,
+    "module": "IS1128",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 311,
+  "fields": {
+    "prof": 506,
+    "module": "IS1128",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 312,
+  "fields": {
+    "prof": 487,
+    "module": "IS2102",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 313,
+  "fields": {
+    "prof": 503,
+    "module": "IS2103",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 314,
+  "fields": {
+    "prof": 492,
+    "module": "IS2218",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 315,
+  "fields": {
+    "prof": 492,
+    "module": "IS2218",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 316,
+  "fields": {
+    "prof": 485,
+    "module": "IS2238",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 317,
+  "fields": {
+    "prof": 472,
+    "module": "IS2238",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 318,
+  "fields": {
+    "prof": 493,
+    "module": "IS3103",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 319,
+  "fields": {
+    "prof": 493,
+    "module": "IS3103",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 320,
+  "fields": {
+    "prof": 487,
+    "module": "IS3106",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 321,
+  "fields": {
+    "prof": 496,
+    "module": "IS3240",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 322,
+  "fields": {
+    "prof": 471,
+    "module": "IS4100",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 323,
+  "fields": {
+    "prof": 503,
+    "module": "IS4103",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 324,
+  "fields": {
+    "prof": 487,
+    "module": "IS4103",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 325,
+  "fields": {
+    "prof": 503,
+    "module": "IS4151",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 326,
+  "fields": {
+    "prof": 488,
+    "module": "IS4228",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 327,
+  "fields": {
+    "prof": 475,
+    "module": "IS4228",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 328,
+  "fields": {
+    "prof": 506,
+    "module": "IS4231",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 329,
+  "fields": {
+    "prof": 505,
+    "module": "IS4233",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 330,
+  "fields": {
+    "prof": 506,
+    "module": "IS4234",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 331,
+  "fields": {
+    "prof": 505,
+    "module": "IS4238",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 332,
+  "fields": {
+    "prof": 478,
+    "module": "IS4241",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 333,
+  "fields": {
+    "prof": 483,
+    "module": "IS4242",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 334,
+  "fields": {
+    "prof": 475,
+    "module": "IS4246",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 335,
+  "fields": {
+    "prof": 490,
+    "module": "IS4250",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 336,
+  "fields": {
+    "prof": 474,
+    "module": "IS4261",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 337,
+  "fields": {
+    "prof": 486,
+    "module": "IS4262",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 338,
+  "fields": {
+    "prof": 474,
+    "module": "IS4301",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 339,
+  "fields": {
+    "prof": 475,
+    "module": "IS4302",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 340,
+  "fields": {
+    "prof": 488,
+    "module": "IS4302",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 341,
+  "fields": {
+    "prof": 480,
+    "module": "IS4303",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 342,
+  "fields": {
+    "prof": 482,
+    "module": "IS5003",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 343,
+  "fields": {
+    "prof": 478,
+    "module": "IS5005",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 344,
+  "fields": {
+    "prof": 409,
+    "module": "IS5006",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 345,
+  "fields": {
+    "prof": 508,
+    "module": "IS5116",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 346,
+  "fields": {
+    "prof": 507,
+    "module": "IS5126",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 347,
+  "fields": {
+    "prof": 484,
+    "module": "IS5126",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 348,
+  "fields": {
+    "prof": 493,
+    "module": "IS5128",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 349,
+  "fields": {
+    "prof": 481,
+    "module": "IS5151",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 350,
+  "fields": {
+    "prof": 497,
+    "module": "IS5152",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 351,
+  "fields": {
+    "prof": 503,
+    "module": "IS5451",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 352,
+  "fields": {
+    "prof": 495,
+    "module": "IS6000",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 353,
+  "fields": {
+    "prof": 490,
+    "module": "IS6001",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 354,
+  "fields": {
+    "prof": 504,
+    "module": "IS6003",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 355,
+  "fields": {
+    "prof": 476,
+    "module": "IS6004",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 356,
+  "fields": {
+    "prof": 495,
+    "module": "IS6006",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 357,
+  "fields": {
+    "prof": 411,
+    "module": "IT1244",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 358,
+  "fields": {
+    "prof": 411,
+    "module": "IT1244",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 359,
+  "fields": {
+    "prof": 419,
+    "module": "IT2002",
+    "semester": "AY24/25 Semester 2"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 360,
+  "fields": {
+    "prof": 390,
+    "module": "IT2900",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 361,
+  "fields": {
+    "prof": 496,
+    "module": "IT3010",
+    "semester": "AY24/25 Semester 1"
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 362,
+  "fields": {
+    "prof": 496,
+    "module": "IT3010",
+    "semester": "AY24/25 Semester 2"
+  }
+}
+]

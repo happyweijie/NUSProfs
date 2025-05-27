@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'NUSProfs.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'nusprofs_db',
+        'USER': 'nusprofs_user',
+        'PASSWORD': 'STR0NGP@55W0RD',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
