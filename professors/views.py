@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 from .models import Professor, Teaches, Module, Department, Faculty
+from .serializers import ProfessorSummarySerializer, ProfessorDetailSerializer
+
 
 # Create your views here.
 def index(request):
@@ -10,9 +12,8 @@ def index(request):
 
 def all_professors(request):
     professors = Professor.objects.all().order_by('name')
-    return JsonResponse({
-        "professors": [prof.summary() for prof in professors]
-    })
+    serializer = ProfessorSummarySerializer(professors, many=True)
+    return JsonResponse(serializer.data, safe=False)
 
 def professors(request, prof_id):
     try:
@@ -20,6 +21,4 @@ def professors(request, prof_id):
     except Professor.DoesNotExist:
         return JsonResponse({"error": "Professor not found"}, status=404)
     
-    return JsonResponse({
-        "professor": prof.serialize(),
-    })
+    return JsonResponse(ProfessorDetailSerializer(prof).data, safe=False)
