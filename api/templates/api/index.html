@@ -69,7 +69,7 @@
           data.results.forEach((professor) => {
             const li = document.createElement("li");
             const h2 = document.createElement("h2");
-            h2.textContent = `${professor.name} (${professor.average_rating})`;
+            h2.innerHTML = `<a href="professor/${professor.prof_id}/">${professor.name}</a> (${professor.average_rating})`;
             li.appendChild(h2);
             resultsList.appendChild(li);
           });
