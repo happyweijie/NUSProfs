@@ -1,12 +1,15 @@
 from django.shortcuts import render, HttpResponse
 from django.http import JsonResponse
-from professors.models import Professor
+from professors.models import Professor, Faculty, Department
 from professors.serializers import ProfessorSummarySerializer, ProfessorDetailSerializer
 from rest_framework.decorators import api_view
 from rest_framework.pagination import PageNumberPagination
 
 def index(request):
-    return HttpResponse("<h1>Welcome to the NUSProfs API!</h1> <p>This API provides information about professors at NUS.</p>")
+    return render(request, "api/index.html", {
+        "faculties": Faculty.objects.all().order_by('name'),
+        "departments": Department.objects.all().order_by('name'),
+    })
 
 @api_view(['GET'])
 def professor(request, prof_id):

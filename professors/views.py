@@ -7,11 +7,6 @@ from rest_framework.decorators import api_view
 from rest_framework.pagination import PageNumberPagination
 
 # Create your views here.
-def index(request):
-    return render(request, "professors/index.html", {
-        "faculties": Faculty.objects.all().order_by('name'),
-        "departments": Department.objects.all().order_by('name'),
-    })
 
 @api_view(['GET'])
 def all_professors(request):
