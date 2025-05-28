@@ -20,7 +20,7 @@ def professor(request, prof_id):
     
     return JsonResponse(ProfessorDetailSerializer(prof).data, safe=False)
 
-# Create your views here.
+# Search feature
 @api_view(['GET'])
 def search(request):
     query = request.query_params.get('q', '').strip()
