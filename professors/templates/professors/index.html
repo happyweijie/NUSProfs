@@ -9,9 +9,23 @@
     placeholder="Search professors..."
     autocomplete="off"
   />
+  <h2>Faculty</h2>
+  {% for faculty in faculties %}
+  <label>
+    <input type="checkbox" name="faculty" value="{{ faculty.faculty_id }}" />
+    {{ faculty.name }}
+  </label>
+  {% endfor %}
+  <h2>Department</h2>
+  {% for department in departments %}
+  <label>
+    <input type="checkbox" name="department" value="{{ department.dept_id }}" />
+    {{ department.name }}
+  </label>
+  {% endfor %}
 </form>
 
-<ol id="results-list"></ol>
+<ul id="results-list"></ul>
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
