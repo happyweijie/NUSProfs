@@ -1,4 +1,5 @@
 from django.db import models
+from .querysets import ProfessorQuerySet
 
 # ===== Faculty and Department =====
 class Faculty(models.Model):
@@ -27,7 +28,7 @@ class Module(models.Model):
     def save(self, *args, **kwargs):
         self.module_code = self.module_code.upper()
         super().save(*args, **kwargs)
-    
+
 class Professor(models.Model):
     prof_id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=255)
@@ -36,10 +37,12 @@ class Professor(models.Model):
     title = models.CharField(max_length=150, blank=True, null=True)
     office = models.CharField(max_length=100, blank=True, null=True)
     phone = models.CharField(max_length=20, blank=True, null=True)
+    objects = ProfessorQuerySet.as_manager()
 
     def __str__(self):
         return f"{self.name} ({self.title})"
-
+    
+# ===== Teaches Relationship =====
 class Teaches(models.Model):
     prof = models.ForeignKey(Professor, on_delete=models.CASCADE, related_name='teaching')
     module = models.ForeignKey(Module, on_delete=models.CASCADE, related_name='taught_by')
@@ -50,3 +53,6 @@ class Teaches(models.Model):
 
     def __str__(self):
         return f"{self.prof.name} taught {self.module.module_code} in {self.semester}"
+    
+if __name__ == "__main__":
+    pass
