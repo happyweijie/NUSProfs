@@ -20,8 +20,20 @@ class ProfessorSummarySerializer(serializers.ModelSerializer):
     def get_department(self, obj):
         return obj.department.name if obj.department else None
 
+# Faculty and Department Serializers
+class DepartmentSerializer(serializers.ModelSerializer):
 
-# Profile Page Serializer
+    class Meta:
+        model = Department
+        fields = ['dept_id', 'name']
+    
+class FacultySerializer(serializers.ModelSerializer):
+    departments = DepartmentSerializer(many=True, read_only=True)
+    class Meta:
+        model = Faculty
+        fields = ['faculty_id', 'name', 'departments']
+    
+# Profile Page Serializers
 class TeachesSerializer(serializers.ModelSerializer):
     module_name = serializers.CharField(source='module.name', read_only=True)
     module_code = serializers.CharField(source='module.module_code', read_only=True)

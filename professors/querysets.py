@@ -3,7 +3,7 @@ from django.db.models import Q
 
 # Results for search results for Professors
 class ProfessorQuerySet(models.QuerySet):
-    def filter_by_name_dept_faculty(self, name_query, department_ids=None, faculty_ids=None):
+    def filter_by(self, name_query, department_ids=None, faculty_ids=None):
         filters = Q(name__icontains=name_query)
 
         if department_ids or faculty_ids:

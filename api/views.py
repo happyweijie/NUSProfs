@@ -1,7 +1,7 @@
 from django.shortcuts import render, HttpResponse
 from django.http import JsonResponse
 from professors.models import Professor, Faculty, Department
-from professors.serializers import ProfessorSummarySerializer, ProfessorDetailSerializer
+from professors.serializers import *
 from rest_framework.decorators import api_view
 from rest_framework.pagination import PageNumberPagination
 
@@ -37,10 +37,16 @@ def search(request):
         if faculty_id.isdigit()
     ]
 
-    results = Professor.objects.filter_by_name_dept_faculty(query, departments, faculties).order_by('name')
+    results = Professor.objects.filter_by(query, departments, faculties).order_by('name')
 
     paginator = PageNumberPagination()
     paginator.page_size = SEARCH_LIMIT
     result_page = paginator.paginate_queryset(results, request)
     serializer = ProfessorSummarySerializer(result_page, many=True)
     return paginator.get_paginated_response(serializer.data)
+
+@api_view(['GET'])
+def faculties(request):
+    faculties = Faculty.objects.all().order_by('name')
+    serializer = FacultySerializer(faculties, many=True)
+    return JsonResponse(serializer.data, safe=False)

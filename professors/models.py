@@ -9,13 +9,15 @@ class Faculty(models.Model):
     def __str__(self):
         return f"{self.faculty_id}: {self.name}"
 
+
 class Department(models.Model):
     dept_id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=150)
-    faculty = models.ForeignKey(Faculty, on_delete=models.CASCADE)
+    faculty = models.ForeignKey(Faculty, on_delete=models.CASCADE, related_name='departments')
 
     def __str__(self):
         return f"{self.name} ({self.faculty.name})"
+
 
 # ===== Professor and Module =====
 class Module(models.Model):
@@ -29,6 +31,7 @@ class Module(models.Model):
         self.module_code = self.module_code.upper()
         super().save(*args, **kwargs)
 
+
 class Professor(models.Model):
     prof_id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=255)
@@ -41,7 +44,8 @@ class Professor(models.Model):
 
     def __str__(self):
         return f"{self.name} ({self.title})"
-    
+
+
 # ===== Teaches Relationship =====
 class Teaches(models.Model):
     prof = models.ForeignKey(Professor, on_delete=models.CASCADE, related_name='teaching')
@@ -53,6 +57,7 @@ class Teaches(models.Model):
 
     def __str__(self):
         return f"{self.prof.name} taught {self.module.module_code} in {self.semester}"
-    
+
+   
 if __name__ == "__main__":
     pass
