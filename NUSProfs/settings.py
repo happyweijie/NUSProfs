@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-t)h5m)(^wfignvx!4yx5+wsamz!y4=ibvp^v_^y!z*7abegn9)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["nusprofs-api.onrender.com"]
 

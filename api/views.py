@@ -37,7 +37,9 @@ def search(request):
         if faculty_id.isdigit()
     ]
 
-    results = Professor.objects.filter_by(query, departments, faculties).order_by('name')
+    results = Professor.objects. \
+        filter_by(query, departments, faculties). \
+        order_by('name')
 
     paginator = PageNumberPagination()
     paginator.page_size = SEARCH_LIMIT
