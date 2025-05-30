@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: your-service-name
+    runtime: python
+    buildCommand: pip install -r requirements.txt && python manage.py collectstatic --noinput
+    startCommand: gunicorn NUSProfs.wsgi:application --bind 0.0.0.0:10000
