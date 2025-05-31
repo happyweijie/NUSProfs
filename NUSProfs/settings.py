@@ -24,16 +24,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-t)h5m)(^wfignvx!4yx5+wsamz!y4=ibvp^v_^y!z*7abegn9)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ["nusprofs-api.onrender.com"]
-
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "nusprofs-api.onrender.com"]
 
 # Application definition
 
 INSTALLED_APPS = [
     'professors',
     'api',
+    'corsheaders',
     'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -51,7 +51,15 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
+
+CORS_ALLOWED_ORIGINS = [
+    "http://127.0.0.1:8000",
+    "http://localhost:8000",
+    "https://nusprofs-api.onrender.com",
+]
+CORS_ALLOW_ALL_ORIGINS = True  # For development only, use specific origins in production
 
 ROOT_URLCONF = 'NUSProfs.urls'
 

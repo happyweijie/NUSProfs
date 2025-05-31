@@ -9,27 +9,17 @@
     placeholder="Search professors..."
     autocomplete="off"
   />
-  <h2>Faculty</h2>
-  {% for faculty in faculties %}
-  <label>
-    <input type="checkbox" name="faculty" value="{{ faculty.faculty_id }}" />
-    {{ faculty.name }}
-  </label>
-  {% endfor %}
-  <h2>Department</h2>
-  {% for department in departments %}
-  <label>
-    <input type="checkbox" name="department" value="{{ department.dept_id }}" />
-    {{ department.name }}
-  </label>
-  {% endfor %}
+
+  <ul id="faculty-list"></ul>
 </form>
 
 <ul id="results-list"></ul>
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
+    const defaultUrl = "https://nusprofs-api.onrender.com/";
     const resultsList = document.getElementById("results-list");
+    const facultyList = document.getElementById("faculty-list");
     const searchInput = document.getElementById("search-input");
     const form = document.getElementById("search-form");
 
@@ -54,12 +44,7 @@
           resultsList.innerHTML = ""; // clear previous results
         }
 
-        setTimeout(function () {
-          //your code to be executed after 2 seconds
-        }, 2000);
-
         setTimeout(() => {
-          // Append results to list
           if (data.results.length === 0) {
             const li = document.createElement("li");
             li.innerHTML = `<h2>No results found for "${query}".</h2>`;
@@ -69,7 +54,7 @@
           data.results.forEach((professor) => {
             const li = document.createElement("li");
             const h2 = document.createElement("h2");
-            h2.innerHTML = `<a href="professor/${professor.prof_id}/">${professor.name}</a> (${professor.average_rating})`;
+            h2.innerHTML = `<a href="${defaultUrl}professor/${professor.prof_id}/">${professor.name}</a> (${professor.average_rating})`;
             li.appendChild(h2);
             resultsList.appendChild(li);
           });
@@ -84,7 +69,7 @@
     // Load first page with current query (used for new searches)
     function loadFirstPage() {
       query = searchInput.value.trim();
-      const url = `search/?q=${encodeURIComponent(query)}`;
+      const url = `${defaultUrl}search/?q=${encodeURIComponent(query)}`;
       nextUrl = null;
       fetchResults(url, true); // true = reset results list
     }

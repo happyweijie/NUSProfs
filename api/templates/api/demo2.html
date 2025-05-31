@@ -1,0 +1,44 @@
+{% extends "api/layout.html" %} {% block body %}
+<h1>Faculties</h1>
+
+<ul id="faculty-list"></ul>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const defaultUrl = "https://nusprofs-api.onrender.com/";
+    const facultyList = document.getElementById("faculty-list");
+
+    // Function to fetch and display faculties
+    async function fetchFaculties() {
+      try {
+        const response = await fetch(`${defaultUrl}faculties/`);
+        if (!response.ok) throw new Error("Network response was not ok");
+
+        const data = await response.json();
+
+        data.forEach((faculty) => {
+          const li = document.createElement("li");
+          li.innerHTML = `<strong>${faculty.faculty_id}: ${faculty.name}</strong>`;
+
+          // Create nested list for departments
+          const deptUl = document.createElement("ul");
+
+          faculty.departments.forEach((dept) => {
+            const deptLi = document.createElement("li");
+            deptLi.textContent = `${dept.dept_id}: ${dept.name}`;
+            deptUl.appendChild(deptLi);
+          });
+
+          li.appendChild(deptUl);
+          facultyList.appendChild(li);
+        });
+      } catch (error) {
+        console.error("Error fetching faculties:", error);
+      }
+    }
+
+    // Initial fetch
+    fetchFaculties();
+  });
+</script>
+{% endblock %}

@@ -8,10 +8,13 @@ from rest_framework.pagination import PageNumberPagination
 SEARCH_LIMIT = 20
 
 def index(request):
-    return render(request, "api/index.html", {
-        "faculties": Faculty.objects.all().order_by('name'),
-        "departments": Department.objects.all().order_by('name'),
-    })
+    return HttpResponse("Welcome to the NUS Professors API! Use /search/ to find professors.")
+
+def demo(request):
+    return render(request, "api/demo.html")
+
+def demo2(request):
+    return render(request, "api/demo2.html")
 
 @api_view(['GET'])
 def professor(request, prof_id):
