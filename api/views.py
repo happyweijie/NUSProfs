@@ -1,4 +1,4 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render
 from django.http import JsonResponse
 from professors.models import Professor, Faculty, Department
 from professors.serializers import *
@@ -8,7 +8,7 @@ from rest_framework.pagination import PageNumberPagination
 SEARCH_LIMIT = 20
 
 def index(request):
-    return HttpResponse("Welcome to the NUS Professors API! Use /search/ to find professors.")
+    return render(request, "api/index.html")
 
 def demo(request):
     return render(request, "api/demo.html")

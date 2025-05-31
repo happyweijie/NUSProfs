@@ -1,0 +1,18 @@
+{% extends "api/layout.html" %} {% block body %}
+<h1>Welcome to the NUS Professors API!</h1>
+
+<p>
+  This API provides information about professors at the National University of
+  Singapore (NUS).
+</p>
+<p>
+  You can access the API endpoints to retrieve data about professors, faculties,
+  and departments.
+</p>
+
+<p>
+  Use /search to query professors and filter by name, faculty, or department. A
+  simple implementation of search is available
+  <a href="{% url 'api:demo' %}">here</a>.
+</p>
+{% endblock %}
