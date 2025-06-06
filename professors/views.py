@@ -7,12 +7,3 @@ from rest_framework.decorators import api_view
 from rest_framework.pagination import PageNumberPagination
 
 # Create your views here.
-
-@api_view(['GET'])
-def all_professors(request):
-    paginator = PageNumberPagination()
-    paginator.page_size = 20
-    professors = Professor.objects.all().order_by('name')
-    result_page = paginator.paginate_queryset(professors, request)
-    serializer = ProfessorSummarySerializer(result_page, many=True)
-    return paginator.get_paginated_response(serializer.data)
