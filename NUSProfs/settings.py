@@ -35,8 +35,9 @@ ALLOWED_HOSTS = ["localhost", "127.0.0.1", "nusprofs-api.onrender.com"]
 # Application definition
 
 INSTALLED_APPS = [
-    'professors',
     'api',
+    'professors',
+    'login',
     'corsheaders',
     'rest_framework',
     'django.contrib.admin',
