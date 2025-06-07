@@ -32,7 +32,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "nusprofs-api.onrender.com"]
 
+# Authentication
 AUTH_USER_MODEL = 'login.CustomUser'
+SUPABASE_URL = os.getenv('SUPABASE_URL')
+SUPABASE_KEY = os.getenv('SUPABASE_KEY')
 
 # Application definition
 
