@@ -32,6 +32,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "nusprofs-api.onrender.com"]
 
+AUTH_USER_MODEL = 'login.CustomUser'
+
 # Application definition
 
 INSTALLED_APPS = [
