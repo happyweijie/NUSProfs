@@ -167,4 +167,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # === Disable trailing slashes ===
-APPEND_SLASH = False
+APPEND_SLASH = True
