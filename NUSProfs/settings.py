@@ -117,6 +117,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:8000",
     "http://localhost:8000",
     "https://nusprofs-api.onrender.com",
+    "https://nusprofs-frontend.vercel.app/",
 ]
 CORS_ALLOW_ALL_ORIGINS = True  # WARNING: Only use in development
 
