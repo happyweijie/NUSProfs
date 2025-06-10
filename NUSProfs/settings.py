@@ -33,6 +33,7 @@ LOCAL_APPS = [
     'api',
     'professors',
     'login',
+    'reviews',
 ]
 
 THIRD_PARTY_APPS = [
