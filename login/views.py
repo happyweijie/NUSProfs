@@ -11,7 +11,7 @@ from rest_framework.views import APIView
 from rest_framework_simplejwt.views import TokenObtainPairView
 from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework_simplejwt.token_blacklist.models import BlacklistedToken, OutstandingToken
-from .serializers import UserTokenObtainPairSerializer, RegisterSerializer, ChangeUsernameSerializer
+from .serializers import UserTokenObtainPairSerializer, RegisterSerializer, ChangeUsernameSerializer, ChangePasswordSerializer
 
 User = get_user_model()
 
@@ -43,6 +43,19 @@ class ChangeUsernameView(generics.UpdateAPIView):
 
     def get_object(self):
         return self.request.user
+    
+class ChangePasswordView(generics.UpdateAPIView):
+    serializer_class = ChangePasswordSerializer
+    permission_classes = [IsAuthenticated]
+
+    def get_object(self):
+        return self.request.user
+    
+    def update(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data, context={'request': request})
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response({"detail": "Password updated successfully."}, status=status.HTTP_200_OK)
     
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])
