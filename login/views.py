@@ -11,7 +11,7 @@ from rest_framework.views import APIView
 from rest_framework_simplejwt.views import TokenObtainPairView
 from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework_simplejwt.token_blacklist.models import BlacklistedToken, OutstandingToken
-from .serializers import UserTokenObtainPairSerializer, RegisterSerializer
+from .serializers import UserTokenObtainPairSerializer, RegisterSerializer, ChangeUsernameSerializer
 
 User = get_user_model()
 
@@ -37,6 +37,13 @@ class LogoutView(APIView):
         except Exception as e:
             return Response({"detail": str(e)}, status=status.HTTP_400_BAD_REQUEST)
 
+class ChangeUsernameView(generics.UpdateAPIView):
+    serializer_class = ChangeUsernameSerializer
+    permission_classes = [IsAuthenticated]
+
+    def get_object(self):
+        return self.request.user
+    
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])
 def whoami(request):
@@ -46,3 +53,4 @@ def whoami(request):
         "email": user.email,
         "role": "mod" if user.is_superuser else "user"
     })
+
