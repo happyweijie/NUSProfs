@@ -1,5 +1,6 @@
 from rest_framework import serializers
 from .models import *
+import statistics
 
 # Summary Serializer (Home Page and Search Results) 
 class ProfessorSummarySerializer(serializers.ModelSerializer):
@@ -12,7 +13,7 @@ class ProfessorSummarySerializer(serializers.ModelSerializer):
         fields = ['prof_id', 'name', 'title', 'average_rating', 'faculty', 'department']
 
     def get_average_rating(self, obj):
-        return 4.50  # Placeholder
+        return statistics.mean(obj.reviews.all()) if obj.reviews.all() else 5.0
 
     def get_faculty(self, obj):
         return obj.department.faculty.name if obj.department and obj.department.faculty else None
