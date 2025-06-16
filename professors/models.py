@@ -42,6 +42,10 @@ class Professor(models.Model):
     phone = models.CharField(max_length=20, blank=True, null=True)
     objects = ProfessorQuerySet.as_manager()
 
+    def average_rating(self):
+        return self.reviews. \
+            aggregate(models.Avg('rating'))['rating__avg'] or 0.0
+    
     def __str__(self):
         return f"{self.name} ({self.title})"
 

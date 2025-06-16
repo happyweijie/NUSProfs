@@ -13,7 +13,7 @@ class ProfessorSummarySerializer(serializers.ModelSerializer):
         fields = ['prof_id', 'name', 'title', 'average_rating', 'faculty', 'department']
 
     def get_average_rating(self, obj):
-        return statistics.mean(obj.reviews.all()) if obj.reviews.all() else 5.0
+        return obj.average_rating() 
 
     def get_faculty(self, obj):
         return obj.department.faculty.name if obj.department and obj.department.faculty else None
