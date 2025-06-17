@@ -55,7 +55,7 @@ class ReplyDeleteView(generics.DestroyAPIView):
 # Likes
 class LikeToggleView(APIView): # Generic view for toggling likes on reviews and replies
     permission_classes = [permissions.IsAuthenticated]
-    model = None  # Set this in your subclass
+    model = None
 
     def post(self, request, pk):
         if not self.model:
