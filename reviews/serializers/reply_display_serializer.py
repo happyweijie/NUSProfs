@@ -1,10 +1,10 @@
 from .comment_display_serializer import CommentDisplaySerializer
-from ..models import Review
+from ..models import Reply
 
-class ReviewDisplaySerializer(CommentDisplaySerializer):
+class ReplyDisplaySerializer(CommentDisplaySerializer):
 
     class Meta(CommentDisplaySerializer.Meta):
-        model = Review
+        model = Reply
         fields = CommentDisplaySerializer.Meta.fields + [
-            'prof_id', 'module_code', 'rating'
+            'review_id'
         ]
