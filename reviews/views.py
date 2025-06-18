@@ -2,7 +2,13 @@ from django.shortcuts import render, HttpResponse, get_object_or_404
 from rest_framework import generics, permissions, status
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from .serializers import ReviewSerializer, ReplySerializer, ReplyUpdateSerializer 
+from .serializers import (
+    ReviewCreateSerializer, 
+    ReviewDisplaySerializer, 
+    ReviewUpdateSerializer, 
+    ReplySerializer, 
+    ReplyUpdateSerializer
+)
 from .models import Review, Reply
 
 # Create your views here.
@@ -11,12 +17,23 @@ def index(request):
 
 # Reviews
 class ReviewCreateView(generics.CreateAPIView):
-    serializer_class = ReviewSerializer
+    serializer_class = ReviewCreateSerializer
     permission_classes = [permissions.IsAuthenticated]
 
+    def create(self, request, *args, **kwargs):
+        # Use the create serializer to validate input
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        review = serializer.save()
+
+        # Use the display serializer to return enriched data
+        display_serializer = ReviewDisplaySerializer(
+            review, context={'request': request}
+        )
+        return Response(display_serializer.data, status=status.HTTP_201_CREATED)
 
 class ReviewUpdateView(generics.RetrieveUpdateAPIView):
-    serializer_class = ReviewSerializer
+    serializer_class = ReviewUpdateSerializer
     permission_classes = [permissions.IsAuthenticated]
 
     def get_queryset(self):
@@ -30,7 +47,7 @@ class ReviewDeleteView(generics.DestroyAPIView):
     def get_queryset(self):
         # Only allow users to delete their own reviews
         return Review.objects.filter(user_id=self.request.user)
-    
+
 # Replies
 class ReplyCreateView(generics.CreateAPIView):
     serializer_class = ReplySerializer
