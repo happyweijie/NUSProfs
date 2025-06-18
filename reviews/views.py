@@ -28,6 +28,9 @@ class ReviewDeleteView(generics.DestroyAPIView):
     permission_classes = [permissions.IsAuthenticated]
 
     def get_queryset(self):
+        # Staff can delete any review
+        if self.request.user.is_staff:
+            return Review.objects.all()
         # Only allow users to delete their own reviews
         return Review.objects.filter(user_id=self.request.user)
     
@@ -49,6 +52,9 @@ class ReplyDeleteView(generics.DestroyAPIView):
     permission_classes = [permissions.IsAuthenticated]
 
     def get_queryset(self):
+        # Staff can delete any reply
+        if self.request.user.is_staff:
+            return Reply.objects.all()
         # Only allow users to delete their own replies
         return Reply.objects.filter(user_id=self.request.user)
     
