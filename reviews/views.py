@@ -7,7 +7,7 @@ from .serializers import (
     ReviewCreateSerializer, 
     ReviewDisplaySerializer, 
     ReviewUpdateSerializer, 
-    ReplySerializer, 
+    ReplyCreateSerializer, 
     ReplyDisplaySerializer,
     ReplyUpdateSerializer
 )
@@ -77,18 +77,18 @@ class UserReviewListView(generics.ListAPIView):
 
 # Replies
 class ReplyCreateView(generics.CreateAPIView):
-    serializer_class = ReplySerializer
+    serializer_class = ReplyCreateSerializer
     permission_classes = [permissions.IsAuthenticated]
 
     def create(self, request, *args, **kwargs):
         # Use the create serializer to validate input
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
-        review = serializer.save()
+        reply = serializer.save()
 
         # Use the display serializer to return enriched data
         display_serializer = ReplyDisplaySerializer(
-            review, context={'request': request}
+            reply, context={'request': request}
         )
         return Response(display_serializer.data, status=status.HTTP_201_CREATED)
 
