@@ -1,22 +1,41 @@
-from django.shortcuts import render, HttpResponse, get_object_or_404
+from django.shortcuts import get_object_or_404
+from django.contrib.auth import get_user_model
 from rest_framework import generics, permissions, status
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from .serializers import ReviewSerializer, ReplySerializer, ReplyUpdateSerializer 
+from .serializers import (
+    ReviewCreateSerializer, 
+    ReviewDisplaySerializer, 
+    ReviewUpdateSerializer, 
+    ReplySerializer, 
+    ReplyDisplaySerializer,
+    ReplyUpdateSerializer
+)
 from .models import Review, Reply
 
+User = get_user_model()
+
 # Create your views here.
-def index(request):
-    return HttpResponse("Test")
 
 # Reviews
 class ReviewCreateView(generics.CreateAPIView):
-    serializer_class = ReviewSerializer
+    serializer_class = ReviewCreateSerializer
     permission_classes = [permissions.IsAuthenticated]
 
+    def create(self, request, *args, **kwargs):
+        # Use the create serializer to validate input
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        review = serializer.save()
+
+        # Use the display serializer to return enriched data
+        display_serializer = ReviewDisplaySerializer(
+            review, context={'request': request}
+        )
+        return Response(display_serializer.data, status=status.HTTP_201_CREATED)
 
 class ReviewUpdateView(generics.RetrieveUpdateAPIView):
-    serializer_class = ReviewSerializer
+    serializer_class = ReviewUpdateSerializer
     permission_classes = [permissions.IsAuthenticated]
 
     def get_queryset(self):
@@ -33,11 +52,45 @@ class ReviewDeleteView(generics.DestroyAPIView):
             return Review.objects.all()
         # Only allow users to delete their own reviews
         return Review.objects.filter(user_id=self.request.user)
-    
+
+class ProfessorReviewsView(generics.ListAPIView):
+    serializer_class = ReviewDisplaySerializer
+    permission_classes = [permissions.AllowAny]
+
+    # show latest reviews for a specific professor
+    def get_queryset(self):
+        prof_id = self.kwargs['prof_id']
+        return Review.objects.filter(prof_id=prof_id).order_by('-timestamp')
+
+class UserReviewListView(generics.ListAPIView):
+    serializer_class = ReviewDisplaySerializer
+    permission_classes = [permissions.IsAuthenticated]
+
+    def get_queryset(self):
+        username = self.kwargs.get('username')  # Optional
+        if username:
+            user = get_object_or_404(User, username=username)
+        else:
+            user = self.request.user  # View own reviews
+
+        return Review.objects.filter(user_id=user).order_by('-timestamp')
+
 # Replies
 class ReplyCreateView(generics.CreateAPIView):
     serializer_class = ReplySerializer
     permission_classes = [permissions.IsAuthenticated]
+
+    def create(self, request, *args, **kwargs):
+        # Use the create serializer to validate input
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        review = serializer.save()
+
+        # Use the display serializer to return enriched data
+        display_serializer = ReplyDisplaySerializer(
+            review, context={'request': request}
+        )
+        return Response(display_serializer.data, status=status.HTTP_201_CREATED)
 
 class ReplyUpdateView(generics.RetrieveUpdateAPIView):
     serializer_class = ReplyUpdateSerializer
@@ -57,6 +110,14 @@ class ReplyDeleteView(generics.DestroyAPIView):
             return Reply.objects.all()
         # Only allow users to delete their own replies
         return Reply.objects.filter(user_id=self.request.user)
+
+class ReplyDisplayView(generics.ListAPIView):
+    serializer_class = ReplyDisplaySerializer
+    permission_classes = [permissions.AllowAny]
+
+    def get_queryset(self):
+        review_id = self.kwargs['review_id']
+        return Reply.objects.filter(review_id=review_id).order_by('-timestamp')
     
 # Likes
 class LikeToggleView(APIView): # Generic view for toggling likes on reviews and replies
