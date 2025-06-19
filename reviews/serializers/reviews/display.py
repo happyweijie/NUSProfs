@@ -1,5 +1,5 @@
-from .comment_display_serializer import CommentDisplaySerializer
-from ..models import Review
+from ..common import CommentDisplaySerializer
+from ...models import Review
 
 class ReviewDisplaySerializer(CommentDisplaySerializer):
 

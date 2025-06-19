@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ..models import Reply
+from ...models import Reply
 
 class ReplyCreateSerializer(serializers.ModelSerializer):
     class Meta:
