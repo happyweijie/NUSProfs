@@ -5,7 +5,7 @@ from rest_framework import serializers
 
 class ReviewDisplaySerializer(CommentDisplaySerializer):
 
-    module_name = serializers.CharField(source='module_code.name', read_only=True)
+    module_name = serializers.CharField(source='module_code.name')
     reply_count = serializers.SerializerMethodField()
 
     class Meta(CommentDisplaySerializer.Meta):
@@ -16,7 +16,3 @@ class ReviewDisplaySerializer(CommentDisplaySerializer):
 
     def get_reply_count(self, obj):
         return obj.reply_count()
-    
-    def get_module_name(self, obj):
-        return Module.objects.get(module_code=obj.module_code).name \
-            if obj.module_code else None
