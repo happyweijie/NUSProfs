@@ -9,3 +9,6 @@ class Review(Comment):
     module_code = models.ForeignKey(Module, on_delete=models.CASCADE, related_name='reviews', blank=True, null=True)
     rating = models.FloatField(default=0.0)
     likes = models.ManyToManyField(CustomUser, related_name='liked_reviews', blank=True)
+
+    def reply_count(self):
+        return self.replies.count()
