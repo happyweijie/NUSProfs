@@ -1,6 +1,5 @@
 from rest_framework import serializers
-from professors.models import Professor
-import statistics
+from ..models import Professor
 
 # Summary Serializer (Home Page and Search Results) 
 class ProfessorSummarySerializer(serializers.ModelSerializer):
