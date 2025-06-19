@@ -10,5 +10,5 @@ class ReplyDisplayView(generics.ListAPIView):
 
     def get_queryset(self):
         review_id = self.kwargs['review_id']
-        return Reply.objects.filter(review_id=review_id).order_by('-timestamp')
+        return Reply.objects.filter(review_id=review_id).order_by('timestamp')
     
