@@ -13,8 +13,9 @@ class Professor(models.Model):
     objects = ProfessorQuerySet.as_manager()
 
     def average_rating(self):
-        return self.reviews. \
-            aggregate(models.Avg('rating'))['rating__avg'] or 0.0
+        avg_rating = self.reviews.aggregate(models.Avg('rating'))['rating__avg'] or 0.0
+        
+        return round(avg_rating, 2)
 
     def review_count(self):
         return self.reviews.count()

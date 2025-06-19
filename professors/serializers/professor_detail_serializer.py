@@ -20,7 +20,7 @@ class ProfessorDetailSerializer(serializers.ModelSerializer):
         return obj.review_count()
     
     def get_average_rating(self, obj):
-        return obj.average_rating() 
+        return round(obj.average_rating(), 2)
 
     def get_faculty(self, obj):
         return obj.department.faculty.name if obj.department and obj.department.faculty else None
