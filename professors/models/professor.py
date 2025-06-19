@@ -15,6 +15,9 @@ class Professor(models.Model):
     def average_rating(self):
         return self.reviews. \
             aggregate(models.Avg('rating'))['rating__avg'] or 0.0
-    
+
+    def review_count(self):
+        return self.reviews.count()
+
     def __str__(self):
         return f"{self.name} ({self.title})"

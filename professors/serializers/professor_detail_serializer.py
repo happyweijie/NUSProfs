@@ -4,6 +4,7 @@ from rest_framework import serializers
 
 class ProfessorDetailSerializer(serializers.ModelSerializer):
     average_rating = serializers.SerializerMethodField()
+    review_count = serializers.SerializerMethodField()
     faculty = serializers.SerializerMethodField()
     department = serializers.SerializerMethodField()
     teaching = TeachesSerializer(many=True, read_only=True)
@@ -12,9 +13,12 @@ class ProfessorDetailSerializer(serializers.ModelSerializer):
         model = Professor
         fields = [
             'prof_id', 'name', 'title', 'office', 'phone',
-            'average_rating', 'faculty', 'department', 'teaching'
+            'average_rating', 'review_count', 'faculty', 'department', 'teaching'
         ]
 
+    def get_review_count(self, obj):
+        return obj.review_count()
+    
     def get_average_rating(self, obj):
         return obj.average_rating() 
 
