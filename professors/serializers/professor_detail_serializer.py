@@ -1,4 +1,4 @@
-from professors.models import Professor
+from ..models import Professor
 from .teaches_serializer import TeachesSerializer
 from rest_framework import serializers
 

@@ -1,4 +1,4 @@
-from professors.models import Department
+from ..models import Department
 from rest_framework import serializers
 
 class DepartmentSerializer(serializers.ModelSerializer):

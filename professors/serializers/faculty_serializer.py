@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from professors.models import Faculty
+from ..models import Faculty
 from .department_serializer import DepartmentSerializer
 
 class FacultySerializer(serializers.ModelSerializer):
