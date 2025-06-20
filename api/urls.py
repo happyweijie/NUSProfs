@@ -8,5 +8,4 @@ urlpatterns = [
     path("professor/<int:prof_id>", views.professor, name="professor"),
     path('search', views.search, name='search'),
     path('faculties', views.faculties, name='faculties'),
-    path('professor/<int:prof_id>/review_summary', views.ReviewSummaryView.as_view(), name='professor_reviews')
 ]

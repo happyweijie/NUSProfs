@@ -4,4 +4,3 @@ from .index import index
 from .professor import professor
 from .search import search
 from .faculties import faculties
-from .review_details import ReviewSummaryView
