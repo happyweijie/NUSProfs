@@ -1,6 +1,6 @@
 from django.http import JsonResponse
-from professors.models import Professor
-from professors.serializers import ProfessorDetailSerializer
+from ..models import Professor
+from ..serializers import ProfessorDetailSerializer
 from rest_framework.decorators import api_view
 
 @api_view(['GET'])
