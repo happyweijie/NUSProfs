@@ -14,13 +14,6 @@
   }
 },
 {
-  "model": "professors.faculty",
-  "pk": 3,
-  "fields": {
-    "name": "NUS"
-  }
-},
-{
   "model": "professors.department",
   "pk": 1,
   "fields": {
@@ -1813,6 +1806,20 @@
   "pk": "MA1522",
   "fields": {
     "name": "Linear Algebra for Computing"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "TEST1234",
+  "fields": {
+    "name": "TEST"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "TEST12345",
+  "fields": {
+    "name": "TEST2"
   }
 },
 {
@@ -3683,6 +3690,28 @@
     "title": "Assistant Professor",
     "office": "COM3-02-33",
     "phone": "660 12365"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 510,
+  "fields": {
+    "name": "A",
+    "department": 1,
+    "title": "Prof",
+    "office": "a",
+    "phone": "123"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 511,
+  "fields": {
+    "name": "AA",
+    "department": 1,
+    "title": "Test Prof 1",
+    "office": "a",
+    "phone": "123"
   }
 },
 {
@@ -6939,6 +6968,69 @@
     "prof": 496,
     "module": "IT3010",
     "semester": 2
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 363,
+  "fields": {
+    "prof": 511,
+    "module": "TEST1234",
+    "semester": 1
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 364,
+  "fields": {
+    "prof": 511,
+    "module": "TEST1234",
+    "semester": 2
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 365,
+  "fields": {
+    "prof": 511,
+    "module": "TEST12345",
+    "semester": 2
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 366,
+  "fields": {
+    "prof": 511,
+    "module": "TEST12345",
+    "semester": 1
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 367,
+  "fields": {
+    "prof": 510,
+    "module": "TEST12345",
+    "semester": 2
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 368,
+  "fields": {
+    "prof": 510,
+    "module": "TEST1234",
+    "semester": 1
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 369,
+  "fields": {
+    "prof": 510,
+    "module": "TEST12345",
+    "semester": 1
   }
 }
 ]
