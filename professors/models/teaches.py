@@ -1,11 +1,12 @@
 from django.db import models
 from .professor import Professor
 from .module import Module
+from .semester import Semester
 
 class Teaches(models.Model):
     prof = models.ForeignKey(Professor, on_delete=models.CASCADE, related_name='teaching')
     module = models.ForeignKey(Module, on_delete=models.CASCADE, related_name='taught_by')
-    semester = models.CharField(max_length=20)
+    semester = models.ForeignKey(Semester, on_delete=models.CASCADE, related_name='modules_offered', null=True, blank=True)
 
     class Meta:
         unique_together = ('prof', 'module', 'semester')
