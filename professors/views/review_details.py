@@ -4,6 +4,11 @@ from rest_framework.response import Response
 from django.shortcuts import get_object_or_404
 
 class ReviewSummaryView(APIView):
+    """
+    View to retrieve summary of reviews for a specific professor periodically
+
+    Returns the average rating and review count.
+    """
     def get(self, request, prof_id):
         professor = get_object_or_404(Professor, pk=prof_id)
 

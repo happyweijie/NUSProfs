@@ -7,5 +7,5 @@ urlpatterns = [
          views.ReviewSummaryView.as_view(), name='professor_reviews'),
     path('search', views.ProfessorSearchView.as_view(), name='search'),
     path('faculties', views.FacultyListView.as_view(), name='faculties'),
-    path('modules', views.ModuleDisplayView.as_view(), name='modules'),
+    path('modules', views.ModuleListView.as_view(), name='modules'),
 ]

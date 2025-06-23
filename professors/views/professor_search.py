@@ -4,7 +4,9 @@ from rest_framework.generics import GenericAPIView
 
 class ProfessorSearchView(GenericAPIView):
     """
-    View to handle search requests for professors.
+    View to handle search requests for professors. Filter by name, department, and faculty.
+
+    Supports pagination and returns a list of professors matching the search criteria.
     """
     serializer_class = ProfessorSummarySerializer
 
