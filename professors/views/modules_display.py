@@ -1,8 +1,8 @@
 from ..serializers import ModuleSerializer
 from ..models import Module
-from rest_framework import generics
+from rest_framework.generics import ListAPIView
 
-class ModuleDisplayView(generics.ListAPIView):
+class ModuleDisplayView(ListAPIView):
     serializer_class = ModuleSerializer
     pagination_class = None  # No pagination for this view
 
