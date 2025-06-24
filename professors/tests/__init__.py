@@ -1,0 +1,1 @@
+from .professor_details_test import ProfessorDetailsViewTest
