@@ -1,6 +1,8 @@
 from .base import *
 
-DEBUG = False
+DEBUG = True
+
+ALLOWED_HOSTS = ['*']
 
 # Use a separate test database URL or config
 DATABASES = {
