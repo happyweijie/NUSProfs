@@ -15,7 +15,7 @@ jobs:
         image: postgres:15
         env:
           POSTGRES_USER: testuser
-          POSTGRES_PASSWORD: testpass
+          POSTGRES_PASSWORD: testpassword
           POSTGRES_DB: testdb
         ports:
           - 5432:5432
@@ -28,7 +28,7 @@ jobs:
     env:
       DB_NAME: testdb
       DB_USER: testuser
-      DB_PASSWORD: testpass
+      DB_PASSWORD: testpassword
       DB_HOST: localhost
       DB_PORT: 5432
       DJANGO_SETTINGS_MODULE: NUSProfs.settings.test
