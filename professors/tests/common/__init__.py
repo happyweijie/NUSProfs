@@ -1,0 +1,1 @@
+from .professor_common_setup import ProfessorCommonData
