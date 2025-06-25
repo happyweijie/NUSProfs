@@ -1,0 +1,4 @@
+from .test_register_view import RegisterViewTest
+from .test_logout_view import LogoutViewTest
+from .test_change_password_view import ChangePasswordViewTest
+from .test_change_username_view import ChangeUsernameViewTest
