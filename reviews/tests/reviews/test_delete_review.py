@@ -1,4 +1,4 @@
-from .common import ExistingReviewTestCase
+from ..common import ExistingReviewTestCase
 from ...models import Review
 from rest_framework import status
 from django.urls import reverse
@@ -7,7 +7,6 @@ class DeleteReviewTest(ExistingReviewTestCase):
     def setUp(self):
         super().setUp()
 
-        
         self.url = reverse("reviews:delete_review", args=[self.review.id])
 
     def test_owner_deletes_review(self):

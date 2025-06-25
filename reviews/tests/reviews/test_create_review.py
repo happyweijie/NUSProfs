@@ -1,10 +1,7 @@
 from rest_framework import status
-from .common import BaseReviewTestCase
+from ..common import BaseReviewTestCase
 from django.urls import reverse
-from django.contrib.auth import get_user_model
 from reviews.models.review import Review
-
-User = get_user_model()
 
 class ReviewCreateTest(BaseReviewTestCase):
     def setUp(self):

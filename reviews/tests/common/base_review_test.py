@@ -1,7 +1,7 @@
 from rest_framework.test import APITestCase, APIClient
 from rest_framework_simplejwt.tokens import RefreshToken
 from django.contrib.auth import get_user_model
-from reviews.models.review import Review
+from ...models import Review
 from professors.models import Faculty, Department, Professor, Module
 
 User = get_user_model()

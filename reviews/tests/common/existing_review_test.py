@@ -1,5 +1,5 @@
 from .base_review_test import BaseReviewTestCase
-from ....models import Review
+from ...models import Review
 
 class ExistingReviewTestCase(BaseReviewTestCase):
     """
