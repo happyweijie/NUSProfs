@@ -1,1 +1,3 @@
-from .professor_details_test import ProfessorDetailsViewTest
+from .models import *
+from .serializers import *
+from .views import *

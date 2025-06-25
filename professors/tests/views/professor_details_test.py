@@ -1,7 +1,7 @@
 from rest_framework.test import APITestCase
 from rest_framework import status
 from django.urls import reverse
-from ..models import Professor, Department, Faculty
+from ...models import Professor, Department, Faculty
 
 class ProfessorDetailsViewTest(APITestCase):
     def setUp(self):
@@ -15,7 +15,7 @@ class ProfessorDetailsViewTest(APITestCase):
             phone="12345678"
         )
         self.valid_url = reverse("professors:professor", args=[self.prof.prof_id])
-        self.invalid_url = reverse("professors:professor", args=[99999])  # ID that does not exist
+        self.invalid_url = reverse("professors:professor", args=[99999]) 
 
     def test_get_valid_professor(self):
         response = self.client.get(self.valid_url)
@@ -26,4 +26,4 @@ class ProfessorDetailsViewTest(APITestCase):
     def test_get_invalid_professor(self):
         response = self.client.get(self.invalid_url)
         self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
-        self.assertIn("detail", response.data)
+        self.assertIn("detail", response.data) # verify error message

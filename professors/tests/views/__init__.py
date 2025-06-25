@@ -1,0 +1,2 @@
+from .professor_details_test import ProfessorDetailsViewTest
+from .professor_search_test import ProfessorSearchViewTest
