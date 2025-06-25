@@ -1,4 +1,4 @@
-name: Django Tests
+name: NUSProfs Tests
 
 on:
   push:
