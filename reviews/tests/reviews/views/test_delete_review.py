@@ -1,5 +1,5 @@
-from ..common import ExistingReviewTestCase
-from ...models import Review
+from ...common import ExistingReviewTestCase
+from ....models import Review
 from rest_framework import status
 from django.urls import reverse
 

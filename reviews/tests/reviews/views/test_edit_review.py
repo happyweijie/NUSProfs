@@ -1,7 +1,6 @@
-from ..common import ExistingReviewTestCase
+from ...common import ExistingReviewTestCase
 from rest_framework import status
 from django.urls import reverse
-from ...models import Review
 
 class EditReviewTestCase(ExistingReviewTestCase):
     def setUp(self):

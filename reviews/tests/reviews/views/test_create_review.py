@@ -1,5 +1,5 @@
 from rest_framework import status
-from ..common import BaseReviewTestCase
+from ...common import BaseReviewTestCase
 from django.urls import reverse
 from reviews.models.review import Review
 
