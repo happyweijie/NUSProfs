@@ -1,0 +1,1 @@
+from .test_register_serializer import RegisterSerializerTest
