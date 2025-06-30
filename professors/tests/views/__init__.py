@@ -1,2 +1,3 @@
-from .professor_details_test import ProfessorDetailsViewTest
-from .professor_search_test import ProfessorSearchViewTest
+from .test_professor_details import ProfessorDetailsViewTest
+from .test_professor_search import ProfessorSearchViewTest
+from .test_top_professors import TopProfessorsTest

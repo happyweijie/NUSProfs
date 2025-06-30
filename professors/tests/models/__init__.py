@@ -1,1 +1,1 @@
-from .professors_test import ProfessorModelTest
+from .test_professor_model import ProfessorModelTest
