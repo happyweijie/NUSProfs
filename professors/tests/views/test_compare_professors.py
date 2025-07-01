@@ -60,7 +60,9 @@ class CompareProfessorsTestCase(APITestCase):
         self.assertEqual(response.status_code, 200)
         # Check semester 1 and 2 is recorded
         self.assertIn(str(self.sem1), response.data["semesters"])
+        self.assertEqual(prof1.prof_id, response.data["semesters"][str(self.sem1)][0]["prof_id"])
         self.assertIn(str(self.sem2), response.data["semesters"])
+        self.assertEqual(prof2.prof_id, response.data["semesters"][str(self.sem2)][0]["prof_id"])
 
         # Check correct professor counts
         self.assertEqual(len(response.data["semesters"][str(self.sem1)]), 1)
