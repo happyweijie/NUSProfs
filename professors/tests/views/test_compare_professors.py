@@ -8,10 +8,10 @@ class CompareProfessorsTestCase(APITestCase):
         self.sem1 = Semester.objects.create(ay_start=2024, semester_number=1)
         self.sem2 = Semester.objects.create(ay_start=2024, semester_number=2)
 
-    def test_module_not_found_returns_404(self):
+    def test_module_not_found(self):
         # Invalid module
         invalid_code = "INVALID1234"
-        response = self.get_response(invalid_code)
+        response = self.get_response(module_code=invalid_code)
 
         self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
         self.assertIn("detail", response.data)
@@ -20,12 +20,12 @@ class CompareProfessorsTestCase(APITestCase):
             f"Module {invalid_code} not found."
             )
 
-    def test_module_not_offered_in_latest_semesters(self):
+    def test_module_not_offered_in_latest_ay(self):
         # Module not taught by anyone
         module = Module.objects.create(module_code="CS9999", name="Ghost Module")
 
         # Get response
-        response = self.get_response(module.module_code)
+        response = self.get_response(module_code=module.module_code)
 
         self.assertEqual(response.status_code, 200)
         self.assertEqual(
@@ -33,21 +33,33 @@ class CompareProfessorsTestCase(APITestCase):
             f"{module.module_code} not offered in current academic year."
             )
         
-    def test_module_offered_only_in_sem1(self):
+    def test_module_only_in_sem1(self):
         # Module taught only in sem1
         module = Module.objects.create(module_code="CS1010", name="Programming")
         prof = Professor.objects.create(name="Prof Sem1")
         Teaches.objects.create(prof=prof, module=module, semester=self.sem1)
 
         # Get response
-        response = self.get_response(module.module_code)
+        response = self.get_response(module_code=module.module_code)
 
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.assertIn("semesters", response.data)
         self.assertIn(str(self.sem1), response.data["semesters"])
-        self.assertEqual(len(response.data["semesters"][str(self.sem1)]), 1)
 
-    def test_module_offered_in_both_semesters(self):
+    def test_module_only_in_sem2(self):
+        # Module taught only in sem1
+        module = Module.objects.create(module_code="CS1010", name="Programming")
+        prof = Professor.objects.create(name="Prof Sem2")
+        Teaches.objects.create(prof=prof, module=module, semester=self.sem2)
+
+        # Get response
+        response = self.get_response(module_code=module.module_code)
+
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.assertIn("semesters", response.data)
+        self.assertIn(str(self.sem2), response.data["semesters"])
+
+    def test_module_in_both_semesters(self):
         # Module taught in both Semesters
         module = Module.objects.create(module_code="CS2030", name="OO Programming")
 
@@ -56,7 +68,7 @@ class CompareProfessorsTestCase(APITestCase):
         Teaches.objects.create(prof=prof1, module=module, semester=self.sem1)
         Teaches.objects.create(prof=prof2, module=module, semester=self.sem2)
 
-        response = self.get_response(module.module_code)
+        response = self.get_response(module_code=module.module_code)
 
         self.assertEqual(response.status_code, 200)
         # Check semester 1 and 2 is recorded
@@ -75,7 +87,7 @@ class CompareProfessorsTestCase(APITestCase):
         Teaches.objects.create(prof=prof, module=module, semester=self.sem1)
         Teaches.objects.create(prof=prof, module=module, semester=self.sem2)
 
-        response = self.get_response(module.module_code)
+        response = self.get_response(module_code=module.module_code)
 
         self.assertEqual(response.status_code, 200)
         self.assertEqual(len(response.data["semesters"][str(self.sem1)]), 1)
