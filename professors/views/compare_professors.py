@@ -18,12 +18,12 @@ class CompareModuleProfessorsView(APIView):
         latest_semesters = Semester.latest_academic_year()
 
         # Get teaching records
-        teaches = Teaches.objects.filter(
+        teaching_records = Teaches.objects.filter(
             module=module,
             semester__in=latest_semesters
         ).select_related('prof', 'semester')
 
-        if not teaches.exists():
+        if not teaching_records.exists():
             return Response({
                 "detail": f"{module.module_code} not offered in current academic year."
                 }, status=status.HTTP_200_OK)
@@ -33,7 +33,7 @@ class CompareModuleProfessorsView(APIView):
         for semester in latest_semesters:
             profs = [
                 record.prof 
-                for record in teaches 
+                for record in teaching_records
                 if record.semester.id == semester.id
                 ]
             if profs:

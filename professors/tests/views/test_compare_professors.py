@@ -10,13 +10,14 @@ class CompareProfessorsTestCase(APITestCase):
 
     def test_module_not_found_returns_404(self):
         # Invalid module
-        response = self.get_response("INVALID1234")
+        invalid_code = "INVALID1234"
+        response = self.get_response(invalid_code)
 
         self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
         self.assertIn("detail", response.data)
         self.assertEqual(
             response.data["detail"], 
-            "Module not found."
+            f"Module {invalid_code} not found."
             )
 
     def test_module_not_offered_in_latest_semesters(self):
