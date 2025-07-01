@@ -1,4 +1,4 @@
-from .professor_serializer_test import (
+from .professor_serializer_tests import (
     ProfessorDetailSerializerTest,
     ProfessorSummarySerializerTest
 )
