@@ -11,7 +11,7 @@ class CompareModuleProfessorsView(APIView):
         module = Module.objects.filter(module_code__iexact=module_code).first()
         if not module:
             return Response({
-                "detail": "Module not found."
+                "detail": f"Module {module_code} not found."
                 }, status=status.HTTP_404_NOT_FOUND)
 
         # Get semesters from the latest AY
