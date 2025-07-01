@@ -40,7 +40,7 @@ class CompareModuleProfessorsView(APIView):
                 result[str(semester)] = self.serializer_class(profs, many=True).data
 
         return Response({
-            "module": module.module_code,
+            "module_code": module.module_code,
             "name": module.name,
             "semesters": result
             }, status=status.HTTP_200_OK)
