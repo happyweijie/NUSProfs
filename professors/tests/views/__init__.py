@@ -1,3 +1,4 @@
 from .test_professor_details import ProfessorDetailsViewTest
 from .test_professor_search import ProfessorSearchViewTest
 from .test_top_professors import TopProfessorsTest
+from .test_compare_professors import CompareProfessorsTestCase

@@ -10,5 +10,5 @@ urlpatterns = [
     path('faculties', views.FacultyListView.as_view(), name='faculties'),
     path('modules', views.ModuleListView.as_view(), name='modules'),
     path('modules/<str:module_code>/compare', 
-         views.CompareModuleProfessorsView.as_view(), name='compare_professors'),   
+         views.CompareModuleProfessorsView.as_view(), name='compare'),   
 ]
