@@ -15,7 +15,7 @@ class Semester(models.Model):
 
     @classmethod
     def latest_academic_year(cls):
-        """Return the latest 2 semesters (Sem 2 and Sem 1 of the most recent academic year)."""
+        """Return the latest 2 semesters"""
         return list(cls.objects.all().order_by('-ay_start', 'semester_number')[:2])
     
     def __str__(self):
