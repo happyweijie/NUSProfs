@@ -14,13 +14,13 @@ class CompareModuleProfessorsView(APIView):
                 "detail": f"Module {module_code} not found."
                 }, status=status.HTTP_404_NOT_FOUND)
 
-        # Get semesters from the latest AY
-        latest_semesters = Semester.latest_academic_year()
+        # Get latest AY
+        latest_ay = Semester.latest_academic_year()
 
         # Get teaching records
         teaching_records = Teaches.objects.filter(
             module=module,
-            semester__in=latest_semesters
+            semester__in=latest_ay
         ).select_related('prof', 'semester')
 
         if not teaching_records.exists():
@@ -30,7 +30,7 @@ class CompareModuleProfessorsView(APIView):
 
         # Group professors by semester
         result = {}
-        for semester in latest_semesters:
+        for semester in latest_ay:
             profs = [
                 record.prof 
                 for record in teaching_records
