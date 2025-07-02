@@ -263,6 +263,13 @@
 },
 {
   "model": "professors.module",
+  "pk": "CP3100",
+  "fields": {
+    "name": "Information Systems and Analytics Research Methodology"
+  }
+},
+{
+  "model": "professors.module",
   "pk": "CP3106",
   "fields": {
     "name": "Independent Project"
@@ -522,6 +529,13 @@
 },
 {
   "model": "professors.module",
+  "pk": "CS2251",
+  "fields": {
+    "name": "Optimization and Regression"
+  }
+},
+{
+  "model": "professors.module",
   "pk": "CS2309",
   "fields": {
     "name": "CS Research Methodology"
@@ -697,6 +711,13 @@
 },
 {
   "model": "professors.module",
+  "pk": "CS3249",
+  "fields": {
+    "name": "User Interface Development"
+  }
+},
+{
+  "model": "professors.module",
   "pk": "CS3263",
   "fields": {
     "name": "Foundations of Artificial Intelligence"
@@ -707,6 +728,13 @@
   "pk": "CS3264",
   "fields": {
     "name": "Foundations of Machine Learning"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS3268",
+  "fields": {
+    "name": "Responsible AI: From Algorithms to Impact"
   }
 },
 {
@@ -900,6 +928,13 @@
 },
 {
   "model": "professors.module",
+  "pk": "CS4268",
+  "fields": {
+    "name": "Quantum Computing"
+  }
+},
+{
+  "model": "professors.module",
   "pk": "CS4269",
   "fields": {
     "name": "Fundamentals of Logic in Computer Science"
@@ -987,6 +1022,13 @@
   "pk": "CS5231",
   "fields": {
     "name": "Systems Security"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5232",
+  "fields": {
+    "name": "Formal Specification and Design Techniques"
   }
 },
 {
@@ -1110,6 +1152,13 @@
 },
 {
   "model": "professors.module",
+  "pk": "CS5343",
+  "fields": {
+    "name": "Advanced Computer Animation"
+  }
+},
+{
+  "model": "professors.module",
   "pk": "CS5344",
   "fields": {
     "name": "Big-Data Analytics Technology"
@@ -1120,6 +1169,13 @@
   "pk": "CS5346",
   "fields": {
     "name": "Information Visualisation"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS5421",
+  "fields": {
+    "name": "Database Applications Design and Tuning"
   }
 },
 {
@@ -1243,6 +1299,13 @@
 },
 {
   "model": "professors.module",
+  "pk": "CS6212",
+  "fields": {
+    "name": "Topics in Media"
+  }
+},
+{
+  "model": "professors.module",
   "pk": "CS6215",
   "fields": {
     "name": "Advanced Topics in Program Analysis"
@@ -1260,6 +1323,13 @@
   "pk": "CS6217",
   "fields": {
     "name": "Topics in Prog. Languages & Software Engineering"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS6218",
+  "fields": {
+    "name": "Principles of Prog. Languages & Software Engineering"
   }
 },
 {
@@ -1309,6 +1379,13 @@
   "pk": "CS6240",
   "fields": {
     "name": "Multimedia Analysis"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "CS6241",
+  "fields": {
+    "name": "Advanced Topics in Computer Graphics"
   }
 },
 {
@@ -1376,6 +1453,13 @@
 },
 {
   "model": "professors.module",
+  "pk": "FT5012",
+  "fields": {
+    "name": "Risk, Security and Compliance in Banking and Finance"
+  }
+},
+{
+  "model": "professors.module",
   "pk": "GEI1000",
   "fields": {
     "name": "Computational Thinking"
@@ -1406,7 +1490,7 @@
   "model": "professors.module",
   "pk": "IS1108",
   "fields": {
-    "name": "Digital Ethics and Data Privacy"
+    "name": "Digital and AI Ethics"
   }
 },
 {
@@ -1434,7 +1518,7 @@
   "model": "professors.module",
   "pk": "IS2102",
   "fields": {
-    "name": "Enterprise Systems Architecture and Design"
+    "name": "Requirements Analysis for Business IT Systems"
   }
 },
 {
@@ -1442,6 +1526,20 @@
   "pk": "IS2103",
   "fields": {
     "name": "Enterprise Systems Server-side Design and Development"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS2108",
+  "fields": {
+    "name": "Full-stack Software Engineering for AI Solutions I"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS2109",
+  "fields": {
+    "name": "AI and Machine Learning Techniques I"
   }
 },
 {
@@ -1462,7 +1560,7 @@
   "model": "professors.module",
   "pk": "IS3103",
   "fields": {
-    "name": "Information Systems Leadership and Communication"
+    "name": "Digital Transformation and Leadership Communication"
   }
 },
 {
@@ -1477,6 +1575,13 @@
   "pk": "IS3107",
   "fields": {
     "name": "Data Engineering"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS3108",
+  "fields": {
+    "name": "Full-stack Software Engineering for AI Solutions II"
   }
 },
 {
@@ -1519,6 +1624,13 @@
   "pk": "IS4103",
   "fields": {
     "name": "Information Systems Capstone Project"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4108",
+  "fields": {
+    "name": "AI Solutioning Capstone Project"
   }
 },
 {
@@ -1593,6 +1705,13 @@
 },
 {
   "model": "professors.module",
+  "pk": "IS4243",
+  "fields": {
+    "name": "Digital Transformation Consulting"
+  }
+},
+{
+  "model": "professors.module",
   "pk": "IS4246",
   "fields": {
     "name": "Smart Systems and AI Governance"
@@ -1642,6 +1761,34 @@
 },
 {
   "model": "professors.module",
+  "pk": "IS4400",
+  "fields": {
+    "name": "Human-AI Interaction"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4401",
+  "fields": {
+    "name": "Generative AI and Business Applications"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS4402",
+  "fields": {
+    "name": "Machine Learning with Unstructured Data"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS5002",
+  "fields": {
+    "name": "Digital Transformation"
+  }
+},
+{
+  "model": "professors.module",
   "pk": "IS5003",
   "fields": {
     "name": "Platform Design and Economy"
@@ -1680,6 +1827,13 @@
   "pk": "IS5009",
   "fields": {
     "name": "Topics in Financial Technology Solutions"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS5010",
+  "fields": {
+    "name": "AI Ethics and Governance"
   }
 },
 {
@@ -1736,6 +1890,13 @@
   "pk": "IS6001",
   "fields": {
     "name": "Qualitative Methods for IS Research"
+  }
+},
+{
+  "model": "professors.module",
+  "pk": "IS6002",
+  "fields": {
+    "name": "Quantitative Methods for IS Research"
   }
 },
 {
@@ -3727,6 +3888,22 @@
   "pk": 2,
   "fields": {
     "ay_start": 2024,
+    "semester_number": 2
+  }
+},
+{
+  "model": "professors.semester",
+  "pk": 3,
+  "fields": {
+    "ay_start": 2025,
+    "semester_number": 1
+  }
+},
+{
+  "model": "professors.semester",
+  "pk": 4,
+  "fields": {
+    "ay_start": 2025,
     "semester_number": 2
   }
 },
@@ -7031,6 +7208,3156 @@
     "prof": 510,
     "module": "TEST12345",
     "semester": 1
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 370,
+  "fields": {
+    "prof": 502,
+    "module": "BT1101",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 371,
+  "fields": {
+    "prof": 498,
+    "module": "BT1101",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 372,
+  "fields": {
+    "prof": 502,
+    "module": "BT1101",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 373,
+  "fields": {
+    "prof": 498,
+    "module": "BT1101",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 374,
+  "fields": {
+    "prof": 489,
+    "module": "BT2101",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 375,
+  "fields": {
+    "prof": 494,
+    "module": "BT2102",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 376,
+  "fields": {
+    "prof": 494,
+    "module": "BT2102",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 377,
+  "fields": {
+    "prof": 415,
+    "module": "BT3017",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 378,
+  "fields": {
+    "prof": 480,
+    "module": "BT3102",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 379,
+  "fields": {
+    "prof": 497,
+    "module": "BT3104",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 380,
+  "fields": {
+    "prof": 484,
+    "module": "BT4013",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 381,
+  "fields": {
+    "prof": 495,
+    "module": "BT4014",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 382,
+  "fields": {
+    "prof": 471,
+    "module": "BT4015",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 383,
+  "fields": {
+    "prof": 489,
+    "module": "BT4016",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 384,
+  "fields": {
+    "prof": 471,
+    "module": "BT4103",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 385,
+  "fields": {
+    "prof": 497,
+    "module": "BT4103",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 386,
+  "fields": {
+    "prof": 482,
+    "module": "BT4103",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 387,
+  "fields": {
+    "prof": 502,
+    "module": "BT4103",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 388,
+  "fields": {
+    "prof": 471,
+    "module": "BT4103",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 389,
+  "fields": {
+    "prof": 509,
+    "module": "BT4212",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 390,
+  "fields": {
+    "prof": 507,
+    "module": "BT4221",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 391,
+  "fields": {
+    "prof": 505,
+    "module": "BT4222",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 392,
+  "fields": {
+    "prof": 505,
+    "module": "BT4222",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 393,
+  "fields": {
+    "prof": 497,
+    "module": "BT4240",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 394,
+  "fields": {
+    "prof": 472,
+    "module": "BT4241",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 395,
+  "fields": {
+    "prof": 503,
+    "module": "BT4301",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 396,
+  "fields": {
+    "prof": 387,
+    "module": "BT5110",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 397,
+  "fields": {
+    "prof": 419,
+    "module": "BT5110",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 398,
+  "fields": {
+    "prof": 509,
+    "module": "BT5126",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 399,
+  "fields": {
+    "prof": 507,
+    "module": "BT5151",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 400,
+  "fields": {
+    "prof": 425,
+    "module": "CG1111A",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 401,
+  "fields": {
+    "prof": 344,
+    "module": "CG2111A",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 402,
+  "fields": {
+    "prof": 441,
+    "module": "CG2111A",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 403,
+  "fields": {
+    "prof": 425,
+    "module": "CG2111A",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 404,
+  "fields": {
+    "prof": 441,
+    "module": "CG2271",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 405,
+  "fields": {
+    "prof": 348,
+    "module": "CG2271",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 406,
+  "fields": {
+    "prof": 448,
+    "module": "CG4002",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 407,
+  "fields": {
+    "prof": 418,
+    "module": "CG4002",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 408,
+  "fields": {
+    "prof": 448,
+    "module": "CG4002",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 409,
+  "fields": {
+    "prof": 418,
+    "module": "CG4002",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 410,
+  "fields": {
+    "prof": 467,
+    "module": "CP2106",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 411,
+  "fields": {
+    "prof": 361,
+    "module": "CS1010",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 412,
+  "fields": {
+    "prof": 425,
+    "module": "CS1010",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 413,
+  "fields": {
+    "prof": 467,
+    "module": "CS1010",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 414,
+  "fields": {
+    "prof": 393,
+    "module": "CS1010A",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 415,
+  "fields": {
+    "prof": 375,
+    "module": "CS1010A",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 416,
+  "fields": {
+    "prof": 375,
+    "module": "CS1010A",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 417,
+  "fields": {
+    "prof": 384,
+    "module": "CS1010E",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 418,
+  "fields": {
+    "prof": 357,
+    "module": "CS1010E",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 419,
+  "fields": {
+    "prof": 402,
+    "module": "CS1010E",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 420,
+  "fields": {
+    "prof": 406,
+    "module": "CS1010E",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 421,
+  "fields": {
+    "prof": 468,
+    "module": "CS1010E",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 422,
+  "fields": {
+    "prof": 356,
+    "module": "CS1010E",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 423,
+  "fields": {
+    "prof": 385,
+    "module": "CS1010S",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 424,
+  "fields": {
+    "prof": 362,
+    "module": "CS1010S",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 425,
+  "fields": {
+    "prof": 362,
+    "module": "CS1010S",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 426,
+  "fields": {
+    "prof": 408,
+    "module": "CS1010S",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 427,
+  "fields": {
+    "prof": 445,
+    "module": "CS1010X",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 428,
+  "fields": {
+    "prof": 371,
+    "module": "CS1101S",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 429,
+  "fields": {
+    "prof": 344,
+    "module": "CS1101S",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 430,
+  "fields": {
+    "prof": 421,
+    "module": "CS1101S",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 431,
+  "fields": {
+    "prof": 402,
+    "module": "CS1101S",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 432,
+  "fields": {
+    "prof": 440,
+    "module": "CS1231S",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 433,
+  "fields": {
+    "prof": 362,
+    "module": "CS1231S",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 434,
+  "fields": {
+    "prof": 361,
+    "module": "CS1231S",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 435,
+  "fields": {
+    "prof": 437,
+    "module": "CS1231S",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 436,
+  "fields": {
+    "prof": 446,
+    "module": "CS1231S",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 437,
+  "fields": {
+    "prof": 357,
+    "module": "CS2030",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 438,
+  "fields": {
+    "prof": 357,
+    "module": "CS2030",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 439,
+  "fields": {
+    "prof": 358,
+    "module": "CS2030",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 440,
+  "fields": {
+    "prof": 419,
+    "module": "CS2030S",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 441,
+  "fields": {
+    "prof": 417,
+    "module": "CS2030S",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 442,
+  "fields": {
+    "prof": 344,
+    "module": "CS2030S",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 443,
+  "fields": {
+    "prof": 362,
+    "module": "CS2030S",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 444,
+  "fields": {
+    "prof": 469,
+    "module": "CS2040",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 445,
+  "fields": {
+    "prof": 421,
+    "module": "CS2040",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 446,
+  "fields": {
+    "prof": 402,
+    "module": "CS2040",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 447,
+  "fields": {
+    "prof": 421,
+    "module": "CS2040",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 448,
+  "fields": {
+    "prof": 469,
+    "module": "CS2040",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 449,
+  "fields": {
+    "prof": 434,
+    "module": "CS2040",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 450,
+  "fields": {
+    "prof": 356,
+    "module": "CS2040C",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 451,
+  "fields": {
+    "prof": 368,
+    "module": "CS2040C",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 452,
+  "fields": {
+    "prof": 368,
+    "module": "CS2040S",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 453,
+  "fields": {
+    "prof": 390,
+    "module": "CS2040S",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 454,
+  "fields": {
+    "prof": 361,
+    "module": "CS2040S",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 455,
+  "fields": {
+    "prof": 349,
+    "module": "CS2040S",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 456,
+  "fields": {
+    "prof": 429,
+    "module": "CS2040S",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 457,
+  "fields": {
+    "prof": 458,
+    "module": "CS2100",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 458,
+  "fields": {
+    "prof": 367,
+    "module": "CS2100",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 459,
+  "fields": {
+    "prof": 440,
+    "module": "CS2100",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 460,
+  "fields": {
+    "prof": 440,
+    "module": "CS2100",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 461,
+  "fields": {
+    "prof": 411,
+    "module": "CS2100",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 462,
+  "fields": {
+    "prof": 456,
+    "module": "CS2102",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 463,
+  "fields": {
+    "prof": 419,
+    "module": "CS2102",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 464,
+  "fields": {
+    "prof": 459,
+    "module": "CS2102",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 465,
+  "fields": {
+    "prof": 372,
+    "module": "CS2102",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 466,
+  "fields": {
+    "prof": 419,
+    "module": "CS2102",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 467,
+  "fields": {
+    "prof": 420,
+    "module": "CS2103",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 468,
+  "fields": {
+    "prof": 341,
+    "module": "CS2103",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 469,
+  "fields": {
+    "prof": 420,
+    "module": "CS2103",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 470,
+  "fields": {
+    "prof": 412,
+    "module": "CS2103",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 471,
+  "fields": {
+    "prof": 420,
+    "module": "CS2103T",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 472,
+  "fields": {
+    "prof": 341,
+    "module": "CS2103T",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 473,
+  "fields": {
+    "prof": 420,
+    "module": "CS2103T",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 474,
+  "fields": {
+    "prof": 412,
+    "module": "CS2103T",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 475,
+  "fields": {
+    "prof": 363,
+    "module": "CS2104",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 476,
+  "fields": {
+    "prof": 468,
+    "module": "CS2105",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 477,
+  "fields": {
+    "prof": 448,
+    "module": "CS2105",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 478,
+  "fields": {
+    "prof": 393,
+    "module": "CS2105",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 479,
+  "fields": {
+    "prof": 393,
+    "module": "CS2105",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 480,
+  "fields": {
+    "prof": 448,
+    "module": "CS2105",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 481,
+  "fields": {
+    "prof": 396,
+    "module": "CS2106",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 482,
+  "fields": {
+    "prof": 441,
+    "module": "CS2106",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 483,
+  "fields": {
+    "prof": 441,
+    "module": "CS2106",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 484,
+  "fields": {
+    "prof": 367,
+    "module": "CS2106",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 485,
+  "fields": {
+    "prof": 436,
+    "module": "CS2106",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 486,
+  "fields": {
+    "prof": 352,
+    "module": "CS2107",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 487,
+  "fields": {
+    "prof": 385,
+    "module": "CS2107",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 488,
+  "fields": {
+    "prof": 385,
+    "module": "CS2107",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 489,
+  "fields": {
+    "prof": 415,
+    "module": "CS2108",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 490,
+  "fields": {
+    "prof": 406,
+    "module": "CS2109S",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 491,
+  "fields": {
+    "prof": 422,
+    "module": "CS2109S",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 492,
+  "fields": {
+    "prof": 375,
+    "module": "CS2109S",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 493,
+  "fields": {
+    "prof": 406,
+    "module": "CS2109S",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 494,
+  "fields": {
+    "prof": 422,
+    "module": "CS2109S",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 495,
+  "fields": {
+    "prof": 375,
+    "module": "CS2109S",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 496,
+  "fields": {
+    "prof": 410,
+    "module": "CS2113",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 497,
+  "fields": {
+    "prof": 410,
+    "module": "CS2113",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 498,
+  "fields": {
+    "prof": 457,
+    "module": "CS2220",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 499,
+  "fields": {
+    "prof": 342,
+    "module": "CS2251",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 500,
+  "fields": {
+    "prof": 374,
+    "module": "CS2309",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 501,
+  "fields": {
+    "prof": 345,
+    "module": "CS3103",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 502,
+  "fields": {
+    "prof": 347,
+    "module": "CS3210",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 503,
+  "fields": {
+    "prof": 425,
+    "module": "CS3210",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 504,
+  "fields": {
+    "prof": 347,
+    "module": "CS3211",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 505,
+  "fields": {
+    "prof": 423,
+    "module": "CS3213",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 506,
+  "fields": {
+    "prof": 393,
+    "module": "CS3217",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 507,
+  "fields": {
+    "prof": 452,
+    "module": "CS3219",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 508,
+  "fields": {
+    "prof": 410,
+    "module": "CS3219",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 509,
+  "fields": {
+    "prof": 452,
+    "module": "CS3219",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 510,
+  "fields": {
+    "prof": 410,
+    "module": "CS3219",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 511,
+  "fields": {
+    "prof": 350,
+    "module": "CS3223",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 512,
+  "fields": {
+    "prof": 350,
+    "module": "CS3223",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 513,
+  "fields": {
+    "prof": 353,
+    "module": "CS3230",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 514,
+  "fields": {
+    "prof": 451,
+    "module": "CS3230",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 515,
+  "fields": {
+    "prof": 368,
+    "module": "CS3230",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 516,
+  "fields": {
+    "prof": 379,
+    "module": "CS3230",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 517,
+  "fields": {
+    "prof": 439,
+    "module": "CS3230",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 518,
+  "fields": {
+    "prof": 355,
+    "module": "CS3230",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 519,
+  "fields": {
+    "prof": 379,
+    "module": "CS3231",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 520,
+  "fields": {
+    "prof": 368,
+    "module": "CS3233",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 521,
+  "fields": {
+    "prof": 424,
+    "module": "CS3234",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 522,
+  "fields": {
+    "prof": 465,
+    "module": "CS3235",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 523,
+  "fields": {
+    "prof": 426,
+    "module": "CS3235",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 524,
+  "fields": {
+    "prof": 465,
+    "module": "CS3235",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 525,
+  "fields": {
+    "prof": 427,
+    "module": "CS3236",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 526,
+  "fields": {
+    "prof": 344,
+    "module": "CS3237",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 527,
+  "fields": {
+    "prof": 454,
+    "module": "CS3237",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 528,
+  "fields": {
+    "prof": 452,
+    "module": "CS3240",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 529,
+  "fields": {
+    "prof": 452,
+    "module": "CS3240",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 530,
+  "fields": {
+    "prof": 356,
+    "module": "CS3241",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 531,
+  "fields": {
+    "prof": 376,
+    "module": "CS3242",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 532,
+  "fields": {
+    "prof": 395,
+    "module": "CS3243",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 533,
+  "fields": {
+    "prof": 395,
+    "module": "CS3243",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 534,
+  "fields": {
+    "prof": 398,
+    "module": "CS3244",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 535,
+  "fields": {
+    "prof": 369,
+    "module": "CS3244",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 536,
+  "fields": {
+    "prof": 388,
+    "module": "CS3244",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 537,
+  "fields": {
+    "prof": 455,
+    "module": "CS3244",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 538,
+  "fields": {
+    "prof": 467,
+    "module": "CS3245",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 539,
+  "fields": {
+    "prof": 345,
+    "module": "CS3247",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 540,
+  "fields": {
+    "prof": 389,
+    "module": "CS3249",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 541,
+  "fields": {
+    "prof": 388,
+    "module": "CS3263",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 542,
+  "fields": {
+    "prof": 392,
+    "module": "CS3263",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 543,
+  "fields": {
+    "prof": 435,
+    "module": "CS3264",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 544,
+  "fields": {
+    "prof": 401,
+    "module": "CS3264",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 545,
+  "fields": {
+    "prof": 410,
+    "module": "CS3268",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 546,
+  "fields": {
+    "prof": 420,
+    "module": "CS3281",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 547,
+  "fields": {
+    "prof": 420,
+    "module": "CS3282",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 548,
+  "fields": {
+    "prof": 405,
+    "module": "CS4211",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 549,
+  "fields": {
+    "prof": 364,
+    "module": "CS4211",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 550,
+  "fields": {
+    "prof": 428,
+    "module": "CS4212",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 551,
+  "fields": {
+    "prof": 341,
+    "module": "CS4215",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 552,
+  "fields": {
+    "prof": 412,
+    "module": "CS4218",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 553,
+  "fields": {
+    "prof": 412,
+    "module": "CS4218",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 554,
+  "fields": {
+    "prof": 403,
+    "module": "CS4221",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 555,
+  "fields": {
+    "prof": 450,
+    "module": "CS4222",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 556,
+  "fields": {
+    "prof": 454,
+    "module": "CS4222",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 557,
+  "fields": {
+    "prof": 348,
+    "module": "CS4223",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 558,
+  "fields": {
+    "prof": 372,
+    "module": "CS4225",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 559,
+  "fields": {
+    "prof": 343,
+    "module": "CS4225",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 560,
+  "fields": {
+    "prof": 370,
+    "module": "CS4225",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 561,
+  "fields": {
+    "prof": 343,
+    "module": "CS4225",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 562,
+  "fields": {
+    "prof": 404,
+    "module": "CS4226",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 563,
+  "fields": {
+    "prof": 378,
+    "module": "CS4230",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 564,
+  "fields": {
+    "prof": 464,
+    "module": "CS4231",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 565,
+  "fields": {
+    "prof": 349,
+    "module": "CS4234",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 566,
+  "fields": {
+    "prof": 451,
+    "module": "CS4236",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 567,
+  "fields": {
+    "prof": 449,
+    "module": "CS4238",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 568,
+  "fields": {
+    "prof": 449,
+    "module": "CS4238",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 569,
+  "fields": {
+    "prof": 462,
+    "module": "CS4239",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 570,
+  "fields": {
+    "prof": 345,
+    "module": "CS4240",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 571,
+  "fields": {
+    "prof": 408,
+    "module": "CS4243",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 572,
+  "fields": {
+    "prof": 461,
+    "module": "CS4243",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 573,
+  "fields": {
+    "prof": 392,
+    "module": "CS4246",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 574,
+  "fields": {
+    "prof": 399,
+    "module": "CS4246",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 575,
+  "fields": {
+    "prof": 406,
+    "module": "CS4246",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 576,
+  "fields": {
+    "prof": 402,
+    "module": "CS4247",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 577,
+  "fields": {
+    "prof": 413,
+    "module": "CS4248",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 578,
+  "fields": {
+    "prof": 381,
+    "module": "CS4248",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 579,
+  "fields": {
+    "prof": 456,
+    "module": "CS4248",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 580,
+  "fields": {
+    "prof": 398,
+    "module": "CS4249",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 581,
+  "fields": {
+    "prof": 439,
+    "module": "CS4261",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 582,
+  "fields": {
+    "prof": 342,
+    "module": "CS4268",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 583,
+  "fields": {
+    "prof": 405,
+    "module": "CS4269",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 584,
+  "fields": {
+    "prof": 386,
+    "module": "CS4277",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 585,
+  "fields": {
+    "prof": 429,
+    "module": "CS4278",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 586,
+  "fields": {
+    "prof": 457,
+    "module": "CS4330",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 587,
+  "fields": {
+    "prof": 455,
+    "module": "CS4347",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 588,
+  "fields": {
+    "prof": 345,
+    "module": "CS4350",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 589,
+  "fields": {
+    "prof": 377,
+    "module": "CS5218",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 590,
+  "fields": {
+    "prof": 464,
+    "module": "CS5223",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 591,
+  "fields": {
+    "prof": 396,
+    "module": "CS5223",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 592,
+  "fields": {
+    "prof": 367,
+    "module": "CS5224",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 593,
+  "fields": {
+    "prof": 367,
+    "module": "CS5224",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 594,
+  "fields": {
+    "prof": 456,
+    "module": "CS5228",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 595,
+  "fields": {
+    "prof": 408,
+    "module": "CS5228",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 596,
+  "fields": {
+    "prof": 351,
+    "module": "CS5229",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 597,
+  "fields": {
+    "prof": 397,
+    "module": "CS5231",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 598,
+  "fields": {
+    "prof": 428,
+    "module": "CS5232",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 599,
+  "fields": {
+    "prof": 442,
+    "module": "CS5233",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 600,
+  "fields": {
+    "prof": 355,
+    "module": "CS5234",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 601,
+  "fields": {
+    "prof": 347,
+    "module": "CS5239",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 602,
+  "fields": {
+    "prof": 394,
+    "module": "CS5240",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 603,
+  "fields": {
+    "prof": 463,
+    "module": "CS5242",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 604,
+  "fields": {
+    "prof": 383,
+    "module": "CS5242",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 605,
+  "fields": {
+    "prof": 346,
+    "module": "CS5242",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 606,
+  "fields": {
+    "prof": 456,
+    "module": "CS5246",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 607,
+  "fields": {
+    "prof": 458,
+    "module": "CS5250",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 608,
+  "fields": {
+    "prof": 463,
+    "module": "CS5260",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 609,
+  "fields": {
+    "prof": 450,
+    "module": "CS5272",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 610,
+  "fields": {
+    "prof": 353,
+    "module": "CS5275",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 611,
+  "fields": {
+    "prof": 346,
+    "module": "CS5284",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 612,
+  "fields": {
+    "prof": 397,
+    "module": "CS5321",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 613,
+  "fields": {
+    "prof": 459,
+    "module": "CS5322",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 614,
+  "fields": {
+    "prof": 433,
+    "module": "CS5332",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 615,
+  "fields": {
+    "prof": 383,
+    "module": "CS5339",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 616,
+  "fields": {
+    "prof": 386,
+    "module": "CS5340",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 617,
+  "fields": {
+    "prof": 435,
+    "module": "CS5340",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 618,
+  "fields": {
+    "prof": 453,
+    "module": "CS5343",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 619,
+  "fields": {
+    "prof": 447,
+    "module": "CS5344",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 620,
+  "fields": {
+    "prof": 447,
+    "module": "CS5344",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 621,
+  "fields": {
+    "prof": 389,
+    "module": "CS5346",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 622,
+  "fields": {
+    "prof": 403,
+    "module": "CS5421",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 623,
+  "fields": {
+    "prof": 450,
+    "module": "CS5422",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 624,
+  "fields": {
+    "prof": 454,
+    "module": "CS5422",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 625,
+  "fields": {
+    "prof": 372,
+    "module": "CS5425",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 626,
+  "fields": {
+    "prof": 343,
+    "module": "CS5425",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 627,
+  "fields": {
+    "prof": 370,
+    "module": "CS5425",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 628,
+  "fields": {
+    "prof": 343,
+    "module": "CS5425",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 629,
+  "fields": {
+    "prof": 378,
+    "module": "CS5430",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 630,
+  "fields": {
+    "prof": 462,
+    "module": "CS5439",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 631,
+  "fields": {
+    "prof": 392,
+    "module": "CS5446",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 632,
+  "fields": {
+    "prof": 399,
+    "module": "CS5446",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 633,
+  "fields": {
+    "prof": 406,
+    "module": "CS5446",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 634,
+  "fields": {
+    "prof": 439,
+    "module": "CS5461",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 635,
+  "fields": {
+    "prof": 405,
+    "module": "CS5469",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 636,
+  "fields": {
+    "prof": 386,
+    "module": "CS5477",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 637,
+  "fields": {
+    "prof": 429,
+    "module": "CS5478",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 638,
+  "fields": {
+    "prof": 426,
+    "module": "CS5562",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 639,
+  "fields": {
+    "prof": 455,
+    "module": "CS5647",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 640,
+  "fields": {
+    "prof": 404,
+    "module": "CS6204",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 641,
+  "fields": {
+    "prof": 365,
+    "module": "CS6206",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 642,
+  "fields": {
+    "prof": 413,
+    "module": "CS6207",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 643,
+  "fields": {
+    "prof": 399,
+    "module": "CS6208",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 644,
+  "fields": {
+    "prof": 432,
+    "module": "CS6212",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 645,
+  "fields": {
+    "prof": 424,
+    "module": "CS6215",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 646,
+  "fields": {
+    "prof": 403,
+    "module": "CS6216",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 647,
+  "fields": {
+    "prof": 430,
+    "module": "CS6216",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 648,
+  "fields": {
+    "prof": 363,
+    "module": "CS6217",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 649,
+  "fields": {
+    "prof": 364,
+    "module": "CS6218",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 650,
+  "fields": {
+    "prof": 423,
+    "module": "CS6223",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 651,
+  "fields": {
+    "prof": 462,
+    "module": "CS6231",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 652,
+  "fields": {
+    "prof": 360,
+    "module": "CS6240",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 653,
+  "fields": {
+    "prof": 453,
+    "module": "CS6241",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 654,
+  "fields": {
+    "prof": 373,
+    "module": "CS6244",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 655,
+  "fields": {
+    "prof": 474,
+    "module": "FT5002",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 656,
+  "fields": {
+    "prof": 475,
+    "module": "FT5003",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 657,
+  "fields": {
+    "prof": 479,
+    "module": "FT5005",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 658,
+  "fields": {
+    "prof": 394,
+    "module": "GEI1000",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 659,
+  "fields": {
+    "prof": 452,
+    "module": "GEI1000",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 660,
+  "fields": {
+    "prof": 343,
+    "module": "GEI1000",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 661,
+  "fields": {
+    "prof": 343,
+    "module": "GEI1000",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 662,
+  "fields": {
+    "prof": 412,
+    "module": "IFS4205",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 663,
+  "fields": {
+    "prof": 486,
+    "module": "IS1108",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 664,
+  "fields": {
+    "prof": 486,
+    "module": "IS1108",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 665,
+  "fields": {
+    "prof": 506,
+    "module": "IS1128",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 666,
+  "fields": {
+    "prof": 506,
+    "module": "IS1128",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 667,
+  "fields": {
+    "prof": 487,
+    "module": "IS2102",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 668,
+  "fields": {
+    "prof": 503,
+    "module": "IS2108",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 669,
+  "fields": {
+    "prof": 492,
+    "module": "IS2218",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 670,
+  "fields": {
+    "prof": 485,
+    "module": "IS2238",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 671,
+  "fields": {
+    "prof": 472,
+    "module": "IS2238",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 672,
+  "fields": {
+    "prof": 493,
+    "module": "IS3103",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 673,
+  "fields": {
+    "prof": 493,
+    "module": "IS3103",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 674,
+  "fields": {
+    "prof": 487,
+    "module": "IS3107",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 675,
+  "fields": {
+    "prof": 487,
+    "module": "IS3108",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 676,
+  "fields": {
+    "prof": 496,
+    "module": "IS3240",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 677,
+  "fields": {
+    "prof": 471,
+    "module": "IS4100",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 678,
+  "fields": {
+    "prof": 503,
+    "module": "IS4108",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 679,
+  "fields": {
+    "prof": 487,
+    "module": "IS4108",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 680,
+  "fields": {
+    "prof": 503,
+    "module": "IS4151",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 681,
+  "fields": {
+    "prof": 475,
+    "module": "IS4228",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 682,
+  "fields": {
+    "prof": 475,
+    "module": "IS4228",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 683,
+  "fields": {
+    "prof": 506,
+    "module": "IS4231",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 684,
+  "fields": {
+    "prof": 505,
+    "module": "IS4233",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 685,
+  "fields": {
+    "prof": 506,
+    "module": "IS4234",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 686,
+  "fields": {
+    "prof": 505,
+    "module": "IS4238",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 687,
+  "fields": {
+    "prof": 475,
+    "module": "IS4246",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 688,
+  "fields": {
+    "prof": 490,
+    "module": "IS4250",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 689,
+  "fields": {
+    "prof": 474,
+    "module": "IS4261",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 690,
+  "fields": {
+    "prof": 486,
+    "module": "IS4262",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 691,
+  "fields": {
+    "prof": 474,
+    "module": "IS4301",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 692,
+  "fields": {
+    "prof": 488,
+    "module": "IS4302",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 693,
+  "fields": {
+    "prof": 475,
+    "module": "IS4302",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 694,
+  "fields": {
+    "prof": 480,
+    "module": "IS4303",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 695,
+  "fields": {
+    "prof": 473,
+    "module": "IS4400",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 696,
+  "fields": {
+    "prof": 507,
+    "module": "IS4401",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 697,
+  "fields": {
+    "prof": 501,
+    "module": "IS5002",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 698,
+  "fields": {
+    "prof": 482,
+    "module": "IS5003",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 699,
+  "fields": {
+    "prof": 478,
+    "module": "IS5005",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 700,
+  "fields": {
+    "prof": 477,
+    "module": "IS5010",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 701,
+  "fields": {
+    "prof": 508,
+    "module": "IS5116",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 702,
+  "fields": {
+    "prof": 507,
+    "module": "IS5126",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 703,
+  "fields": {
+    "prof": 499,
+    "module": "IS5126",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 704,
+  "fields": {
+    "prof": 493,
+    "module": "IS5128",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 705,
+  "fields": {
+    "prof": 481,
+    "module": "IS5151",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 706,
+  "fields": {
+    "prof": 497,
+    "module": "IS5152",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 707,
+  "fields": {
+    "prof": 503,
+    "module": "IS5451",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 708,
+  "fields": {
+    "prof": 495,
+    "module": "IS6000",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 709,
+  "fields": {
+    "prof": 490,
+    "module": "IS6001",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 710,
+  "fields": {
+    "prof": 501,
+    "module": "IS6002",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 711,
+  "fields": {
+    "prof": 504,
+    "module": "IS6003",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 712,
+  "fields": {
+    "prof": 476,
+    "module": "IS6004",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 713,
+  "fields": {
+    "prof": 495,
+    "module": "IS6006",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 714,
+  "fields": {
+    "prof": 411,
+    "module": "IT1244",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 715,
+  "fields": {
+    "prof": 411,
+    "module": "IT1244",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 716,
+  "fields": {
+    "prof": 419,
+    "module": "IT2002",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 717,
+  "fields": {
+    "prof": 390,
+    "module": "IT2900",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 718,
+  "fields": {
+    "prof": 496,
+    "module": "IT3010",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 719,
+  "fields": {
+    "prof": 496,
+    "module": "IT3010",
+    "semester": 4
   }
 }
 ]
