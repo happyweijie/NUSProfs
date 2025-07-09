@@ -4,23 +4,28 @@ from rest_framework import status
 from ..models import Module, Semester, Teaches
 from ..serializers import ProfessorSummarySerializer
 
-class CompareModuleProfessorsView(APIView):
+class CompareProfessorsView(APIView):
     serializer_class = ProfessorSummarySerializer
 
-    def get(self, request, module_code):
+    def get(self, request, module_code, year=None):
         module = Module.objects.filter(module_code__iexact=module_code).first()
         if not module:
             return Response({
                 "detail": f"Module {module_code} not found."
                 }, status=status.HTTP_404_NOT_FOUND)
 
-        # Get latest AY
-        latest_ay = Semester.latest_academic_year()
+        # Get AY
+        ay = Semester.get_academic_year(year) if year else Semester.latest_academic_year()
+        if not ay:
+            return Response({
+                "detail": "No teaching records found for the specified academic year."
+                }, status=status.HTTP_404_NOT_FOUND)
+
 
         # Get teaching records
         teaching_records = Teaches.objects.filter(
             module=module,
-            semester__in=latest_ay
+            semester__in=ay
         ).select_related('prof', 'semester')
 
         if not teaching_records.exists():
@@ -30,7 +35,7 @@ class CompareModuleProfessorsView(APIView):
 
         # Group professors by semester
         result = {}
-        for semester in latest_ay:
+        for semester in ay:
             profs = [
                 record.prof 
                 for record in teaching_records

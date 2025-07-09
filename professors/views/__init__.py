@@ -4,4 +4,4 @@ from .faculties_list import FacultyListView
 from .professor_search import ProfessorSearchView
 from .module_list import ModuleListView
 from .top_professors import TopProfessorsView
-from .compare_professors import CompareModuleProfessorsView
+from .compare_professors import CompareProfessorsView

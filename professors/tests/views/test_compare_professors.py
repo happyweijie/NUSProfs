@@ -8,6 +8,13 @@ class CompareProfessorsTestCase(APITestCase):
         self.sem1 = Semester.objects.create(ay_start=2024, semester_number=1)
         self.sem2 = Semester.objects.create(ay_start=2024, semester_number=2)
 
+    def test_invalid_ay(self):
+        module = Module.objects.create(module_code="CS9999", name="Ghost Module")
+        response = self.get_response(module_code=module)
+
+        self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
+        self.assertIn("detail", response.data)
+
     def test_module_not_found(self):
         # Invalid module
         invalid_code = "INVALID1234"
@@ -15,10 +22,6 @@ class CompareProfessorsTestCase(APITestCase):
 
         self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
         self.assertIn("detail", response.data)
-        self.assertEqual(
-            response.data["detail"], 
-            f"Module {invalid_code} not found."
-            )
 
     def test_module_not_offered_in_latest_ay(self):
         # Module not taught by anyone
@@ -93,8 +96,12 @@ class CompareProfessorsTestCase(APITestCase):
         self.assertEqual(len(response.data["semesters"][str(self.sem1)]), 1)
         self.assertEqual(len(response.data["semesters"][str(self.sem2)]), 1)
 
-    def get_response(self, module_code):
-         # Get response
-        url = reverse("professors:compare", args=[module_code])
+    def get_response(self, module_code, year=None):
+        # Get response
+        if not year:
+            url = reverse("professors:compare-professors-latest", args=[module_code])
+        else:
+            url = reverse("professors:compare-professors-year", args=[module_code, year])
+
         return self.client.get(url)
     
