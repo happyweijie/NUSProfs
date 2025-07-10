@@ -10,7 +10,7 @@ urlpatterns = [
     path('faculties', views.FacultyListView.as_view(), name='faculties'),
     path('modules', views.ModuleListView.as_view(), name='modules'),
     path(
-        "modules/<str:module_code>/compare/",
+        "modules/<str:module_code>/compare",
         views.CompareProfessorsView.as_view(),
         name="compare-professors-latest",
     ),
