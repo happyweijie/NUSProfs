@@ -19,4 +19,5 @@ urlpatterns = [
         views.CompareProfessorsView.as_view(),
         name="compare-professors-year",
     ),
+    path("academic-years", views.AcademicYearListView.as_view(), name="ay-list")
 ]
