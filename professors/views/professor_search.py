@@ -5,6 +5,8 @@ from ..serializers import ProfessorSummarySerializer
 from rest_framework.generics import GenericAPIView
 from rest_framework.response import Response
 
+TIMEOUT = 60 * 5 # 5 Minutes
+
 class ProfessorSearchView(GenericAPIView):
     """
     View to handle search requests for professors. Filter by name, department, and faculty.
@@ -45,7 +47,7 @@ class ProfessorSearchView(GenericAPIView):
         response = self.get_paginated_response(serializer.data)
 
          # Cache for 5 minutes
-        cache.set(key, response.data, timeout=60*1)
+        cache.set(key, response.data, timeout=TIMEOUT)
         print(f"Set cache for search {key}")
 
         return response
