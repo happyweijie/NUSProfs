@@ -14,7 +14,6 @@ class AcademicYearListView(APIView):
             .order_by("-ay_start")
         )
 
-        # Format them into {"value": 2024, "label": "AY24/25"}
         data = [
             {
                 "label": Semester.format_ay(year),
