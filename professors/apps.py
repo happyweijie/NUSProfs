@@ -6,4 +6,4 @@ class ProfessorsConfig(AppConfig):
     name = 'professors'
 
     def ready(self):
-        import professors.signals 
+        import professors.signals

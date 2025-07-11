@@ -1,5 +1,3 @@
-from django.utils.decorators import method_decorator
-from django.views.decorators.cache import cache_page
 from django.core.cache import cache
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -9,6 +7,7 @@ class AcademicYearListView(APIView):
     def get(self, request):
         cached = cache.get("academic_year_list")
         if cached:
+            print("Using existing cache for AY list")
             return Response(cached)
 
         # Get distinct ay_start values
@@ -29,5 +28,7 @@ class AcademicYearListView(APIView):
         }
         # set cache
         cache.set("academic_year_list", response_data, timeout=None)
+        print("Set cache for AY list")
+        
         return Response(response_data)
     
