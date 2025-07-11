@@ -1,12 +1,16 @@
 from django.utils.decorators import method_decorator
 from django.views.decorators.cache import cache_page
+from django.core.cache import cache
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from ..models import Semester
 
-@method_decorator(cache_page(60 * 60 * 24 * 30), name='dispatch')  # Cache for 30 days
 class AcademicYearListView(APIView):
     def get(self, request):
+        cached = cache.get("academic_year_list")
+        if cached:
+            return Response(cached)
+
         # Get distinct ay_start values
         years = (
             Semester.objects.values_list("ay_start", flat=True)
@@ -14,14 +18,16 @@ class AcademicYearListView(APIView):
             .order_by("-ay_start")
         )
 
-        data = [
-            {
-                "label": Semester.format_ay(year),
-                "value": year, 
-                }
-            for year in years
-        ]
-
-        return Response({
-            "academic_years": data
-            })
+        response_data = {
+            "academic_years": [
+                {
+                    "label": Semester.format_ay(year),
+                    "value": year, 
+                    }
+                for year in years
+            ]
+        }
+        # set cache
+        cache.set("academic_year_list", response_data, timeout=None)
+        return Response(response_data)
+    

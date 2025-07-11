@@ -19,7 +19,7 @@ ALLOWED_HOSTS = ["localhost", "127.0.0.1", "nusprofs-api.onrender.com"]
 
 LOCAL_APPS = [
     'api',
-    'professors',
+    'professors.apps.ProfessorsConfig',
     'login',
     'reviews',
 ]
