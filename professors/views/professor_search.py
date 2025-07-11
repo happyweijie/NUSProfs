@@ -30,6 +30,7 @@ class ProfessorSearchView(GenericAPIView):
         key = f"professor_search:{urlencode(params)}"
         cached = cache.get(key)
         if cached:
+            print(f"Using cache for search {key}")
             return Response(cached)
 
         # Apply filters
@@ -45,6 +46,7 @@ class ProfessorSearchView(GenericAPIView):
 
          # Cache for 5 minutes
         cache.set(key, response.data, timeout=60*1)
+        print(f"Set cache for search {key}")
 
         return response
     
