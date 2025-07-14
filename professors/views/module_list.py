@@ -8,6 +8,7 @@ class ModuleListView(ListAPIView):
     """
     View to list all modules. Frontend should preferably cache this data.
     """
+    CACHE_KEY = "all_modules_list"
     serializer_class = ModuleSerializer
     pagination_class = None  # No pagination for this view
 
@@ -16,8 +17,7 @@ class ModuleListView(ListAPIView):
             .order_by('module_code')
     
     def list(self, request, *args, **kwargs):
-        cache_key = "all_modules_list"
-        cached_data = cache.get(cache_key)
+        cached_data = cache.get(self.CACHE_KEY)
         if cached_data:
             print("Using existing cache for modules list")
             return Response(cached_data)
@@ -28,7 +28,7 @@ class ModuleListView(ListAPIView):
         data = serializer.data
 
         # Cache the serialized data
-        cache.set(cache_key, data, timeout=None)
+        cache.set(self.CACHE_KEY, data, timeout=None)
         print("Set cache for modules list")
 
         return Response(data)

@@ -4,8 +4,10 @@ from rest_framework.response import Response
 from ..models import Semester
 
 class AcademicYearListView(APIView):
+    CACHE_KEY = "academic_year_list"
+
     def get(self, request):
-        cached = cache.get("academic_year_list")
+        cached = cache.get(self.CACHE_KEY)
         if cached:
             print("Using existing cache for AY list")
             return Response(cached)
@@ -27,7 +29,7 @@ class AcademicYearListView(APIView):
             ]
         }
         # set cache
-        cache.set("academic_year_list", response_data, timeout=None)
+        cache.set(self.CACHE_KEY, response_data, timeout=None)
         print("Set cache for AY list")
         
         return Response(response_data)
