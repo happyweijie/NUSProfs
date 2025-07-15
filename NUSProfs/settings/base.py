@@ -53,6 +53,12 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+# === Static Files ===
+
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 # Store and serve static files in production
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
@@ -125,11 +131,6 @@ LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'Asia/Singapore'
 USE_I18N = True
 USE_TZ = True
-
-# === Static Files ===
-
-STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # === Default Auto Field ===
 
