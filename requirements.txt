@@ -3,6 +3,7 @@ django>=5.2,<6.0
 djangorestframework
 djangorestframework-simplejwt
 django-redis
+whitenoise  # For serving static files in production
 
 # === Deployment ===
 gunicorn==20.1.0  # WSGI HTTP server for production
