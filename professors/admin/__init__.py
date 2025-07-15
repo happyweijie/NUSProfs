@@ -11,3 +11,4 @@ from django.contrib import admin
 
 admin.site.site_header = "NUSProfs Admin"
 admin.site.site_title = "NUSProfs Admin Portal"
+admin.site.index_title = "Welcome to NUSProfs Admin Portal"
