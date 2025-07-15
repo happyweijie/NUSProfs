@@ -2,5 +2,9 @@ services:
   - type: web
     name: NUSProfs
     runtime: python
-    buildCommand: pip install -r requirements.txt && python manage.py collectstatic --noinput
+    buildCommand: |
+  pip install -r requirements.txt
+  echo "Starting collectstatic"
+  python manage.py collectstatic --noinput
+  echo "Finished collectstatic"
     startCommand: gunicorn NUSProfs.wsgi:application --bind 0.0.0.0:10000
