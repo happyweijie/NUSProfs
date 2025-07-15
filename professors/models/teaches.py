@@ -10,6 +10,8 @@ class Teaches(models.Model):
                                  related_name='modules_offered', null=True, blank=True)
 
     class Meta:
+        verbose_name = "Teaching Record"
+        verbose_name_plural = "Teaching Records"
         unique_together = ('prof', 'module', 'semester')
 
     def __str__(self):
