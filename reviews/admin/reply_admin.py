@@ -4,7 +4,7 @@ from ..models import Reply
 
 @admin.register(Reply)
 class ReplyAdmin(admin.ModelAdmin):
-    list_display = ('id', 'user_id', 'review_id', 'like_count', 'timestamp')
+    list_display = ('id', 'user_id', 'review_id', 'text', 'like_count', 'timestamp')
     list_filter = ('user_id', 'review_id')
     search_fields = ('user_id__username', 'review_id__id')
     ordering = ('-timestamp',)
