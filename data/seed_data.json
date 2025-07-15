@@ -2580,7 +2580,7 @@
   "model": "professors.professor",
   "pk": 385,
   "fields": {
-    "name": "Nitya.Lakshmanan",
+    "name": "Nitya Lakshmanan",
     "department": 1,
     "title": "Lecturer (Educator Track)",
     "office": "COM3-02-44",
@@ -13048,6 +13048,69 @@
     "prof": 496,
     "module": "IT3010",
     "semester": 6
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1005,
+  "fields": {
+    "prof": 385,
+    "module": "CS1010A",
+    "semester": 5
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1006,
+  "fields": {
+    "prof": 375,
+    "module": "CS2040S",
+    "semester": 6
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1007,
+  "fields": {
+    "prof": 375,
+    "module": "CS2109S",
+    "semester": 5
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1008,
+  "fields": {
+    "prof": 375,
+    "module": "CS2109S",
+    "semester": 6
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1009,
+  "fields": {
+    "prof": 356,
+    "module": "CS2040C",
+    "semester": 6
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1010,
+  "fields": {
+    "prof": 356,
+    "module": "CS2040C",
+    "semester": 5
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1011,
+  "fields": {
+    "prof": 1,
+    "module": "MA1522",
+    "semester": 3
   }
 }
 ]
