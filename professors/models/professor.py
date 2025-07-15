@@ -21,4 +21,4 @@ class Professor(models.Model):
         return self.reviews.count()
 
     def __str__(self):
-        return f"{self.name} ({self.title})"
+        return self.name

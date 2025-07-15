@@ -12,3 +12,6 @@ class Review(Comment):
 
     def reply_count(self):
         return self.replies.count()
+    
+    def __str__(self):
+        return f'{self.id}: Review by {self.user_id.username} for {self.prof_id.name}'

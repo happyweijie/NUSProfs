@@ -11,3 +11,7 @@ class Reply(Comment):
     class Meta:
         verbose_name = "Reply"
         verbose_name_plural = "Replies"
+
+    def __str__(self):
+        return f'{self.id}: Reply by {self.user_id.username} \
+        on {self.review_id.id}'
