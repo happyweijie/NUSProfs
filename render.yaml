@@ -5,8 +5,8 @@ services:
     buildCommand: |
       pip install -r requirements.txt
       echo "Starting collectstatic"
+      ls -la
       python manage.py collectstatic --noinput
-      echo "Collectstatic done. Listing staticfiles:"
-      ls -l staticfiles/
       echo "Finished collectstatic"
+      ls -la NUSProfs/staticfiles
     startCommand: gunicorn NUSProfs.wsgi:application --bind 0.0.0.0:10000
