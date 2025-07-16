@@ -15,7 +15,11 @@ DATABASES = {
     }
 }
 
-CORS_ALLOW_ALL_ORIGINS = True
-# CORS_ALLOWED_ORIGINS = [
-#     'https://nusprofs-frontend.vercel.app',
-# ]
+# Allow only your Vercel frontend to access API views
+CORS_ALLOWED_ORIGINS = [
+     'https://nusprofs-frontend.vercel.app',
+     "http://localhost:3000",
+]
+
+# Allow only your Vercel frontend to access API views
+CORS_URLS_REGEX = r"^/(professors|auth|reviews)/.*$"
