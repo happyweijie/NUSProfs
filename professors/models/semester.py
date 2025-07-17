@@ -1,4 +1,5 @@
 from django.db import models
+from django.core.exceptions import ValidationError
 
 class Semester(models.Model):
     SEMESTER_CHOICES = [
@@ -31,6 +32,11 @@ class Semester(models.Model):
         end = start + 1
         return f"AY{start:02}/{end:02}"
     
+    def clean(self):
+        valid_values = [choice[0] for choice in self.SEMESTER_CHOICES]
+        if self.semester_number not in valid_values:
+            raise ValidationError(f"Invalid semester number: {self.semester_number}")
+        
     def __str__(self):
         semester_label = dict(self.SEMESTER_CHOICES). \
             get(self.semester_number, f"Semester {self.semester_number}")
