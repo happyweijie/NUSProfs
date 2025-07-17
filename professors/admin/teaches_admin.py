@@ -4,7 +4,7 @@ from ..models import Teaches
 @admin.register(Teaches)
 class TeachesAdmin(admin.ModelAdmin):
     list_display = ('professor_name', 'module_code', 'semester_display')
-    list_filter = ('semester', 'module')
+    list_filter = ('semester', 'module', 'prof__name')
     search_fields = ('prof__name', 'module__module_code')
     ordering = ('prof__name', 'module__module_code')
 
