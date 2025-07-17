@@ -4,10 +4,12 @@ class Semester(models.Model):
     SEMESTER_CHOICES = [
         (1, 'Semester 1'),
         (2, 'Semester 2'),
+        (3, 'Special Term I'),
+        (4, 'Special Term II'),
     ]
 
     ay_start = models.IntegerField() # Academic year start
-    semester_number = models.IntegerField(choices=SEMESTER_CHOICES)
+    semester_number = models.PositiveSmallIntegerField(choices=SEMESTER_CHOICES)
 
     class Meta:
         unique_together = ('ay_start', 'semester_number')
@@ -30,4 +32,6 @@ class Semester(models.Model):
         return f"AY{start:02}/{end:02}"
     
     def __str__(self):
-        return f"{Semester.format_ay(self.ay_start)} Semester {self.semester_number}"
+        semester_label = dict(self.SEMESTER_CHOICES). \
+            get(self.semester_number, f"Semester {self.semester_number}")
+        return f"{Semester.format_ay(self.ay_start)} {semester_label}"
