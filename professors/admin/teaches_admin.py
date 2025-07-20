@@ -5,7 +5,7 @@ from ..models import Teaches
 
 @admin.register(Teaches)
 class TeachesAdmin(admin.ModelAdmin):
-    list_display = ('professor_link', 'module_link', 'semester_display')
+    list_display = ('id', 'professor_link', 'module_link', 'semester_display')
     list_filter = ('semester', 'module', 'prof__name')
     search_fields = ('prof__name', 'module__module_code')
     ordering = ('prof__name', 'module__module_code')
