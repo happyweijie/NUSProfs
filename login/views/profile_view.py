@@ -10,5 +10,5 @@ class ProfileView(APIView):
         return Response({
             "username": user.username,
             "email": user.email,
-            "role": "mod" if user.is_superuser else "user"
+            "is_admin": user.is_staff,
         })
