@@ -4,11 +4,13 @@ from django.db.models import Avg
 from rest_framework.generics import ListAPIView
 from rest_framework.exceptions import ValidationError
 
+DEFAULT_N = 10
+
 class TopProfessorsView(ListAPIView):
     serializer_class = ProfessorSummarySerializer
 
     def get_queryset(self):
-        n = self.request.query_params.get('n', 10)
+        n = self.request.query_params.get('n', DEFAULT_N)
         try:
             n = int(n)
             if n <= 0:
