@@ -21,7 +21,6 @@ class CompareProfessorsView(APIView):
                 "detail": "No teaching records found for the specified academic year."
                 }, status=status.HTTP_404_NOT_FOUND)
 
-
         # Get teaching records
         teaching_records = Teaches.objects.filter(
             module=module,
@@ -29,8 +28,10 @@ class CompareProfessorsView(APIView):
         ).select_related('prof', 'semester')
 
         if not teaching_records.exists():
+            year = ay[0].ay_start if not year else year
+
             return Response({
-                "detail": f"{module.module_code} not offered in current academic year."
+                "detail": f"{module.module_code} not offered in {Semester.format_ay(year)}."
                 }, status=status.HTTP_200_OK)
 
         # Group professors by semester

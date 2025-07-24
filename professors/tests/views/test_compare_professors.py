@@ -5,11 +5,12 @@ from django.urls import reverse
 
 class CompareProfessorsTestCase(APITestCase):
     def setUp(self):
-        self.sem1 = Semester.objects.create(ay_start=2024, semester_number=1)
-        self.sem2 = Semester.objects.create(ay_start=2024, semester_number=2)
+        self.YEAR = 2024
+        self.sem1 = Semester.objects.create(ay_start=self.YEAR, semester_number=1)
+        self.sem2 = Semester.objects.create(ay_start=self.YEAR, semester_number=2)
 
     def test_invalid_ay(self):
-        module = Module.objects.create(module_code="CS9999", name="Ghost Module")
+        module = Module.objects.create(module_code="CS9999", name="Ghost Module")   
         response = self.get_response(module_code=module)
 
         self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
@@ -33,7 +34,7 @@ class CompareProfessorsTestCase(APITestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(
             response.data["detail"], 
-            f"{module.module_code} not offered in current academic year."
+            f"{module.module_code} not offered in {Semester.format_ay(self.YEAR)}."
             )
         
     def test_module_only_in_sem1(self):
