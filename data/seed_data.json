@@ -38,6 +38,14 @@
   }
 },
 {
+  "model": "professors.department",
+  "pk": 4,
+  "fields": {
+    "name": "Statistics and Data Science",
+    "faculty": 2
+  }
+},
+{
   "model": "professors.module",
   "pk": "BT1101",
   "fields": {
@@ -363,7 +371,7 @@
   "model": "professors.module",
   "pk": "CS1010X",
   "fields": {
-    "name": "Programming Methodology\n(iBLOC Course, not for Undergraduate, offered from Jan - Jun.\nDetails at https://www.nus.edu.sg/ibloc/iBLOC.html)"
+    "name": "Programming Methodology"
   }
 },
 {
@@ -385,13 +393,6 @@
   "pk": "CS1231S",
   "fields": {
     "name": "Discrete Structures"
-  }
-},
-{
-  "model": "professors.module",
-  "pk": "CS1234",
-  "fields": {
-    "name": "Some Module"
   }
 },
 {
@@ -1579,13 +1580,6 @@
 },
 {
   "model": "professors.module",
-  "pk": "IS1108S",
-  "fields": {
-    "name": "Ethics"
-  }
-},
-{
-  "model": "professors.module",
   "pk": "IS1128",
   "fields": {
     "name": "IT, Management and Organisation"
@@ -2069,16 +2063,9 @@
 },
 {
   "model": "professors.module",
-  "pk": "TEST1234",
+  "pk": "ST2334",
   "fields": {
-    "name": "TEST"
-  }
-},
-{
-  "model": "professors.module",
-  "pk": "TEST12345",
-  "fields": {
-    "name": "TEST2"
+    "name": "Probability and Statistics"
   }
 },
 {
@@ -3953,28 +3940,6 @@
 },
 {
   "model": "professors.professor",
-  "pk": 510,
-  "fields": {
-    "name": "A",
-    "department": 1,
-    "title": "Prof",
-    "office": "a",
-    "phone": "123"
-  }
-},
-{
-  "model": "professors.professor",
-  "pk": 511,
-  "fields": {
-    "name": "AA",
-    "department": 1,
-    "title": "Test Prof 1",
-    "office": "a",
-    "phone": "123"
-  }
-},
-{
-  "model": "professors.professor",
   "pk": 512,
   "fields": {
     "name": "Shashank Shekhar TRIPATHI",
@@ -3982,6 +3947,138 @@
     "title": "Instructor (Educator Track)",
     "office": "COM2-02-27",
     "phone": "651 62800"
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 513,
+  "fields": {
+    "name": "WONG Tin Lok",
+    "department": 3,
+    "title": "Lecturer",
+    "office": null,
+    "phone": null
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 514,
+  "fields": {
+    "name": "Wong Yan Loi",
+    "department": 3,
+    "title": "Honorary Fellow",
+    "office": null,
+    "phone": null
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 515,
+  "fields": {
+    "name": "Dong Xiaoyu",
+    "department": 3,
+    "title": "Visiting Fellow",
+    "office": null,
+    "phone": null
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 516,
+  "fields": {
+    "name": "To Wing Keung",
+    "department": 3,
+    "title": "Professor",
+    "office": null,
+    "phone": null
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 517,
+  "fields": {
+    "name": "Leung Ka Hin",
+    "department": 3,
+    "title": "Associate Professor",
+    "office": null,
+    "phone": null
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 518,
+  "fields": {
+    "name": "Chin Chee Whye",
+    "department": 3,
+    "title": "Associate Professor",
+    "office": null,
+    "phone": null
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 519,
+  "fields": {
+    "name": "Yang Yue",
+    "department": 3,
+    "title": "Professor",
+    "office": null,
+    "phone": null
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 520,
+  "fields": {
+    "name": "Tan Kai Meng",
+    "department": 3,
+    "title": "Professor",
+    "office": null,
+    "phone": null
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 521,
+  "fields": {
+    "name": "Benoît Corsini",
+    "department": 3,
+    "title": null,
+    "office": null,
+    "phone": null
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 522,
+  "fields": {
+    "name": "Lo Chi-Heng",
+    "department": 3,
+    "title": null,
+    "office": null,
+    "phone": null
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 523,
+  "fields": {
+    "name": "David Chew",
+    "department": 4,
+    "title": "Senior Lecturer",
+    "office": null,
+    "phone": null
+  }
+},
+{
+  "model": "professors.professor",
+  "pk": 524,
+  "fields": {
+    "name": "YU Tao",
+    "department": 4,
+    "title": "Associate Professor",
+    "office": "65166253",
+    "phone": null
   }
 },
 {
@@ -7270,69 +7367,6 @@
     "prof": 496,
     "module": "IT3010",
     "semester": 2
-  }
-},
-{
-  "model": "professors.teaches",
-  "pk": 363,
-  "fields": {
-    "prof": 511,
-    "module": "TEST1234",
-    "semester": 1
-  }
-},
-{
-  "model": "professors.teaches",
-  "pk": 364,
-  "fields": {
-    "prof": 511,
-    "module": "TEST1234",
-    "semester": 2
-  }
-},
-{
-  "model": "professors.teaches",
-  "pk": 365,
-  "fields": {
-    "prof": 511,
-    "module": "TEST12345",
-    "semester": 2
-  }
-},
-{
-  "model": "professors.teaches",
-  "pk": 366,
-  "fields": {
-    "prof": 511,
-    "module": "TEST12345",
-    "semester": 1
-  }
-},
-{
-  "model": "professors.teaches",
-  "pk": 367,
-  "fields": {
-    "prof": 510,
-    "module": "TEST12345",
-    "semester": 2
-  }
-},
-{
-  "model": "professors.teaches",
-  "pk": 368,
-  "fields": {
-    "prof": 510,
-    "module": "TEST1234",
-    "semester": 1
-  }
-},
-{
-  "model": "professors.teaches",
-  "pk": 369,
-  "fields": {
-    "prof": 510,
-    "module": "TEST12345",
-    "semester": 1
   }
 },
 {
@@ -13111,6 +13145,240 @@
     "prof": 1,
     "module": "MA1522",
     "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1012,
+  "fields": {
+    "prof": 440,
+    "module": "CS1231S",
+    "semester": 5
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1013,
+  "fields": {
+    "prof": 440,
+    "module": "CS1231S",
+    "semester": 6
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1014,
+  "fields": {
+    "prof": 513,
+    "module": "CS1231",
+    "semester": 6
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1015,
+  "fields": {
+    "prof": 513,
+    "module": "CS1231",
+    "semester": 5
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1016,
+  "fields": {
+    "prof": 513,
+    "module": "CS1231",
+    "semester": 1
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1017,
+  "fields": {
+    "prof": 513,
+    "module": "CS1231",
+    "semester": 2
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1018,
+  "fields": {
+    "prof": 513,
+    "module": "CS1231",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1019,
+  "fields": {
+    "prof": 512,
+    "module": "BT3103",
+    "semester": 1
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1020,
+  "fields": {
+    "prof": 512,
+    "module": "BT3103",
+    "semester": 2
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1021,
+  "fields": {
+    "prof": 514,
+    "module": "MA1521",
+    "semester": 2
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1022,
+  "fields": {
+    "prof": 515,
+    "module": "MA1521",
+    "semester": 2
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1023,
+  "fields": {
+    "prof": 516,
+    "module": "MA1521",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1024,
+  "fields": {
+    "prof": 517,
+    "module": "MA1521",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1025,
+  "fields": {
+    "prof": 515,
+    "module": "MA1521",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1026,
+  "fields": {
+    "prof": 518,
+    "module": "MA1521",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1027,
+  "fields": {
+    "prof": 517,
+    "module": "MA1521",
+    "semester": 1
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1028,
+  "fields": {
+    "prof": 516,
+    "module": "MA1521",
+    "semester": 1
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1029,
+  "fields": {
+    "prof": 519,
+    "module": "MA1522",
+    "semester": 2
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1030,
+  "fields": {
+    "prof": 521,
+    "module": "MA1522",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1031,
+  "fields": {
+    "prof": 522,
+    "module": "MA1522",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1032,
+  "fields": {
+    "prof": 520,
+    "module": "MA1522",
+    "semester": 4
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1033,
+  "fields": {
+    "prof": 523,
+    "module": "ST2334",
+    "semester": 3
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1034,
+  "fields": {
+    "prof": 523,
+    "module": "ST2334",
+    "semester": 1
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1035,
+  "fields": {
+    "prof": 523,
+    "module": "ST2334",
+    "semester": 6
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1036,
+  "fields": {
+    "prof": 524,
+    "module": "ST2334",
+    "semester": 5
+  }
+},
+{
+  "model": "professors.teaches",
+  "pk": 1037,
+  "fields": {
+    "prof": 524,
+    "module": "ST2334",
+    "semester": 2
   }
 }
 ]
